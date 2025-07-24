@@ -1,0 +1,88 @@
+---
+fr:
+  devise:
+    confirmations:
+      confirmed: Votre compte a été validé avec succès.
+      send_instructions: Vous recevrez un e-mail avec des instructions sur comment
+        valider votre compte dans quelques minutes.
+      send_paranoid_instructions: Si votre adresse e-mail existe dans notre base de
+        données, vous recevrez un e-mail avec des instructions sur comment valider
+        votre compte dans quelques minutes.
+    failure:
+      already_authenticated: ''
+      inactive: Désolé, votre compte utilisateur est inactif. Veuillez contacter le
+        service client de Brandscope.
+      invalid: Nom d'utilisateur ou mot de passe invalide.
+      invalid_token: Jeton d'authentification non valide.
+      locked: Votre compte est bloqué.
+      not_found_in_database: Nom d'utilisateur ou mot de passe invalide.
+      timeout: Votre session a expiré, veuillez vous reconnecter pour continuer.
+      unauthenticated: Vous devez vous connecter ou vous inscrire avant de continuer.
+      unconfirmed: Vous devez valider votre compte avant de continuer. Veuillez entrer
+        votre nom d'utilisateur sur l'écran de bienvenue pour démarrer le processus
+        de configuration. <br><a href='/users/welcome/new'>Visiter l'écran de bienvenue</a>
+      company_is_not_active: Votre entreprise n'est pas active.
+      password_complexity: 'Mots de passe trop faible. Veuillez utiliser : 1 majuscule,
+        1 minuscule, 1 chiffre et 1 caractère spécial.'
+    mailer:
+      confirmation_instructions:
+        subject: Instructions de validation.
+      reset_password_instructions:
+        subject: Instructions de réinitialisation du mot de passe.
+      unlock_instructions:
+        subject: Instructions de déverrouillage.
+    omniauth_callbacks:
+      failure: Impossible de vous authentifier à partir de %{kind} car "%{reason}".
+      success: Authentification réussie depuis le compte %{kind}.
+    passwords:
+      no_token: Vous ne pouvez pas accéder à cette page sans passer par un e-mail
+        de réinitialisation de mot de passe. Si vous êtes passé par un e-mail de réinitialisation
+        de mot de passe, assurez-vous d'avoir utilisé l'URL complète fournie.
+      send_instructions: Nous avons envoyé des instructions de réinitialisation de
+        mot de passe à votre adresse e-mail. Si vous ne recevez pas d'instructions
+        au bout de quelques minutes, vérifiez les dossiers spam et courrier indésirable
+        de votre messagerie.
+      send_paranoid_instructions: Si votre adresse e-mail existe dans notre base de
+        données, un lien de récupération de mot de passe sera envoyé à votre adresse
+        e-mail dans quelques minutes.
+      updated: Votre mot de passe à été changé avec succès. Vous êtes maintenant connecté.
+      updated_not_active: Votre mot de passe à été changé avec succès.
+      previously_used: Ce mot de passe a été précédemment utilisé. Veuillez entrer
+        un nouveau mot de passe unique.
+    registrations:
+      destroyed: Au revoir ! Votre compte a été annulé avec succès. Nous espérons
+        vous revoir bientôt.
+      signed_up: Bienvenue ! Vous vous êtes connecté avec succès.
+      signed_up_but_inactive: Vous vous êtes inscrit avec succès. Cependant, nous
+        n'avons pas pu vous connecter car votre compte n'est pas encore activé.
+      signed_up_but_locked: Vous vous êtes inscrit avec succès. Cependant, nous n'avons
+        pas pu vous connecter car votre compte est verrouillé.
+      signed_up_but_unconfirmed: Un message avec un lien de confirmation a été envoyé
+        à votre adresse e-mail. Veuillez ouvrir le lien pour activer votre compte.
+      update_needs_confirmation: Vous avez mis à jour votre compte avec succès, mais
+        nous devons vérifier votre nouvelle adresse e-mail. Veuillez vérifier vos
+        e-mails et cliquez sur le lien de confirmation pour finaliser la confirmation
+        de votre nouvelle adresse e-mail.
+      updated: Vous avez mis à jour votre compte avec succès.
+    sessions:
+      signed_in: ''
+      signed_out: ''
+    unlocks:
+      send_instructions: Vous recevrez un e-mail avec des instructions sur comment
+        déverrouiller votre compte dans quelques minutes.
+      send_paranoid_instructions: Si votre compte existe, dans quelques minutes vous
+        recevrez un e-mail avec des instructions sur comment le déverrouiller.
+      unlocked: Votre compte a été déverrouillé avec succès. Veuillez vous connecter
+        pour continuer.
+  errors:
+    messages:
+      already_confirmed: Déjà confirmé, veuillez essayer de vous connecter.
+      confirmation_period_expired: Doit être confirmé en %{period}, veuillez en demander
+        un nouveau.
+      expired: a expiré, veuillez en demander un nouveau.
+      not_found: pas trouvé
+      not_locked: n'était pas verrouillé
+      not_saved:
+        one: '1 erreur a interdit l''enregistrement de cette %{resource} :'
+        other: "%{count} erreurs ont empêché l'enregistrement de cette %{resource}
+          :"

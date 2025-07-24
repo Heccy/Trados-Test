@@ -1,0 +1,2274 @@
+---
+de:
+  simple_form:
+    'yes': ja
+    'no': Nein
+    required:
+      text: Erforderlich
+      mark: "*"
+      html: <abbr title="erforderlich">*</abbr>
+    error_notification:
+      default_message: 'Bitte überprüfen Sie die folgenden Probleme:'
+    hints:
+      user:
+        first_name: Geben Sie Ihren Vornamen ein
+        last_name: Geben Sie Ihren Nachnamen ein
+        nickname: Geben Sie Ihren Spitznamen ein
+        phone: Geben Sie Ihre Telefonnummer ein
+        mobile: Geben Sie Ihre Mobiltelefonnummer ein
+        email: Geben sie ihre E-Mail Adresse ein. Diese E-Mail wird für die gesamte
+          Brandscope-Kommunikation verwendet
+        job_title: Wählen Sie Ihre Berufsbezeichnung
+        company_id: Wählen Sie Ihre Firma
+        role_id: Wählen Sie Ihre Rolle oder wenden Sie sich an den Administrator
+        time_zone: Wählen Sie Ihre Zeitzone
+        hide_ws_price: Ausblenden des Großhandelspreises bei der Bestellung. Dies
+          kann verwendet werden, wenn Produkte externer Parteien angezeigt werden,
+          bei denen Sie möchten, dass sie nur die UVP sehen
+        active: Aktiv inaktiv. Warnung! Durch das Deaktivieren eines Benutzers wird
+          dieser daran gehindert, Brandscope zu verwenden
+        password: Geben Sie Ihr Passwort ein
+        password_confirmation: Bestätigen Sie Ihr Passwort
+        current_password: 
+        username: Geben Sie Ihren Benutzernamen ein
+      company:
+        company_code: Diese wird von Brandscope automatisch generiert
+        name: Geben Sie Ihren Firmennamen ein
+        short_name: Geben Sie den Kurznamen Ihrer Firma ein
+        abn_acn: Geben Sie Ihre Firma ABN/LLC ein. Dies sind wichtige Informationen,
+          die es der Brandscope-Administration ermöglichen, Unternehmensdetails zu
+          validieren und Benutzerduplizierungen zu vermeiden
+        url: Geben Sie Ihre Webadresse ein
+        currency: Wählen Sie Ihre Standardwährung
+        auth_token: Diese wird von Brandscope automatisch generiert. Das Auth-Token
+          wird für Integrationszwecke verwendet
+        time_zone: Wählen Sie Ihre Zeitzone
+        status: Stellen Sie den Status ein. Aktiv inaktiv. Warnung! Durch die Deaktivierung
+          eines Unternehmens wird es daran gehindert, Brandscope zu verwenden
+        is_headquarter: Ist der Einzelhändler ein Geschäft in der Zentrale? Einige
+          Einzelhandelsgeschäfte haben ein übergeordnetes Geschäft mit mehreren untergeordneten
+          Geschäften. Ein HQ-Geschäft ist das übergeordnete Geschäft, das für alle
+          untergeordneten Geschäfte bestellen kann
+        headquarter: Wählen Sie das Einzelhandelsgeschäft der Muttergesellschaft aus
+        apply_price_book: Funktion Preisbücher aktivieren
+        apply_discount_scheme: Aktivieren Sie die Funktion Rabattschemata
+        show_static_discount: Aktivieren Sie die Funktion „Statische Schemata“.
+        payment_account_code: Identifikationscode für Bluechain-Zahlungen
+        ignore_brand_name_in_ats: Markennamen in Mehrmarken-ATS ignorieren?
+        keep_future_ats_in_multi_brand: Halten Sie die zukünftige ATS in Multi-Brand ATS
+        create_edit_release: Aktivieren Sie den Lieferantenzugriff, um Releases zu erstellen/zu verwalten
+        floor_space: Verkaufsfläche im Einzelhandel
+        cachment_population: Bevölkerung im Einzugsgebiet des Einzelhandels
+        number_of_doors: Anzahl der Verkaufsstellen
+        location_types: Standorttypen
+        frontage_types: Fronttypen
+        marketing_strategies: Marketing Strategien
+        target_genders: Zielkundengeschlecht
+        target_customer_ages: Zielkundenalter
+        industries: Branchenschwerpunkte
+        focuses: Einzelhandelsschwerpunkte
+        retail_categories: Produktschwerpunkte
+        stocked_brands: Marken
+        additional_brand: Weitere Marken
+        only_owner_receive_emails: Nur der Eigentümer/Bestätiger des Kaufplans erhält
+          Auftragsbestätigungs-E-Mails.
+        confirmation_email_recipients: Zu dieser Liste hinzugefügte Empfänger erhalten
+          alle Bestellbestätigungs-E-Mails.
+        no_confirmation_emails: Benutzer erhalten keine Bestellbestätigungs-E-Mails.
+          Die Liste „Alle Bestellbestätigungen erhalten“ wird ebenfalls ignoriert.
+        order_status_integrated_to: Wie der Bestellstatus integriert ist. Diese Integration
+          funktioniert nur, wenn die Zuordnung der Auftragsstatusdatei vorhanden ist.
+        price_update_integrated_to: Wie das Preisaktualisierung integriert ist.
+          Diese Integration funktioniert nur, wenn die Preis -Aktualisierungsdateizuordnung vorhanden ist.
+      addresses:
+        line1: Anschrift Zeile 1
+        line2: Adresszeile 2
+        suburb_town: Geben Sie Ihren Stadtteil/Stadt ein
+        state: Geben Sie Ihr Bundesland/Provinz ein
+        post_code: Geben Sie Ihre Postleitzahl/Postleitzahl ein
+        country: Wähle dein Land
+        shipping_same_as: Wählen Sie Ihr Land
+        billing_same_as: Gleich wie Rechnungsadresse
+      brand:
+        name: Bitte geben Sie den vollständigen Namen der Marke ein
+        display_name: Anzeige des Markennamens für Einzelhändler
+        short_name: Bitte geben Sie den Kurznamen der Marke ein
+        supplier_id: Legen Sie den Lieferanten der Marke fest
+        accept_payments: Akzeptieren Sie Bluechain-Zahlungen
+        payment_account_code: Bluechain-Verkäufer-Identifikationscode
+        supplier_default_order_status: Status der Standardlieferantenbestellung
+        account_code_required: Wird der Kontocode bei der Auftragserteilung benötigt?
+        size_sequence: Die Reihenfolge, in der die Größen angezeigt werden
+        attribute_sequence: Die Reihenfolge, in der die Attribute der Größe angezeigt
+          werden
+        quick_fill: Aktivieren Sie die QuickFill-Funktion
+        show_unique_qfill_products: Dadurch können nur einzigartige Produkte in QuickFill erscheinen.</br>
+          Gleiche Produkte aus verschiedenen Veröffentlichungen werden nicht mehr erscheinen, aber nur die billigsten werden erscheinen.
+        consignable: Sendungsfunktion aktivieren
+        count_and_fill: Aktivieren Sie die Zähl- und Füllfunktion
+        pre_order_custom_text: Benutzerdefinierte Text, der auf der Bereichsseite statt im Vorbestellungsmonat angezeigt wird
+        show_delivery_instructions: Zeigen Sie das Feld mit den Lieferanweisungen
+          im Modal „Bestellung senden“ an
+        display_range: Zeigen Sie entweder den „Anzeigebereich“ an, der automatisch
+          aus den Preisen generiert wird, ODER „Anzeigepreis“, der der spezifische
+          Preis ist, der im Produkt-DLS festgelegt ist
+        order_note: Bitte geben Sie den Text Ihrer Bestellnotiz ein, der im Bestellformular
+          angezeigt wird
+        segment_names: 'Geben Sie die Segmentnamen ein. Hinweis: Segmentnamen müssen
+          hier eingegeben werden, bevor sie für die Händler oder Produkte verwendet
+          werden können'
+        segment_label: Geben Sie den Segmentbezeichnungstext ein, der in der Kopfzeile
+          des Segmentfilterfelds angezeigt werden soll (wird nur angezeigt, wenn aktiviert).
+        default_segmentable_status: Segmentierbarer Standardstatus
+        apply_segmentation: Segmentierung für die Marke aktivieren
+        show_segment_filter_box: Anzeigen/Ausblenden des Segmentfilterfelds auf den
+          Bereichsseiten
+        integration_id_source: Aktivieren Sie die Integration_ID-Quellfunktion
+        integration_id_sources: Integration_ID-Quellen
+        show_horizontal_header: Horizontale Kopfzeile anzeigen
+        selected_config: Ausgewählte Kopfzeile Konfig
+        order_integrated_to: Wie die Bestellungen integriert werden
+        ats_integrated_to: Wie das ATS integriert ist
+        cutoff_day: Dies steuert den letzten Tag jedes Monats, an dem Bestellmengen
+          angenommen werden
+        low_quantity_amount: Dies steuert das Niveau, bei dem der ATS-Anzeiger für
+          niedrigen Lagerbestand angezeigt wird (Standard = 5).
+        amount_visible_quantity: Dies steuert die Ebene, auf der die ATS-Mengennummern
+          angezeigt werden (Standard = 200)
+        default_ats_zero: Wenn keine ATS-Mengen gespeichert sind, setzt dies ATS auf
+          ausverkauft (0) anstatt auf unendlich verfügbar
+        cumulative_ats: Kumulativer ATS
+        post_cumulative: Postkumulatives ATS
+        import_past_po_date_ats_qty_as_atonce: Importieren Sie die Mengen des vergangenen
+          Bestelldatums als Auf einmal (Standard = wahr)
+        import_po_ats_to_next_month: Importiert PO ATS-Mengen in den nächsten Monat
+          (Standard = false)
+        clear_ats_before_import: Löscht den ATS für alle Produkte vor jedem ATS-Import
+          (Standard = false)
+        keep_future_ats: Wenn es aktiviert ist, werden zukünftige ATS nicht gelöscht, wenn die automatisierte ATS -Last ausgeführt wird
+        load_type: Dies steuert den Typ der ATS-Inventardaten, die aus automatisierten Quellen wie FTP oder API importiert werden. Verwenden Sie dies NUR, wenn die automatisierte Datenquelle sowohl At Once- als auch Future-ATS-Datensätze enthält und der Lieferant verlangt, dass wir nur einen dieser ATS-Datentypen berücksichtigen. Es wird empfohlen, auf "Alle ATS laden" zu belassen, es sei denn, es ist unbedingt erforderlich.
+        order_emails: E-Mails zum Empfangen von Bestellintegrationsdateien
+        pdf_emails: E-Mails, um Bestellbestätigungen im PDF-Format zu erhalten
+        qfill_order_emails: E-Mails, um QuickFill-PDF-Bestätigungen zu erhalten
+        consignment_sale_emails: E-Mails zum Empfang von Sendungsbestätigungen im
+          PDF-Format
+        failed_order_emails: E-Mails, um Benachrichtigungen über fehlgeschlagene Bestellungen zu erhalten
+        send_csv_order_file_to: Zusätzliche E-Mails zum Empfang von CSV-Bestellintegrationsdateien. An
+          jede aufgeführte E-Mail-Adresse werden ALLE CSV-Bestellintegrationsdateien
+          gesendet
+        send_order_mails_to_agent: Auftragsbestätigungen im PDF-Format an Agentenbenutzer
+          senden (Standard = wahr)
+        subject_header: Das Aktivieren dieses Umschusses ermöglicht die Änderung des E -Mail -Betreff -Headers (default = false)
+        custom_header: Aktivieren Sie den benutzerdefinierten Betreff für Bestellbestätigungs -E -Mail
+        master_home_page: Aktivieren Sie die Master-Homepage-Funktion
+        home_page: Homepage Builder-Zugriff auf Super Supplier
+        home_page_banner: Bannerbild der Master-Startseite (1215 Pixel B x 150 Pixel
+          H)
+        qf_home_page: Master-Homepage-QuickFill-Bild (294 Pixel B x 200 Pixel H)
+        target_customer_genders: Zielkundengeschlecht
+        target_customer_ages: Zielkundenalter
+        marketing_strategies: Marketing Strategien
+        focuses: Einzelhandelsschwerpunkte
+        retail_categories: Produktfokus
+        industries: Branchenfokus
+        show_size_level_pricing: Preisfunktion für Größenstufen aktivieren
+        apply_price_book: Funktion Preisbücher aktivieren
+        show_static_discount: Aktivieren Sie die Funktion „Statische Schemata“.
+        apply_discount_scheme: Aktivieren Sie die Funktion Rabattschemata
+        apply_postage_scheme: Aktivieren Sie das Porto -Schema -Feature
+        apply_discounting_on_price_book_items: Aktivieren Sie Rabattsysteme für Preisbuchartikel
+        include_price_book_products_in_order_total: Fügen Sie Preisbuchprodukte zur Bestellsumme hinzu
+        discount_categories: 'Geben Sie die Rabattkategorien ein. Hinweis: Rabattkategorien
+          müssen hier eingegeben werden, bevor sie für Händler oder Produkte verwendet
+          werden können'
+        default_sales_person_id: Der standardmäßige Eigentümer von Buyplans/Qfills
+          in dem Fall, in dem keine SRs oder Agenten mit einem der Einzelhändler verbunden
+          sind. (Muss ausgewählt werden, wenn Buyplan Ownership erzwungen wird).
+        enforce_buyplan_ownership: Stellen Sie sicher, dass Buyplans einem Eigentümer
+          zugewiesen sind
+        order_approval_required: Wenn eine Auftragsgenehmigung erforderlich ist, sollten
+          die Regeln auf Marken-/Händlerebene festgelegt werden. (Enforce Buyplan
+          Ownership muss aktiviert sein, um diese Funktion zu verwenden).
+        order_approval_email_agents: Aktivieren, wenn eine Genehmigungsanfrage per
+          E-Mail an den Agenten gesendet werden soll
+        order_approval_email_salesreps: Aktivieren, wenn eine Genehmigungsanfrage
+          per E-Mail an den Vertriebsmitarbeiter gesendet werden soll
+        order_approval_other_emails: Geben Sie die E-Mail-Adressen der Personen ein,
+          denen Genehmigungsanfragen gesendet werden sollen
+        emails_after_order_approval: Geben Sie die E-Mail-Adressen der Personen ein,
+          die benachrichtigt werden sollen, sobald eine Bestellung genehmigt wurde
+        order_status_integrated_to: Wie der Bestellstatus integriert ist. Diese Integration
+          funktioniert nur, wenn die Zuordnung der Auftragsstatusdatei vorhanden ist.
+        price_update_integrated_to: Wie das Preisaktualisierung integriert ist.
+          Diese Integration funktioniert nur, wenn die Preis -Aktualisierungsdateizuordnung vorhanden ist.
+        qf_order_approval_required: Wenn eine QuickFill-Bestellgenehmigung erforderlich
+          ist, sollten die Regeln auf Marken-/Händlerebene festgelegt werden. (Enforce
+          Buyplan Ownership muss aktiviert sein, um diese Funktion zu verwenden).
+        allow_status_update_via_dls: Statusaktualisierung über DLS zulassen
+        qf_order_approval_email_agents: Aktivieren, wenn eine Genehmigungsanfrage
+          per E-Mail an den Agenten gesendet werden soll
+        qf_order_approval_email_salesreps: Aktivieren, wenn eine Genehmigungsanfrage
+          per E-Mail an den Vertriebsmitarbeiter gesendet werden soll
+        qf_order_approval_other_emails: Geben Sie die E-Mail-Adressen der Personen
+          ein, denen Genehmigungsanfragen gesendet werden sollen
+        emails_after_qf_order_approval: Geben Sie die E-Mail-Adressen der Personen
+          ein, die benachrichtigt werden sollen, sobald eine Bestellung genehmigt
+          wurde
+        brand_retailer_account_codes: Marken-Händler-Kontocodes
+        is_orb360_images_enable: Zeigen Sie orb360-Bilder an
+        tenant_id: Mieter-ID
+        is_active: Durch das Deaktivieren der Marke werden alle ihre Integrationseinstellungen,
+          Einzelhändler, aktiven Kaufpläne, Kontocodes und andere zugehörige Konfigurationen
+          entfernt.
+        agreement_acceptance_on_order: Vertragsannahme bei Bestellung
+        agreement_text: Vertragstext
+        default_cnf_type: Standard-Zähl- und Fülltyp
+        superfill: Aktivieren Sie die Superfill-Funktion
+        enable_payments: Aktivieren Sie die Connect to Stripe-Funktion
+        accept_stripe_payments: Aktivieren Sie Stripe-Zahlungen
+        discount_percentage_on_pay_now: "Der Rabattprozentsatz gilt für alle Einzelhändler. Hinweis: Aktualisieren Sie die Marken-/Händlereinstellungen, um sie zu überschreiben."
+        high_quality_images: "Zeigt Bilder mit besserer Auflösung auf der Bereichsseite an"
+        display_product_specification_1: Produktbeschreibung anzeigen 1
+        qfill_payment_option: Wählen Sie das Verhalten von Zahlungen für QuickFill -Bestellungen aus.
+        qfill_enable_payments: Dieses Flag aktiviert die Zahlungsfunktion für Quickfill.
+        qfill_allow_submit_for_all: Dies überschreibt die Einstellung „Zahlungen erzwingen“ aus den Marken-/Händlereinstellungen. Wenn diese Option aktiviert ist, können alle Einzelhändler zwischen der Zahlungsoption oder nur der Absenden-Option wählen.
+        qfill_override_deposit: Wenn diese Option aktiviert ist, wird der für jeden Einzelhändler in den Marken-/Händlereinstellungen definierte Einzahlungsprozentsatz durch den im Feld unten eingegebenen Wert überschrieben.
+        qfill_deposit_percent: Der hier definierte Wert wird als Mindesteinzahlungsbetrag für alle Einzelhändler verwendet, wenn Override Deposit aktiviert wurde.
+        show_discount_percent: Zeigen Sie den Rabattprozentsatz für Pricebook -Artikel an.
+        allow_custom_shipping_address: Ermöglichen Sie den Einzelhändlern, eine benutzerdefinierte Versandadresse hinzuzufügen, während Sie die Bestellung einreichen.
+        sap_order_type: SAP-Bestellentyp für schnelle Fill
+        allow_product_key_data_import: Ermöglicht die Option für die Produktschlüsseldatenimport für Super -Lieferanten -Administratoren
+        allow_assign_segments_import: Importoption „Segmente zuweisen“ für Superlieferantenadministratoren zulassen
+        allow_assign_releases_import: Erlauben Sie Super-Lieferantenadministratoren die Importoption „Releases zuweisen“.
+        allow_barcode_scanning_for_bp: Aktivieren Sie das Barcode -Scannen für BuyPlans
+        allow_barcode_scanning_for_cnf: Aktivieren Sie das Barcode -Scannen für Count & Fills
+        visual_plan: Aktiviert den visuellen Plan
+        whiteboard: Aktiviert Whiteboard
+        barcode_qty_import: Ermöglichen Sie Benutzern das Einfügen von Mengen über Barcodes
+      cin7_brand:
+        app_id: App Name
+        app_key: App-Schlüssel
+        tax_status: Steuerstatus
+        default_delivery_day: Standardliefertag
+        username: Benutzername
+        pwd: Passwort
+        order_url: Bestell-URL
+        branch_id: Filial-ID
+        project_name: Projektname
+        stock_control: Lagerverwaltung
+        attribute_separator: 'Erlaubte Zeichen / \ : - | (Maximal 5 Zeichen)'
+        default_stage: Standardstufe
+        send_delivery_address: Lieferadresse senden
+        send_billing_address: Rechnungsadresse senden
+        currency_code: Währungscode
+        populate_wholesale_price_with_pricebook: Füllen Sie den Buchpreis anstelle des Großhandelspreises in der Bestelldatei aus
+        modify_customer_po: Bestellnummer des Kunden ersetzen?
+      netsuite_brand:
+        email: Netsuite-E-Mail
+        password: Netsuite-Passwort
+        account: Dies wird im Anruf zum Webdienst verwendet
+        role: Netsuite-Rolle
+        order_status: Netsuite-Bestellstatus
+        subsidiary: Netsuite Tochtergesellschaft
+        terms: Netsuite-Bedingungen
+        currency: Netsuite-Währung
+        location: Netsuite-Standort
+        indent: Netsuite-Einzug
+        custom_form: Benutzerdefiniertes Netsuite-Formular
+        account_noturl: Dies wird verwendet, um den Kontowert in der Authentifizierung zu füllen
+        allow_script_override: Das Skript überschreiben
+        send_discount_rules: Rabatte separat senden?
+        populate_external_id: Externe ID bevölkern
+        additional_status_inseason: Zusätzlicher Statussiedlung
+        additional_status_indent: Zusätzlicher Statuseinsatz
+        inseason_source_code: Insaison -Quellcode
+        indent_source_code: Einzugsquellcode
+        send_delivery_instructions: Lieferanweisungen senden
+        send_stripe_metadata: Senden Sie Metadat in der Stripe Checkout -Sitzung
+        delay_until_in_seconds: Menge von Sekunden, um die aktuelle Zeit hinzuzufügen, um 'ns_delay_until' zu definieren
+        create_customer_deposit: Kundeneinzahlung erstellen
+        customer_deposit_ payment_method: Zahlungsmethode
+        customer_deposit_account: Konto
+        send_create_work_order: Senden Sie das Feld Arbeitsauftrag erstellen als wahr
+        send_item_rate: Senden Sie den Artikelrate
+        to_be_printed: Zu drucken
+        to_be_emailed: Zu mailen
+        to_be_faxed: Zu faxen
+        include_release_name: Fügen Sie den Release -Namen in der Bestelldatei ein
+        department: Netsuite-Abteilung
+        consumer_key: Netsuite-Verbraucherschlüssel
+        consumer_secret: Netsuite Verbrauchergeheimnis
+        token_id: Netsuite-Token-ID
+        token_secret: Netsuite-Token-Geheimnis
+        qfill_order_types: Qfill-Auftragstypen
+      netsuite_order_types:
+        internal_id: Interne ID
+        order_type: Auftragsart
+      isync_brand:
+        username: Isync-Benutzername
+        password: Isync-Passwort
+        source: Isync-Quelle
+        url: Isync-URL
+        delivery_method_id: Isync-Übermittlungsmethode
+        barcode_prefix: Isync-Barcode-Präfix
+        is_gift: Ist Geschenk
+        is_x_stock: Is X Lagerbestand
+        payment_method_id: Isync-Zahlungsmethode
+        print_invoice: Rechnung drucken
+        line_status_id: Status der Isync-Leitung
+        header_status_id: Header-Status
+        warehouse_id: Isync-Lager
+        cn_type_id: Isync-CnType
+        ex_rate: Isync ExRate
+      unleashed_brand:
+        app_id: App-ID
+        app_key: App-Schlüssel
+        order_url: Bestell-URL
+        ats_url: ATS-URL
+        order_status: Bestellstatus
+        warehouse_code: Lagercode
+        created_by: Erstellt von
+        tax_code: Steuer-Code
+        tax_rate: Steuersatz
+        send_order_number: Auftragsnummer senden
+        send_discounted_price: Senden Sie den ermäßigten Preis an Unleashed
+      tradegecko_brand:
+        access_token: Zugangstoken
+        order_url: Bestell-URL
+        ats_url: ATS-URL
+        status: Status
+        packed_status: Verpackter Zustand
+        warehouse: Warenlager
+        ats_warehouse_id: ATS-Lager-ID
+        tax_treatment: Steuerliche Behandlung
+        tags: Stichworte
+        send_order_number: Bestellnummer senden?
+      acumatica_brand:
+        username: Acumatica-Benutzername
+        pwd: Acumatica-Passwort
+        bill_to_as_company: Rechnung an als Unternehmen aktivieren
+        company: Firma
+        branch: Filiale
+        locale: Gebietsschema
+        login_url: Anmelde-URL
+        order_url: Bestell-URL
+      clear_accounts_brand:
+        url: Konto-URL löschen
+        ats_url: Löschen Sie die ATS-URL der Konten
+        auth_token: Authentifizierungstoken für Konten löschen
+      apparelmagic_brand:
+        token: ApparelMagic-Token
+        ship_to_url: ApparelMagic versendet an URL
+        ats_url: ApparelMagic ATS
+        order_url: URL der ApparelMagic-Bestellung
+        order_warehouse_id: ApparelMagic-Bestelllager
+        ats_warehouse_id: ApparelMagic ATS-Lager
+        terms_id: ApparelMagic-Begriffe
+        ar_acct: ApparelMagic AR-Konto
+        credit_status: ApparelMagic-Kreditstatus
+        division_id: ApparelMagic-Abteilungs-ID
+        department_number: Abteilungsnummer von ApparelMagic
+        currency_id: ApparelMagic-Währung
+        tax_rate: Steuersatz von ApparelMagic
+        send_unit_price_in_order: Senden Sie den Stückpreis in der Auftragsdatei
+      ostendo_brand:
+        access_token: Ostendo-Zugriffstoken
+        ats_url: Ostendo ATS-URL
+        order_url: Ostendo-Bestell-URL
+        configuration: Ostendo-Konfiguration
+      myob_exo_brand:
+        username: Benutzername
+        pwd: Passwort
+        api_key: API-Schlüssel
+        auth_token: Auth-Token
+        location: Ort
+        search_template_id: Suchvorlage
+        ats_url: ATS-URL
+        order_validate_url: Bestell-Validierungs-URL
+        order_url: Bestell-URL
+        send_payment_field: Senden Sie den Wert des X_WN_Payment
+      brightpearl_brand:
+        app_ref: App-Ref
+        account_token: Konto-Token
+        base_url: Basis-URL
+        warehouse_ids: Durch Kommas getrennte Warehouse-IDs
+        channel_id: Kanal ID
+        indent_default_status_id: Einrückung - Standardstatus-ID
+        inseason_default_status_id: Insaison – Standardstatus-ID
+        indent_status_id_with_del_instructions: Einzug - Status-ID mit Lieferanweisungen
+        inseason_status_id_with_del_instructions: Inseason - Status-ID mit Lieferanweisungen
+        map_order_type_to: Auftragstyp zuordnen
+        map_release_season_to: MAP -Release -Saison zu
+        inseason_order_type: Art der Inseason-Bestellung
+        indent_order_type: Bestelltyp einrücken
+        fix_exchange_rate: Wählen Sie Fix Wechselkurs
+        default_season_code: Standard -Saisoncode für QuickFill
+        brightpearl_product_id: Portoprodukt-ID
+        nominal_code: Porto-Nominalcode
+      brightpearl_instance_app_brand:
+        app_ref: App-Ref
+        dev_ref: Entwickler-Ref
+        base_url: Basis-URL
+        warehouse_ids: Durch Kommas getrennte Warehouse-IDs
+        channel_id: Kanal ID
+        indent_default_status_id: Einrückung - Standardstatus-ID
+        inseason_default_status_id: Insaison – Standardstatus-ID
+        indent_status_id_with_del_instructions: Einzug - Status-ID mit Lieferanweisungen
+        inseason_status_id_with_del_instructions: Inseason - Status-ID mit Lieferanweisungen
+        map_order_type_to: Auftragstyp zuordnen
+        inseason_order_type: Art der Inseason-Bestellung
+        indent_order_type: Bestelltyp einrücken
+        code: Code
+        refresh_token: Token aktualisieren
+        redirect_uri: Umleitungs-URL
+        account: Konto
+      orderwise_brand:
+        username: Benutzername
+        pwd: Passwort
+        api_key: API-Schlüssel
+        order_url: Bestell-URL
+        ats_url: ATS-URL
+        login_url: Anmelde-URL
+        stock_location_id: Lagerort-ID
+        system_order_type: Systemauftragstyp
+        delivery_method_id: Liefermethoden-ID
+        payment_method_id: ID der Zahlungsmethode
+        future_po_days: Zukünftige PO-Tage
+      myob_account_right_brand:
+        order_url: Bestell-URL
+        login_url: Anmelde-URL
+        ats_url: ATS-URL
+        client_id: Kunden ID
+        client_secret: Client-Geheimnis
+        refresh_token: Token aktualisieren
+        tax_code_id: Steuercode-ID
+      myob_advance_brand:
+        username: Benutzername
+        pwd: Passwort
+        company: Firma
+        login_url: Anmelde-URL
+        logout_url: Abmelde-URL
+        order_url: Bestell-URL
+        future_po_days: Zukünftige PO-Tage
+        include_unit_price: Einschließungspreis einschließen
+        manual_discount: Senden Sie einen manuellen Rabatt als wahr
+        warehouse_sum_list: Die Lagerartikeldatensätze in der Antwort dieser Lager werden summiert, um die Gesamtmenge an ATS in diesen Lagern zu ermitteln.
+        offset_from_today: Die Anzahl der Tage in der Vergangenheit, um zu überprüfen, ob Datensätze aktualisiert wurden
+      quick_book_brand:
+        client_id: Kunden ID
+        client_secret: Client-Geheimnis
+        auth_code: Autorisierungscode
+        realmid: RealmID
+        tax_code_ref: TaxCodeRef
+        request_url: "„https://sandbox-quickbooks.api.intuit.com“ zum Testen, sonst
+          „https://quickbooks.api.intuit.com“ für die Live-Umgebung"
+        environment: "„Sandbox“ zum Testen und „Produktion“ für die Live-Umgebung"
+        use_brandscope_price: Zu verwenden, wenn sich die Bestellung auf Preise von
+          Brandscope statt auf QuickBook beziehen soll
+      reckon_brand:
+        username: Benutzername
+        pwd: Passwort
+        login_url: Anmelde-URL
+        order_url: Bestell-URL
+        client_id: Kunden ID
+        client_secret: Client-Geheimnis
+        redirect_uri: Umleitungs-URL
+        file_name: Dateinamen
+        reckon_user_id: Benutzer-ID berechnen
+        reckon_password: Passwort berechnen
+        refresh_token: Token aktualisieren
+        country_version: Länderversion
+      peach_brand:
+        url: Sollte das Format „http://120.151.72.11/PeachAPI/PeachAPI.aspx“ haben.
+        key: SCHLÜSSEL
+        warehouse: Einer, der in der Peach-Integration verwendet wird
+        payment_method_id: Zahlungsmethoden-ID
+        create_customer_deposit: Senden Sie die Nachricht „Rechnung aktualisieren“ an Peach
+      harmony_brand:
+        username: Benutzername
+        pwd: Passwort
+        method: Methode
+        ip_address: IP Adresse
+        port: Hafen
+        warehouse: Warenlager
+        user: Nutzer
+        terminal_id: Terminal-ID
+        agent_zone_1: Standard-Agentencode
+        order_version: Version bestellen
+        account_sale_flag: Kontoverkaufs-Flag
+        originator_software: Originator-Software
+        default_agent_name: Standard-Agentenname
+      arl_brand:
+        order_type_code_refill: Bestelltypcode zur Nachfüllung/Freigabe
+        order_type_code_jan: Bestelltypcode für Januar
+        order_type_code_feb: Bestellen Sie den Code für Februar bestellen
+        order_type_code_mar: Bestelltypcode für März
+        order_type_code_apr: Bestelltypcode für April
+        order_type_code_may: Bestelltypcode für Mai
+        order_type_code_jun: Bestellgype -Code für Juni
+        order_type_code_jul: Bestellgype -Code für Juli
+        order_type_code_aug: Bestelltypcode für August
+        order_type_code_sep: Bestelltypcode für September
+        order_type_code_oct: Bestelltypcode für Oktober
+        order_type_code_nov: Bestelltypcode für November
+        order_type_code_dec: Bestelltypcode für Dezember
+        arl_due_date_refill: Fälligkeitsdatum für Nachfüllung/Freigabe
+        arl_due_date_jan: Fälligkeitsdatum für Januar
+        arl_due_date_feb: Fälligkeitsdatum für Februar
+        arl_due_date_mar: Fälligkeitsdatum für März
+        arl_due_date_apr: Fälligkeitsdatum für April
+        arl_due_date_may: Fälligkeitsdatum für Mai
+        arl_due_date_jun: Fälligkeitsdatum für Juni
+        arl_due_date_jul: Fälligkeitsdatum für Juli
+        arl_due_date_aug: Fälligkeitsdatum für August
+        arl_due_date_sep: Fälligkeitsdatum für September
+        arl_due_date_oct: Fälligkeitsdatum für Oktober
+        arl_due_date_nov: Fälligkeitsdatum für November
+        arl_due_date_dec: Fälligkeitsdatum für Dezember
+      peoplevox_brand:
+        ats_url: Peoplevox URL
+        clientId: Peoplevox Clientid
+        username: Peoplevox Benutzername
+        password: Peoplevox -Passwort
+        report_template: Peoplevox -Berichtsvorlagenname
+      green_tree_brand:
+        api_key: API-Schlüssel
+        username: Benutzername
+        pwd: Passwort
+        base_url: Basis-URL
+        ats_url: ATS-URL
+        currency_code: Währungscode
+        location: Ort
+        status: Status
+      dear_system_brand:
+        base_url: Eventuell 'https://inventory.dearsystems.com/ExternalApi/v2'. Damit
+          werden benötigte Endpunkte manipuliert.
+        account_id: Konto-ID
+        application_key: Anwendungsschlüssel
+        combined_picking_status: Kombinierter Entnahmestatus
+        combined_packing_status: Kombinierter Verpackungsstatus
+        combined_shipping_status: Kombinierter Versandstatus
+        default_warehouse_code: Standardlagercode
+        warehouse_codes: ATS -Lagerausweise
+        combine_ats_values: Aktivieren Sie diese Option, um ATS-Werte für ein Produkt in mehreren Lagerplätzen desselben Lagers zu kombinieren
+        status: Status
+        future_availability_days_estimate: Schätzung der zukünftigen Verfügbarkeitstage
+        non_taxable_age_groups: Nicht steuerpflichtige Altersgruppen
+        tax_free_code: Großbritannien steuerfreier Kodex
+      pvh_ftp_brand:
+        custom_address_note: PVH benutzerdefinierte Adressnote
+      release:
+        brand_id: Die Marke dieser Version
+        name: Name der Freigabe
+        short_name: Kurzname der Veröffentlichung
+        release_type: Einrückung = Saisonal, Lagerservice = Sofort verfügbar, SuperFill = Jetzt mit Massen-Upload verfügbar
+        status: IndentSell = ATS nicht sichtbar, oft als Pre -book bezeichnet /</br>
+          InSeasonSell-Idle = Freigabe ist sichtbar, aber Bestellungen können nicht
+          übermittelt werden /</br> Draft = Freigabe ist nur für Lieferanten zum Erstellen
+          der Freigabe sichtbar (Produkte können gelöscht werden ) /</br> Offline
+          = Release ist für Lieferanten und Agenten zum Erstellen von Kaufplanvorlagen
+          sichtbar, bevor es live geht /</br> Abgelaufen = Warnung! Wenn Sie diesen
+          Modus einstellen, wird die Freigabe entfernt und alle Kaufplantypen gelöscht.
+          /</br> Marketing = Nur Vorlagen sichtbar
+        exclude_from_qfill: Produkte aus dieser Veröffentlichung werden nicht auf QuickFill angezeigt.</br>
+          Dies kann benötigt werden, wenn Produkte für QuickFill nicht sichtbar sein sollten, da sie möglicherweise minimale Bestellregeln enthalten oder einen Sonderrabatt haben.
+        apply_product_min: Wenn Sie dies einschalten, wird die Einrichtung der Mindestbestellmengen pro Produkteinheit/Größenbruch und/oder pro Lieferzeit angewendet.
+        currencies: Entfernen Sie alle Produkte aus der Version, um die Versionswährung
+          zu aktualisieren
+        select_currencies: Wählen Sie verfügbare Währungen für die Produkte in der
+          Version aus
+        default_currency: Legen Sie die Standardwährung für die Veröffentlichung fest
+        so_type: Legt den SO-Typ fest. Dies wird für Integrationszwecke verwendet
+        default_warehouse_id: Dies ist das Standardlager für ATS, wenn es vom Lieferanten angezeigt wird
+        release_discount_percentage: Legt den Veröffentlichungsrabattprozentsatz fest. Dies
+          wird für Integrationszwecke verwendet
+        release_delivery_months_with_year: Legen Sie die verfügbaren Liefermonate
+          für das Release fest
+        start_date: Startdatum der Veröffentlichung. Dies steuert die Reihenfolge,
+          in der die Release-Namen in Listen angezeigt werden (neueste bis älteste).
+        end_date: "Wichtig: Veröffentlichungsdatum. Das Datum der Veröffentlichung endet. HINWEIS: Dies wird nicht offline veröffentlicht. Wenn dieses Datum übertroffen wird, läuft die Version automatisch ab und alle zugehörigen BuyPlans werden gelöscht und nicht abgerufen"
+        deadline: Das Datum, bis zu dem alle Einrückungsaufträge eingereicht werden
+          müssen
+        divisions: Divisionen werden über das Produktdatenladeblatt (DLS) importiert
+        collections: Kollektionen werden über das Produktdatenladeblatt (DLS) importiert
+        order_integrated_to: Wie die Bestellungen integriert werden
+        release_code: Freigabecode. Dies wird für Integrationszwecke verwendet
+        season: Saisoncode. Dies wird für Integrationszwecke verwendet
+        unleashed_season: Saisoncode. Dies wird für Integrationszwecke verwendet. Zugeordnet zur SalesOrderGroup.
+        tax_code: Steuer-Code. Dies wird für Integrationszwecke verwendet
+        segmentable: Legt fest, dass das Release die Funktion "Segmente" verwendet
+        core_release: Core-Release-Funktion aktivieren. Dadurch wird das Release immer
+          als erste Option in Release-Listen angezeigt
+        apply_price_book: Aktivieren Sie die Funktion Preisbücher für das Release
+        apply_discount_scheme: Aktivieren Sie die Funktion „Rabattschema“ für das
+          Release
+        order_emails: E-Mails zum Empfangen von Bestellintegrationsdateien
+        pdf_emails: E-Mails, um Bestellbestätigungen im PDF-Format zu erhalten
+        qfill_order_emails: E-Mails, um QuickFill-PDF-Bestätigungen zu erhalten
+        consignment_sale_emails: E-Mails zum Empfang von Sendungsbestätigungen im
+          PDF-Format
+        tradegecko_oe_status: Status
+        tradegecko_oe_packed_status: Gepackter Status
+        tradegecko_oe_warehouse: Lager Bestellung
+        tradegecko_oe_tags: Stichworte
+        cin7rest_oe_status: Lagerverwaltung
+        cin7rest_oe_warehouse: Filial-ID
+        cin7rest_oe_field_1: Projektname
+        unleashed_oe_warehouse: Lagercode
+        apparelmagic_oe_status: Währungs-ID
+        apparelmagic_oe_warehouse: Lager Bestellung
+        apparelmagic_oe_field_1: Abteilungsnummer
+        limited_agents: Agenten auswählen
+        allow_barcode_scanning_for_bp: Aktivieren Sie das Barcode -Scannen für BuyPlans
+        allow_barcode_scanning_for_cnf: Aktivieren Sie das Barcode -Scannen für Count & Fills
+        limited_salesreps: Wählen Sie Vertriebsmitarbeiter aus
+        order_approval_required: Wenn eine Auftragsgenehmigung erforderlich ist, sollten
+          die Regeln auf Marken-/Händlerebene festgelegt werden
+        tradegecko_oe_currency_id: Währungs-ID
+        visible_to_retailers: Einzelhändler können auf diese Version nicht zugreifen,
+          wenn sie ausgeschaltet ist.
+        release_payment_option: Seleccione las opciones de pago para la verssión.
+        enable_payments: Dieses Flag aktiviert die Zahlungsfunktion für diese Version.
+        allow_submit_for_all: Dies überschreibt die Einstellung „Zahlungen erzwingen“ aus den Marken-/Händlereinstellungen. Wenn diese Option aktiviert ist, können alle Einzelhändler zwischen der Zahlungsoption oder nur der Absenden-Option wählen.
+        override_deposit: Wenn diese Option aktiviert ist, wird der für jeden Einzelhändler in den Marken-/Händlereinstellungen definierte Einzahlungsprozentsatz durch den im Feld unten eingegebenen Wert überschrieben.
+        deposit_percent: Der hier definierte Wert wird als Mindesteinzahlungsbetrag für alle Einzelhändler verwendet, wenn Override Deposit aktiviert wurde.
+        enable_auto_extend: Releases automatisch verlängern
+        no_of_months_to_extend: Die Anzahl der Monate, die automatisch verlängert werden
+        auto_extend_email_receipts: Geben Sie die E-Mail-Adressen der Personen ein, denen Erinnerungen zum automatischen Verlängern gesendet werden sollen
+        end_date_mandatory: "Wichtig: Die Veröffentlichung 'Enddatum' ist jetzt obligatorisch und es ist nicht möglich, das festgelegte 'Enddatum' zu addieren/zu erweitern. Alle BuyPlans werden automatisch gelöscht, wenn das 'Enddatum' ausgelöst wird und nicht abgerufen werden kann."
+        sap_order_type: 'SAP -Bestellentyp'
+        accept_stripe_payments: Aktivieren Sie Stripe-Zahlungen
+        enable_only_pay_now: Nur jetzt bezahlen aktivieren
+        superfill: Aktivieren Sie die Superfill-Funktion
+      release_assets:
+        banner_image: Bannerbild freigeben (994 Pixel breit und 150 bis 250 Pixel
+          hoch. JPG-, PNG- und GIF-Dateitypen werden akzeptiert
+        home_page_image: Master-Homepage-Bannerbild (294 Pixel breit und 200 Pixel
+          hoch. Dateitypen jpg, png, gif werden akzeptiert
+        home_page_template: Wählen Sie die Homepage-Vorlage aus, auf die das Bannerbild
+          verweist
+        priority: Legen Sie die Priorität der Freigabe für die Sequenz fest, die auf
+          der Master-Homepage angezeigt wird
+      netsuite_release:
+        currency: Netsuite Release-Währung
+        indent: Netsuite Release-Einrückung
+        location: Ort der Netsuite-Veröffentlichung
+        order_types: Auftragsarten auswählen
+      nixon_release:
+        sales_catalog_id: Nixon Sales Catalog Id
+        location_id: Nixon Location Id
+      territory:
+        brand_id: Marke des Territoriums
+        warehouse_id: Das Warenlager, dem das Gebiet zugewiesen ist
+        name: Name des Gebiets
+        code: Gebietscode. Wird für Integrationszwecke verwendet
+        sales_reps: Wählen Sie Vertriebsmitarbeiter für das Gebiet aus
+        independent_agents: Wählen Sie unabhängige Agenten für das Gebiet
+        pdf_recipients: E-Mails, um Bestellbestätigungen im PDF-Format zu erhalten
+        csv_recipients: E-Mails zum Empfangen von CSV-Dateien für Bestellungen
+        active: BuyPlan instead of Kaufplan
+      product_release:
+        available_months_display_form: Verfügbare Monate für das Produkt in dieser
+          Version
+        size_sequence: Größenfolge
+        attribute_sequence: Attributsequenz
+        catalog_order: ".....Nur numerische Werte, keine Dezimalzahlen."
+        product_requirements: Produktanforderungen
+        divisions: Divisionen für das Produkt in dieser Version
+        collections: Kollektionen für das Produkt
+        filter_tags: Kategorien für das Produkt in dieser Version
+        product_tags: Produkt-Tags für das Produkt in dieser Version
+        ats_in_indent: Zeigen Sie den ATS für dieses Produkt auf Einzugsfreigaben
+          an
+        ats_in_inseason: Zeigen Sie den ATS für dieses Produkt bei Inseason-Releases
+          an
+        display_wholesale_price: Dieser Preis wird auf den Sortimentsseiten angezeigt
+        display_wholesale_range: Dieser Preis wird automatisch berechnet, es sei denn,
+          die Einstellungen für den Großhandelspreisbereich sind in den Markeneinstellungen
+          auf Großhandelspreis anzeigen eingestellt
+        display_retail_price: Dieser Preis wird auf den Sortimentsseiten angezeigt
+        pricing_section: Diese Preise werden für jede Währung nach Größe festgelegt
+        display_pricing_section: Dieser Preis wird auf den Sortimentsseiten angezeigt
+        pricing_detail_alert: Drilldown auf eine Produktzeile, um die Preise zu bearbeiten. Um
+          den Preis zu bearbeiten, klicken Sie einfach in die Tabellenzelle
+      product:
+        name: Produktname
+        sku: SKU des Produkts
+        colour_code: Farbcode des Produkts
+        display_colour: Diese Farbe dient nur zu Anzeigezwecken
+        generic_colour: Diese generische Farbe wird auf der Bereichsseite für Suche
+          und Filter verwendet
+        segment_ids: Segmente auswählen
+        gender: Geschlecht auswählen
+        age_group: Altersgruppe auswählen
+        category: Wählen Sie die Hierarchiekategorie Brandscope aus
+        product_specifications: 'Produktspezifikationen Informationen. Separate Spezifikationen mit neuer Linie'
+        product_changes: Produktänderungen
+        additional_details: Zusätzliche Details
+        sales_tips: Verkaufstipps
+        marketing_support: Marketingunterstützung
+        orb360_tag_value: Dieses ORB360-Tag wird auf der Bereichsseite zum Anzeigen
+          von 360-Grad-Bildern verwendet
+        pre_order_message: Passen Sie die Vorbestellungsnachricht an, die für dieses Produkt angezeigt werden soll.
+          Der Standardwert ist „Dieses Produkt kann mit einer Lieferzeit von <Num> Tagen bestellt werden.“
+
+      report_criteria:
+        export: Export
+        name: Name
+        buyplan_type: Wählen Sie den Kaufplantyp aus
+        start_date: Buyplan
+        end_date: Enddatum
+        brand_id: Marke wählen
+        emails: E-Mails
+        release_ids: Wählen Sie Freigaben aus
+        territory_ids: Gebiete auswählen
+      report:
+        brand: Marke wählen
+        release: Freigabe wählen
+        currency: Währung
+        type: Typ
+        sort_by: Sortiere nach
+        month: Monat
+        py_month: Vorheriger Vergleichsmonat
+        emails: E-Mails
+      sales_report:
+        brand: Marke
+        release: Freisetzung
+        currency: Währung
+        territories: Gebiete
+      seasonal_report:
+        brand: Marke
+        release: Freisetzung
+        comparison_release: Vergleichsfreigabe
+        currency: Währung
+        sort_by: Sortiere nach
+      warehouse:
+        name: Name des Lagers
+        code: Lagercode
+        time_zone: Zeitzone des Lagers
+        territory_ids: Gebiete
+      ftp_user:
+        brandscope_ftp: Ob der FTP-Server Brandscopes oder Suppliers ist
+        ftp_type: FTP/SFTP
+        host: Host
+        user: Nutzer
+        password: Passwort
+        passive: Passiv
+        public_key: Öffentlicher Schlüssel
+      ftp_brand:
+        brand: Marke
+        supplier: Anbieter
+        outbound_dir: Ausgehende Richt
+        inbound_dir: Eingangsverzeichnis
+        ats_update_dir: ATS-Update-Verz
+        ftp_brand_dir_name: Name des FTP-Markenverzeichnisses
+        ftp_supplier_dir_name: Name des FTP-Lieferantenverzeichnisses
+        order_status_dir: Auftragsstatus dir
+        price_udpate_dir: Preis -Update -Verzeichnis
+      datapel_brand:
+        endpoint: Datapel-Endpunkt
+        username: Datapel-Benutzername
+        password: Datapel-Passwort
+      denstock_brand:
+        order_url: Denstock-Bestell-URL
+        ats_url: Denstock ATS-URL
+        username: Denstock-Benutzername
+        password: Denstock-Passwort
+        analysis_no: Denstock-Analysenummer
+      nixon_brand:
+        order_url: Nixon Order URL
+        ats_url: Nixon ATS URL
+        username: Nixon Username
+        password: Nixon Password
+        api_key: Nixon API Key
+        sales_catalog_id: Nixon Sales Catalog ID
+        location_id: Nixon Location ID
+        qfill_sales_catalog_id: Nixon QFill Sales Catalog ID
+        qfill_location_id: Nixon QFill Location ID
+        indent_order_type: ID des Nixon-Einzugsauftragstyps
+        inseason_order_type: Nixon Inseason Order Type ID
+        future_ats_days: Nixon Future ATS-Tage
+      ats_csv:
+        file: Nur CSV erlaubt.
+      price_csv:
+        multi_brands_price_update: Alle Marken eines Lieferanten verwenden diese Zuordnung.
+          Der Preis wird nicht aktualisiert, wenn der Release -Status "SpecialSell" ist
+        file: Nur CSV erlaubt.
+      resend_order:
+        temporary_order_number: 'Lassen Sie das Feld leer, um die ursprüngliche Brandscope-Bestellnummer
+          zu verwenden. Aktualisieren Sie dieses Feld nur, wenn eine eindeutige Bestellnummer
+          für Integrationszwecke erforderlich ist (z. B.: 700123_A).'
+      test_order_model:
+        temporary_order_number: 'Lassen Sie das Feld leer, um die ursprüngliche Brandscope-Bestellnummer
+          zu verwenden. Aktualisieren Sie dieses Feld nur, wenn eine eindeutige Bestellnummer
+          für Integrationszwecke erforderlich ist (z. B.: 700123_A).'
+        suffix_order_number: 'Aktualisieren Sie dieses Feld nur, wenn ein Suffix im
+          Dateinamen der Bestellung für Integrationszwecke erforderlich ist (z. B.:
+          700123_1).'
+      order_status_csv:
+        multi_brands_order_status: Alle Marken eines Lieferanten verwenden diese Zuordnung.
+        file: Nur CSV erlaubt
+      order_response_csv:
+        ignore_headers: Schalten Sie dies ein, um Header ohne Mapping zu erstellen
+        file: Nur CSV erlaubt
+      callout:
+        asset:
+          file: "PNG, GIF oder JPG (maximale Dateigröße: 1 MB)"
+    labels:
+      user:
+        first_name: Vorname
+        last_name: Nachname
+        nickname: Spitzname
+        phone: Telefon
+        mobile: Handy, Mobiltelefon
+        email: Email
+        job_title: Job Titel
+        company_id: Firma
+        role_id: Rolle
+        time_zone: Zeitzone
+        hide_ws_price: W/S-Preis ausblenden
+        active: Aktiv
+        password: Passwort
+        password_confirmation: Passwort bestätigen
+        current_password: Jetziges Passwort
+        username: Nutzername
+      company:
+        company_code: Firmencode
+        name: Name
+        short_name: Kurzer Name
+        abn_acn: Firma ABN/LLC *
+        url: Webadresse
+        currency: Währung
+        auth_token: Auth-Token
+        time_zone: Zeitzone
+        status: Status
+        is_headquarter: Hauptquartier
+        headquarter: Hauptgeschäftsstelle
+        apply_price_book: Preisbücher
+        apply_discount_scheme: Rabattsysteme
+        payment_account_code: Bluechain Payer Identifier
+        keep_future_ats_in_multi_brand: Halten Sie die zukünftige ATS in Multi-Brand ATS
+        create_edit_release: Kann Releases erstellen/verwalten
+        floor_space: Einzelhandelsfläche
+        catchment_population: Einzugsgebiet des Einzelhandels
+        number_of_doors: Einzelhandelstüren
+        marketing_strategies: Marketing Strategien
+        target_genders: Zielkundengeschlecht
+        target_customer_ages: Zielkundenalter
+        industries: Branchenfokus
+        focuses: Einzelhandelsschwerpunkte
+        retail_categories: Produktfokus
+        stocked_brands: Marken
+        additional_brand: Zusätzliche Marken
+        location_types: Standorttypen
+        frontage_types: Fassadentypen
+        ignore_brand_name: Markennamen in ATS mit mehreren Marken ignorieren?
+        only_owner_receive_emails: Nur Eigentümer/Bestätiger erhält E-Mails
+        confirmation_email_recipients: Erhalten Sie alle Auftragsbestätigungen
+        no_confirmation_emails: Erhalten Sie keine Bestätigungs-E-Mails
+        order_status_integrated_to: Bestellstatus integriert
+        price_update_integrated_to: Preis -Update integriert
+        stripe_account_id: Verbundene Konto-ID
+        registered_email: Registrierte Emailadresse
+        registered_business_profile_name: Eingetragener Name des Unternehmensprofils
+        default_currency: Standardwährung
+        default_nation: Kontoland
+      addresses:
+        line1: Adresszeile 1
+        line2: Adresszeile 2
+        billing_same_as: Gleich wie
+        shipping_same_as: Gleich wie
+        suburb_town: Vorort / Stadt
+        state: Staat/Provinz
+        post_code: Postleitzahl/PLZ
+        country: Land
+      brand:
+        name: Name
+        short_name: Kurzname
+        brand_id: Marke
+        supplier_id: Anbieter
+        accept_payments: Akzeptieren Sie Bluechain-Zahlungen
+        payment_account_code: Bluechain-Verkäuferkennung
+        supplier_default_order_status: API-Standardstatus für Lieferantenbestellungen
+        account_code_required: Kontocode erforderlich
+        shipping_methods: Versandarten
+        size_sequence: Größenfolge
+        attribute_sequence: Attributsequenz
+        quick_fill: QuickFill
+        show_unique_qfill_products: Doppelte Produkte auf QuickFill verbergen
+        consignable: Sendung
+        count_and_fill: Zählen & Füllen
+        pre_order_custom_text: Benutzerdefinierte Text vorbestellen
+        show_delivery_instructions: Lieferanweisungen
+        display_range: Großhandelsanzeigepreis
+        order_note: Bestellhinweis
+        segment_names: Segmentnamen
+        segment_label: Segmentfilterbezeichnung
+        default_segmentable_status: Standardmäßig segmentierbarer Status
+        apply_segmentation: Segmentfunktion
+        show_segment_filter_box: Segmentfilter anzeigen
+        integration_id_source: Integration_ID Quelle
+        integration_id_sources: Integration_ID-Quellen
+        order_integrated_to: Bestellung integriert
+        ats_integrated_to: ATS integriert
+        cutoff_day: Monatlicher Bestellschlusstag
+        low_quantity_amount: Geringe Mengenmenge
+        amount_visible_quantity: ATS-Anzeigebetrag
+        default_ats_zero: Standard-ATS als Null
+        cumulative_ats: Kumulativer ATS
+        post_cumulative: Postkumulatives ATS
+        import_past_po_date_ats_qty_as_atonce: Vergangenes Bestelldatum = Auf einmal
+        import_po_ats_to_next_month: Legen Sie die Bestellmengen im nächsten Monat
+          fest
+        clear_ats_before_import: ATS beim Import löschen
+        keep_future_ats: Künftige ATS behalten
+        load_type: Lasttyp
+        order_emails: Datei-E-Mails bestellen
+        pdf_emails: Bestellen Sie PDF-E-Mails
+        qfill_order_emails: QuickFill-PDF-E-Mails
+        consignment_sale_emails: Sendungs-PDF-E-Mails
+        failed_order_emails: E-Mails mit fehlgeschlagenen Bestellungen
+        send_csv_order_file_to: Zusätzliche CSV-E-Mails
+        send_order_mails_to_agent: PDF-Dateien an Agenten senden
+        subject_header: Betreff Header Präfix
+        custom_header: Benutzerdefinierte Betreff Kopfzeile
+        master_home_page: Master-Homepage
+        home_page: Homepage Anbieterzugang
+        primary_logo: Primäres Logo
+        quickfill_banner: QuickFill-Banner
+        modal_banner: Marken-Modal-Banner
+        main_banner: Marken-Startseite - Hauptbanner
+        agreement_pdf: PDF-Datei hochladen
+        quickfill_tile: Marken-Homepage - QuickFill-Kachel
+        target_customer_genders: Zielkundengeschlecht
+        target_customer_ages: Zielkundenalter
+        marketing_strategies: Marketing Strategien
+        focuses: Einzelhandelsschwerpunkte
+        retail_categories: Produktfokus
+        industries: Branchenfokus
+        show_size_level_pricing: Größenstufenpreise anzeigen
+        apply_price_book: Preisbücher
+        show_static_discount: Statischen Rabatt anzeigen
+        apply_discount_scheme: Rabattsysteme
+        apply_postage_scheme: Portoschema
+        apply_discounting_on_price_book_items: Rabatt auf Preisbuchartikel
+        include_price_book_products_in_order_total: Preisbuchprodukte in die Gesamtsumme der Bestellung einbeziehen
+        discount_categories: Rabattkategorien
+        default_sales_person_id: Standardverkäufer
+        enforce_buyplan_ownership: Buyplan-Eigentum durchsetzen
+        order_approval_required: Auftragsgenehmigung erforderlich
+        order_approval_email_agents: E-Mail-Agenten
+        order_approval_email_salesreps: E-Mail-Vertriebsmitarbeiter
+        order_approval_other_emails: Andere E-Mails
+        emails_after_order_approval: E-Mails nach Genehmigung
+        enforce_order_not_met_message: Meldung Mindestbestellmenge nicht erreicht
+        show_horizontal_header: Horizontale Kopfzeile anzeigen
+        selected_config: Ausgewählte Konfig
+        order_status_integrated_to: Bestellstatus integriert
+        price_update_integrated_to: Preis -Update integriert
+        qf_order_approval_required: Genehmigung der QuickFill-Bestellung erforderlich
+        qf_order_approval_email_agents: E-Mail-Agenten
+        qf_order_approval_email_salesreps: E-Mail-Vertriebsmitarbeiter
+        qf_order_approval_other_emails: Andere E-Mails
+        allow_status_update_via_dls: Statusaktualisierung über DLS zulassen
+        emails_after_qf_order_approval: E-Mails nach Genehmigung
+        apply_order_minimums: Mindestbestellmenge anwenden
+        apply_order_minimums_by_month: Mindestens nach Liefermonat bestellen
+        enforce_order_minimums: Erzwingen Sie Mindestbestellmengen
+        brand_retailer_account_codes: Marken-Händler-Kontocodes
+        is_orb360_images_enable: Zeigen Sie orb360-Bilder an
+        tenant_id: Mieter-ID
+        is_active: Ist aktiv ?
+        agreement_acceptance_on_order: Vertragsannahme bei Bestellung
+        agreement_text: Vertragstext
+        default_cnf_type: Standard-Zähl- und Fülltyp
+        superfill: Aktivieren Sie die Superfill-Funktion
+        enable_payments: Zahlungen aktivieren
+        accept_stripe_payments: Akzeptieren Sie Stripe-Zahlungen
+        discount_percentage_on_pay_now: Standardprozentsatz für Jetzt-bezahlen-Rabatt
+        high_quality_images: "Bilder der HQ-Bereichsseite"
+        display_product_specification_1: Produktbeschreibung anzeigen 1
+        qfill_payment_option: QuickFill -Zahlungsoptionen
+        qfill_enable_payments: QuickFill ermöglicht Zahlungen
+        qfill_allow_submit_for_all: QuickFill „Senden für alle zulassen“.
+        qfill_override_deposit: QuickFilll-Override-Einzahlung
+        qfill_deposit_percent: QuickFill-Einzahlungsprozentsatz
+        show_discount_percent: Zeigen Sie Rabatt % für Pricebook -Artikel an
+        allow_custom_shipping_address: Benutzerdefinierte Versandadresse zulassen
+        sap_order_type: SAP-Bestellentyp für schnelle Fill
+        allow_product_key_data_import: Ermöglichen Sie den Produktschlüsseldatenimport
+        allow_assign_segments_import: Importieren von Zuweisungssegmenten zulassen
+        allow_assign_releases_import: Importieren von Releases zuweisen zulassen
+        allow_barcode_scanning_for_bp: BARCODE SCANNing nach BuyPlans zulassen
+        allow_barcode_scanning_for_cnf: Ermöglichen
+        superfill: Superfüllung
+        visual_plan: Visueller Plan
+        whiteboard: Whiteboard
+        barcode_qty_import: Barcode-Mengenimport
+      cin7_brand:
+        app_id: App
+        app_key: App Key
+        tax_status: Steuerstatus
+        default_delivery_day: Standardliefertag
+        username: Benutzername
+        pwd: Passwort
+        order_url: Bestell URL
+        branch_id: Filial-ID
+        project_name: Projektname
+        stock_control: Lagerverwaltung
+        attribute_separator: Attributtrennzeichen
+        default_stage: Standardstufe
+        send_delivery_address: Lieferadresse senden
+        send_billing_address: Rechnungsadresse senden
+        currency_code: Währungscode
+        populate_wholesale_price_with_pricebook: Fügen Sie den Release -Namen in der Bestelldatei ein
+        modify_customer_po: Ersetzen Sie die Bestellnummer des Kunden durch die Brandscope-Bestellnummer, anstatt beim Absenden einer Bestellung die eingegebene Bestellnummer zu verwenden
+        api_payment_method: Wert, der verwendet wird, um das Feld "Methode" in der CIN7 Payments API zu füllen
+      netsuite_brand:
+        email: Email
+        password: Passwort
+        account: NetSuite -Konto
+        role: Rolle
+        order_status: Bestellstatus
+        subsidiary: Tochtergesellschaft
+        terms: Bedingungen
+        currency: Währung
+        location: Ort
+        indent: Einzug
+        custom_form: Benutzerdefiniertes Formular
+        to_be_printed: Zu drucken
+        to_be_emailed: Zu mailen
+        to_be_faxed: Zu faxen
+        account_noturl: Konto Subdomain
+        allow_script_override: Das Skript überschreiben
+        send_discount_rules: Rabatte separat senden?
+        populate_external_id: Externe ID bevölkern
+        additional_status_inseason: Zusätzlicher Statussiedlung
+        additional_status_indent: Zusätzlicher Statuseinsatz
+        inseason_source_code: Insaison -Quellcode
+        indent_source_code: Einzugsquellcode
+        send_delivery_instructions: Lieferanweisungen senden
+        send_stripe_metadata: Senden Sie Streifenmetadaten
+        delay_until_in_seconds: Verzögerung bis in Sekunden
+        create_customer_deposit: Kundeneinzahlung erstellen
+        customer_deposit_ payment_method: Zahlungsmethode
+        customer_deposit_account: Konto
+        send_create_work_order: Senden Sie Arbeitsauftrag erstellen.
+        send_item_rate: Senden Sie den Artikelrate
+        include_release_name: Geben Sie den Release-Namen an
+        department: Abteilung
+        consumer_key: Verbraucherschlüssel
+        consumer_secret: Verbrauchergeheimnis
+        token_id: Zeichen
+        token_secret: Token-Geheimnis
+        qfill_order_types: Qfill-Auftragstypen
+      netsuite_order_types:
+        internal_id: Interne ID
+        order_type: Auftragsart
+      sap_brand:
+        username: Benutzername
+        pwd: Passwort
+        order_url: Bestell-URL
+      isync_brand:
+        username: Benutzername
+        password: Passwort
+        source: Quelle
+        url: URL
+        delivery_method_id: Versandart
+        barcode_prefix: Barcode-Präfix
+        is_gift: Ist Geschenk
+        is_x_stock: IsXStock
+        payment_method_id: Zahlungsmethode
+        print_invoice: Rechnung drucken
+        line_status_id: Leitungsstatus
+        header_status_id: Kopfzeilen Status
+        warehouse_id: Warenlager
+        cn_type_id: CNTypeID
+        ex_rate: Exkurs
+      unleashed_brand:
+        app_id: App-ID
+        app_key: App-Schlüssel
+        order_url: Bestell-URL
+        ats_url: Ats-URL
+        order_status: Bestellstatus
+        warehouse_code: Lagercode
+        created_by: Erstellt von
+        tax_code: Steuer-Code
+        tax_rate: Steuersatz
+        send_order_number: Auftragsnummer senden
+        send_discounted_price: Preisnachlass senden
+      tradegecko_brand:
+        access_token: Zugangstoken
+        order_url: Bestell-URL
+        ats_url: Ats-URL
+        status: Status
+        packed_status: Verpackter Zustand
+        warehouse: Warenlager
+        ats_warehouse_id: Ats-Lager-ID
+        tax_treatment: Steuerliche Behandlung
+        tags: Stichworte
+        send_order_number: Bestellnummer senden?
+      acumatica_brand:
+        username: Benutzername
+        pwd: Passwort
+        bill_to_as_company: Rechnung an als Firma
+        company: Firma
+        branch: Filiale
+        locale: Gebietsschema
+        login_url: Anmelde-URL
+        order_url: bestellen URL
+      clear_accounts_brand:
+        url: URL
+        ats_url: Ats-URL
+        auth_token: Auth-Token
+      apparelmagic_brand:
+        token: Zeichen
+        ship_to_url: Versand an URL
+        ats_url: Ats-URL
+        order_url: Bestell-URL
+        order_warehouse_id: Lager Bestellung
+        ats_warehouse_id: Ats Lager
+        terms_id: Bedingungen
+        ar_acct: Ar-Konto
+        credit_status: Kreditstatus
+        division_id: Abteilungs-ID
+        department_number: Abteilungsnummer
+        currency_id: Währung
+        tax_rate: Steuersatz
+      myob_advance_brand:
+        username: Benutzername
+        pwd: Passwort
+        company: Firma
+        login_url: Anmelde-URL
+        logout_url: Abmelde-URL
+        order_url: Bestell-URL
+        future_po_days: Zukünftige PO-Tage
+        include_unit_price: Einschließungspreis einschließen
+        manual_discount: Senden Sie einen manuellen Rabatt als wahr
+        warehouse_sum_list: Lagerhallen zum Summieren
+        offset_from_today: Vortage-Offset
+      ostendo_brand:
+        access_token: Zugangstoken
+        ats_url: Ats-URL
+        order_url: Bestell-URL
+        configuration: Aufbau
+      myob_exo_brand:
+        username: Benutzername
+        pwd: Passwort
+        api_key: API-Schlüssel
+        auth_token: Auth-Token
+        location: Ort
+        search_template_id: Suchvorlage
+        ats_url: Ats-URL
+        order_validate_url: Bestellbestätigungs-URL
+        order_url: Bestell-URL
+        send_payment_field: Senden Sie den Wert des X_WN_Payment
+      brightpearl_brand:
+        app_ref: App Ref
+        account: Konto-Token
+        base_url: Basis-URL
+        warehouse_ids: Lager-IDs
+        channel_id: Kanal ID
+        indent_default_status_id: Einrückung - Standardstatus-ID
+        inseason_default_status_id: Insaison – Standardstatus-ID
+        indent_status_id_with_del_instructions: Einzug - Status-ID mit Lieferanweisungen
+        inseason_status_id_with_del_instructions: Inseason - ID-Status mit Lieferinstruktionen
+        map_order_type_to: Karte Auftragsart To
+        map_release_season_to: MAP -Release -Saison zu
+        inseason_order_type: Art der Inseason-Bestellung
+        indent_order_type: Ordertyp einrücken
+        fix_exchange_rate: Wechselkurs beheben
+        default_season_code: Standard -Saisoncode
+        brightpearl_product_id: Wird zum Ausfüllen der Produkt-ID in der Postage-Werbebuchung verwendet
+        nominal_code: Wird zum Ausfüllen des nominalen Codes in der Postage-Werbebuchung verwendet
+      brightpearl_instance_app_brand:
+        app_ref: App Ref
+        dev_ref: Entwickler-Ref
+        base_url: Basis-URL
+        warehouse_ids: Lager-IDs
+        channel_id: Kanal ID
+        indent_default_status_id: Einrückung - Standardstatus-ID
+        inseason_default_status_id: Insaison – Standardstatus-ID
+        indent_status_id_with_del_instructions: Einzug - Status-ID mit Lieferanweisungen
+        inseason_status_id_with_del_instructions: Inseason - ID-Status mit Lieferinstruktionen
+        map_order_type_to: Karte Auftragsart To
+        inseason_order_type: Art der Inseason-Bestellung
+        indent_order_type: Ordertyp einrücken
+        code: Code
+        refresh_token: Token aktualisieren
+        redirect_uri: Umleitungs-URL
+        account: Konto
+      orderwise_brand:
+        username: Benutzername
+        pwd: Passwort
+        api_key: API-Schlüssel
+        order_url: Bestell-URL
+        login_url: Anmelde-URL
+        ats_url: ATS-URL
+        stock_location_id: Lagerort-ID
+        system_order_type: Systemauftragstyp
+        delivery_method_id: Liefermethoden-ID
+        payment_method_id: ID der Zahlungsmethode
+        future_po_days: Zukünftige PO-Tage
+      myob_account_right_brand:
+        order_url: Bestell-URL
+        login_url: Anmelde-URL
+        ats_url: ATS-URL
+        client_id: Kunden ID
+        client_secret: Client-Geheimnis
+        refresh_token: Token aktualisieren
+        tax_code_id: Steuercode-ID
+      quick_book_brand:
+        client_id: Kunden ID
+        client_secret: Client-Geheimnis
+        auth_code: Autorisierungscode
+        request_url: Anfrage-URL
+        environment: Umfeld
+        realmid: RealmID
+        tax_code_ref: TaxCodeRef
+        use_brandscope_price: Verwenden Sie den Brandscope-Preis
+      reckon_brand:
+        username: Benutzername
+        pwd: Passwort
+        login_url: Anmelde-URL
+        order_url: Bestell-URL
+        client_id: Kunden ID
+        client_secret: Client-Geheimnis
+        redirect_uri: Umleitungs-URL
+        file_name: Dateiname
+        reckon_user_id: Benutzer-ID berechnen
+        reckon_password: Passwort berechnen
+        refresh_token: Token aktualisieren
+        country_version: Länderversion
+      peach_brand:
+        url: URL
+        key: SCHLÜSSEL
+        warehouse: Lagercode
+        payment_method_id: Zahlungsmethoden-ID
+        create_customer_deposit: Aktualisierungsrechnung senden
+      harmony_brand:
+        username: Benutzername
+        pwd: Passwort
+        method: Methode
+        ip_address: IP Adresse
+        port: Hafen
+        warehouse: Lagerhaus
+        user: Nutzer
+        terminal_id: Terminal-ID
+        agent_zone_1: Standard-Agentencode
+        order_version: Version bestellen
+        account_sale_flag: Kontoverkaufs-Flag
+        originator_software: Originator-Software
+        default_agent_name: Standard-Agentenname
+      green_tree_brand:
+        api_key: API-Schlüssel
+        username: Benutzername
+        pwd: Passwort
+        base_url: Basis-URL
+        ats_url: ATS-URL
+        currency_code: Währungscode
+        location: Ort
+        status: Status
+      dear_system_brand:
+        base_url: Basis-URL
+        account_id: Konto-ID
+        application_key: Anwendungsschlüssel
+        combined_picking_status: Kombinierter Entnahmestatus
+        combined_packing_status: Kombinierter Verpackungsstatus
+        combined_shipping_status: Kombinierter Versandstatus
+        default_warehouse_code: Standardlagercode
+        warehouse_codes: ATS -Lagerausweise
+        combine_ats_values: Kombinieren Sie ATS-Werte
+        status: Status
+        future_availability_days_estimate: Schätzung der zukünftigen Verfügbarkeitstage
+        non_taxable_age_groups: Nicht steuerpflichtige Altersgruppen
+        tax_free_code: Großbritannien steuerfreier Kodex
+      arl_brand:
+        order_type_code_refill: Bestelltyp Code Nachfüllung/Freigabe
+        rder_type_code_jan: Januar
+        order_type_code_feb: Februar
+        order_type_code_mar: März
+        order_type_code_apr: April
+        order_type_code_may: Mai
+        order_type_code_jun: Juni
+        order_type_code_jul: Juli
+        order_type_code_aug: August
+        order_type_code_sep: September
+        order_type_code_oct: Oktober
+        order_type_code_nov: November
+        order_type_code_dec: Dezember
+      assign_segments:
+        brand_id: Marke
+        segment_id: Segment
+      warehouse:
+        name: Name
+        code: Lagercode
+        territory_ids: Gebiete
+        time_zone: Zeitzone
+      pvh_ftp_brand:
+        custom_address_note: Benutzerdefinierte Adressnote
+      release:
+        brand_id: Marke
+        name: Name
+        release_type: Freigabetyp
+        status: Status
+        exclude_from_qfill: Produkte in QuickFill ausschließen
+        apply_product_min: Produktmindestprodukt anwenden
+        currencies: Währungen
+        default_currency: Standardwährung
+        so_type: SO-Typ
+        default_warehouse_id: Standardlager des Lieferanten
+        release_delivery_months_with_year: Liefermonate
+        start_date: Startdatum
+        end_date: Enddatum
+        deadline: Termin
+        divisions: Abteilungen
+        collections: Sammlungen
+        order_integrated_to: Bestellungen integriert
+        release_code: Freigabecode
+        season: Saisoncode
+        tax_code: Steuer-Code
+        segmentable: Segmente
+        core_release: Core-Release
+        apply_price_book: Preisbücher
+        apply_discount_scheme: Rabattsysteme
+        order_emails: Datei-E-Mails bestellen
+        pdf_emails: Bestellen Sie PDF-E-Mails
+        qfill_order_emails: QuickFill-PDF-E-Mails
+        consignment_sale_emails: Sendungs-PDF-E-Mails
+        banner_image: Bannerbild freigeben
+        home_page_image: Master-Homepage-Bild
+        home_page_template: Homepage-Vorlage
+        release_ids: Freigaben
+        update_orginal_price: Aktualisieren Sie den ursprünglichen Preis
+        file: Datei
+        territory: Gebiet
+        tradegecko_oe_status: Status
+        tradegecko_oe_packed_status: Gepackter Status
+        tradegecko_oe_warehouse: Lager bestellen
+        tradegecko_oe_tags: Stichworte
+        cin7rest_oe_status: Lagerverwaltung
+        cin7rest_oe_warehouse: Filial-ID
+        cin7rest_oe_field_1: Projektname
+        unleashed_oe_warehouse: Lagercode
+        apparelmagic_oe_status: Währungs-ID
+        apparelmagic_oe_warehouse: Lager bestellen
+        apparelmagic_oe_field_1: Abteilungsnummer
+        limited_agents: Auf Agenten beschränken
+        allow_barcode_scanning_for_bp: BARCODE SCANNing nach BuyPlans zulassen
+        allow_barcode_scanning_for_cnf: Ermöglichen
+        limited_salesreps: Auf Vertriebsmitarbeiter beschränken
+        order_approval_required: Auftragsgenehmigung erforderlich
+        short_name: Kurzer Name
+        tradegecko_oe_currency_id: Währungs-ID
+        visible_to_retailers: Sichtbar für Einzelhändler
+        release_payment_option: Zahlungsoptionen freigeben
+        enable_payment: Zahlung aktivieren
+        allow_submit_for_all: Senden für alle zulassen
+        override_deposit: Einzahlung überschreiben
+        deposit_percent: Einzahlungsprozentsatz
+        enable_auto_extend: Auto Extender Liberaciones
+        no_of_months_to_extend: El número de meses que se extenderá automáticamente
+        auto_extend_email_receipts: Ingrese las direcciones de correo electrónico de aquellos a quienes se les debe enviar los recordatorios Auto Extend
+        release_assets:
+          banner_image: 994 Pixel breit und 150-250 Pixel hoch. Muss der Dateityp
+            jpg, png, gif sein
+          home_page_image: 294 Pixel breit und 200 Pixel hoch. Muss der Dateityp jpg,
+            png, gif sein
+          home_page_template: Homepage-Vorlage
+          priority: Priorität
+        sap_order_type: 'SAP -Bestellentyp'
+      nixon_release:
+        sales_catalog_id: Sales Catalog ID
+        location_id: Location ID
+      territory:
+        brand_id: Marke
+        warehouse_id: Lager-ID
+        name: Name
+        code: Code
+        sales_reps: Vertriebsmitarbeiter
+        independent_agents: Unabhängige Agenten
+        pdf_recipients: Zusätzliche PDF-E-Mails
+        csv_recipients: Zusätzliche CSV-E-Mails
+        active: Aktiv
+        status_id: Status-ID
+      product:
+        name: Name
+        sku: Artikelnummer
+        colour_code: Farbcode
+        display_colour: Anzeigefarbe
+        generic_colour: Allgemeine Farbe
+        segment_ids: Segment-IDs
+        gender: Geschlecht
+        age_group: Altersgruppe
+        category: Hierarchiekategorie
+        product_specifications: Produktspezifikationen
+        product_changes: Produktänderungen
+        additional_details: Zusätzliche Details
+        sales_tips: Verkaufstipps
+        marketing_support: Marketing-Unterstützung
+        orb360_tag_value: ORB360-Tag
+        pre_order_message: Benutzerdefinierter Text der Vorbestellungsnachricht
+      product_upload:
+        brand: Marke
+        release: Freisetzung
+        format: Format
+        file: Datei
+      product_catalogue_export:
+        group_by_level1: Gruppieren nach Ebene1
+        group_by_level2: Gruppieren nach Ebene2
+        number_of_product_specs: Produktspezifikationen
+        currency: Währung wählen
+        include_inactive_products: Inaktive Produkte einschließen
+      resource_upload:
+        brand: Marke
+        release: Freisetzung
+        file: Datei
+      product_status_upload:
+        brand: Marke
+        file: Datei
+      product_key_data_update:
+        brand: Marke
+        file: Datei
+      product_release:
+        available_months_display_form: Verfügbare Monate
+        size_sequence: Größenfolge
+        attribute_sequence: Attributsequenz
+        catalog_order: Katalogbestellung
+        product_requirements: Produktanforderungen
+        divisions: Abteilungen
+        collections: Sammlungen
+        filter_tags: Kategorien
+        product_tags: Produkt Tags
+        ats_in_indent: ATS im Einzug
+        ats_in_inseason: ATS in der Saison
+        display_wholesale_price: W/S-Preis anzeigen
+        display_wholesale_range: W/S-Bereich anzeigen
+        display_retail_price: Verkaufspreis anzeigen
+      release_size_break:
+        size: Größe
+        attribute_sizes: Attributgrößen
+        attribute_type: Attributtyp
+        barcode: Strichcode
+        original_whoesale_price: Ursprünglicher W/S-Preis
+        original_retail_price: Ursprünglicher Verkaufspreis
+        wholesale_price: W/S-Preis
+        retail_price: Endverbraucherpreis
+      audit:
+        multi_brands_ats: Mehrere Marken ATS
+        brand: Marke
+        supplier: Anbieter
+        file_location: Datei
+        clear_ats_before_import: Vor dem Import alle ATs löschen
+      brand_template:
+        brand_id: Marke
+        name: Name
+        brand_template_type: Homepage-Template-Design
+        notes: Anmerkungen
+        location: Ort
+        active: Aktiv
+      brand_template_assets:
+        link_type: Linktyp
+        link_url: URL verknüpfen
+        link_video_url: Link / Video-URL
+        release: Freisetzung
+        slides: Folien
+        slide_number: Foliennummer
+        slide_link_type: Linktyp
+        slide_url_release: URL/Veröffentlichung
+        slide_thumbnail: Miniaturansicht
+        remove_slide: Folie entfernen
+      account_code:
+        brand: Marke
+      buyplan:
+        brand_id: Marke
+        release_id: Freisetzung
+        total_price_currency: Währung
+        name: Name
+        assigned_to: Zugewiesen an
+      stock_model:
+        brand_id: Marke
+        release_id: Freisetzung
+        total_price_currency: Währung
+        name: Name
+      consignment_item:
+        brand_id: Marke
+        retailer_id: Einzelhändler
+        serial_number: Seriennummer
+        release_id: Freisetzung
+        assigned_to_id: Zugewiesen an
+      stocktake:
+        brand_id: Marke
+        retailer_id: Einzelhändler
+      price_book:
+        brand_id: Marke
+        name: Name
+        description: Beschreibung
+        currency: Währung
+        is_active: Aktiv?
+        start_time: Startzeit
+        end_time: Endzeit
+      discount_scheme:
+        brand_id: Marke
+        name: Name
+        description: Beschreibung
+        discount_type: Schematyp
+        is_active: Aktiv?
+        start_time: Startzeit
+        end_time: Endzeit
+      discount_scheme_rule:
+        release_type: Freigabetyp
+        discount_type: Rabatttyp
+        discount_category: Rabattkategorie
+        factor: Faktor
+        currency: Währung
+        value: Rabattwert
+        rule_type: Regeltyp
+        minimum_value: Mindestwert
+        maximum_value: Maximalwert
+        discount_scheme_id: Rabattsystem
+      retailer:
+        id: Einzelhändler
+        brand_id: Marke
+        territory_id: Gebiet
+        acc_code: Konto Code
+        bill_to_code: Rechnungskontocode
+        ship_to_code: Kontocode für Versand an
+        head_ofc_addr_code: Adresscode der Zentrale
+        bill_addr_code: Code der Rechnungsadresse
+        ship_addr_code: Code der Versandadresse
+        ship_addr_code1: Lieferadressencode - 1
+        ship_addr_code2: Versandadressencode - 2
+        segment_ids: Segmentnamen
+        indent_minimum_order_amount: Mindestbestellmenge einrücken
+        inseason_minimum_order_amount: Mindestbestellmenge für die Saison
+        quickfill_minimum_order_amount: Quickfill-Mindestbestellmenge
+        price_book: Preisbuch
+        discount_scheme: Rabattschema
+        postage_rule: Portoregel
+        default_cnf_type: Default C&f Type
+      retailer_uploads:
+        file: Datei
+      order_csv:
+        brand_id: Marke
+        header_included: Kopfzeile enthalten?
+        split_monthly: Monatlich aufteilen?
+        is_active: Ist aktiv?
+        is_batch_file: ist Batch-Datei?
+        group_monthly: Gruppe monatlich?
+        split_collectionwise: Split Collectionwise?
+        split_month_and_collectionwise: Split Monat und Collectionwise?
+        split_monthly_without_suffix: Monatlich ohne Suffix aufteilen?
+        file_name: Dateinamen
+        file_name_join: Dateinamenverknüpfung
+        file_extension: Dateierweiterung
+        file_name_suffix: Dateinamen-Suffix
+        sort_by: Sortiere nach
+        sort_by_level2: Sortieren nach level2
+        independent_header_row: Unabhängige Kopfzeile?
+        footer_line_content: Inhalt der Fußzeile
+        include_all_headers_in_first_row: Alle Kopfzeilen ab der ersten Zeile einschließen?
+        first_line_content: Inhalt der ersten Zeile
+        mapping_delivery_date_type: Lieferdatumstyp zuordnen
+        mapping_current_delivery_offset_date: Abbildung des aktuellen Lieferversatzdatums
+        mapping_future_delivery_date: Zukünftiges Lieferdatum abbilden
+        include_custom_row: Benutzerdefinierte Reihe einschließen
+        minimum_order_amount: Mindestauftragsbetrag
+        surcharge_amount: Zuschlagsbetrag
+      order:
+        brand: Marke
+        file: Datei
+      resend_order:
+        agent_order_pdf: PDF an Agent senden
+        retailer_order_pdf: PDF an Händler senden
+        supplier_order_pdf: PDF an Lieferanten senden
+        supplier_order_file: Bestellung senden Datei an den Lieferanten
+        user_order_pdf: PDF an mich senden
+        user_order_file: Bestelldatei an mich senden
+        terry_order_csv: Senden Sie CSV an Gebiets-E-Mails
+        terry_order_pdf: PDF an Gebiets-E-Mails senden
+        temporary_order_number: Vorläufige Bestellnummer (optional)
+      product_dls_format:
+        brand: Marke
+        is_active: Aktiv inaktiv
+      dls:
+        brand: Marke
+        file: Datei
+      ftp_user:
+        brandscope_ftp: Serverstandort
+        ftp_type: FTP/SFTP
+        host: Host
+        user: Nutzer
+        password: Passwort
+        passive: Passiv
+        public_key: Öffentlicher Schlüssel
+      ftp_brand:
+        brand: Marke
+        supplier: Anbieter
+        outbound_dir: Ausgehende Richt
+        inbound_dir: Eingangsverzeichnis
+        ats_update_dir: ATS-Update-Verz
+        order_status_dir: Auftragsstatus dir
+        price_udpate_dir: Preis -Update -Verzeichnis
+      brand_ats:
+        id: Marke
+        release_id: Freisetzung
+        warehouse_id: Warenlager
+      report:
+        type: Typ
+        brand: Marke
+        release: Freisetzung
+        sort_by: Sortiere nach
+        month: Monat
+        py_month: Vorheriger Vergleichsmonat
+        emails: E-Mails
+      sales_report:
+        type: Typ
+        brand: Marke
+        release: Freisetzung
+        territories: Gebiete
+      seasonal_report:
+        type: Typ
+        brand: Marke
+        release: Freisetzung
+        comparison_release: Vergleichsfreigabe
+        sort_by: Sortiere nach
+      report_criteria:
+        export: Export
+        name: Name
+        buyplan_type: Buyplan Typ
+        start_date: Startdatum
+        end_date: Enddatum
+        brand_id: Marke
+        emails: E-Mails
+        release_ids: Freigaben
+        territory_ids: Gebiete
+      category:
+        parent_id: Elternteil
+        name: Level 4
+        level: Eben
+        level_name: Name
+      shipping_code:
+        brand: Marke
+        retailer: Einzelhändler
+      order_detail:
+        order_number: ID
+        company_id: Käufer
+        retailer_id: Einzelhändler
+        customer_purchase_order: Auftragsbestätigung
+        delivery_instructions: Lieferanweisungen
+        order_notes: Bestellhinweise
+        sku: Artikelnummer
+        style: Style
+        status: Status
+        wholesale_price: W/S
+        retail_price: R/R
+        delivery_month: Liefermonat
+      registration:
+        first_name: Vorname
+        last_name: Nachname
+        email: Email
+        phone: Telefon
+        company_name: Name der Firma
+        company_type: Unternehmenstyp
+        company_website: Unternehmenswebseite
+        reference_source: Wie sind Sie auf uns aufmerksam geworden?
+        comments: Bemerkungen
+      test_order_model:
+        send_order: Auftragsdatei senden
+        send_pdf: PDF-Datei senden
+        retailer_id: Einzelhändler
+        split_by: Geteilt durch
+        items_per_order: Artikel pro Bestellung
+        currency: Währung
+        purchase_order: Auftragsbestätigung
+        delivery_instructions: Lieferanweisungen
+        temporary_order_number: Vorläufige Bestellnummer (optional)
+        suffix_order_number: Bestellnummer anhängen
+      buyplan_email_pdf:
+        send_to: Senden an
+        subject: Gegenstand
+        email_body: Nachrichtentext
+        send_copy: Sende mir eine Kopie
+      havaianas_brand:
+        username: Nutzername
+        pwd: Passwort
+        order_url: Bestell-URL
+      datapel_brand:
+        endpoint: Endpunkt
+        username: Nutzername
+        password: Passwort
+      denstock_brand:
+        order_url: Bestell-URL
+        ats_url: ATS-URL
+        username: Nutzername
+        password: Passwort
+        analysis_no: Analyse Nr
+      nixon_brand:
+        order_url: Order URL
+        ats_url: ATS URL
+        username: Username
+        password: Password
+        api_key: API Key
+        sales_catalog_id: Sales Catalog ID
+        location_id: Location ID
+        qfill_sales_catalog_id: QFill Sales Catalog ID
+        qfill_location_id: QFill Location ID
+        indent_order_type: Auftragstyp-ID einrücken
+        inseason_order_type: Inseason-Ordertyp-ID
+        future_ats_days: Zukünftige ATS-Tage
+      ats_csv:
+        multi_brands_ats: Mehrmarken-ATS
+        brand: Marke
+        supplier: Anbieter
+        file: Datei
+      order_status_csv:
+        multi_brands_order_status: Bestellstatus für mehrere Marken
+        brand: Marke
+        supplier: Anbieter
+        file: Datei
+      price_csv:
+        multi_brands_price_update: Multi -Brand -Preis -Update
+        brand: Marke
+        supplier: Anbieter
+        file: Datei
+      shipping_methods:
+        code: Code
+        label: Etikett
+      beta_feature:
+        code: Code
+        name: Name
+        is_public: Ist öffentlich
+        usernames: Benutzernamen
+      order_response_csv:
+        ignore_headers: Header ignorieren
+        Brand: Marke
+        file: Datei
+        is_active: Ist aktiv ?
+        is_monthly_response: Ist die monatliche Antwort?
+        update_order_status: Aktualisieren Sie den Bestellstatus
+        update_supplier_reference: Aktualisieren Sie die Lieferantenreferenz
+        file_extension: Dateierweiterung
+        file_col_sep: Dateispaltenabscheider
+      order_form_export:
+        custom_note: Benutzerdefinierte Text
+      retailer_ats:
+        file: Datei
+        quantity: Menge
+        barcode: Barcode mit zuordnen
+        sku: Ordnen Sie SKU mit zu
+        colour_code: und Farbcode mit
+        size: und Größe mit
+    placeholders:
+      select_user: Benutzer zum Anmelden auswählen
+      user:
+        first_name: Geben Sie Ihren Vornamen ein
+        last_name: Geben Sie Ihren Nachnamen ein
+        nickname: Geben Sie Ihren Spitznamen ein
+        phone: Geben Sie Ihre Telefonnummer ein
+        mobile: Geben Sie Ihre Mobiltelefonnummer ein
+        email: Geben sie ihre E-Mail Adresse ein
+        job_title: Geben Sie Ihre Berufsbezeichnung ein
+        company_id: Wählen Sie Ihr Unternehmen
+        role_id: Wählen Sie Ihre Rolle oder wenden Sie sich an den Administrator
+        time_zone: Wählen Sie Ihre Zeitzone
+        hide_ws_price: W/S-Preis auf Bereichsseite ausblenden
+        active: 
+        password: Passwort eingeben
+        password_confirmation: Bestätigen Sie Ihr Passwort
+        current_password: 
+        username: Benutzernamen eingeben
+      company:
+        company_code: Erstellt von Brandscope
+        name: Geben Sie Ihren Firmennamen ein
+        short_name: Geben Sie den Kurznamen Ihres Unternehmens ein
+        abn_acn: Geben Sie Ihre Firma ABN/LLC ein
+        url: Geben Sie Ihre Webadresse ein
+        currency: Wählen Sie Ihre Standardwährung
+        auth_token: Erstellt von Brandscope
+        time_zone: Wählen Sie hier Ihre Zeitzone
+        status: Wählen Sie Ihren Status
+        is_headquarter: Ist Hauptsitz
+        headquarter: Wählen Sie den Hauptsitz
+        apply_price_book: Preisbuch anwenden
+        apply_discount_scheme: Rabattregelung anwenden
+        payment_account_code: Bluechain-Zahlungskennungscode
+        floor_space: Verkaufsfläche im Einzelhandel
+        cachment_population: Bevölkerung im Einzugsgebiet des Einzelhandels
+        number_of_doors: Anzahl der Verkaufsstellen
+        location_types: Standorttypen
+        frontage_types: Fronttypen
+        marketing_strategies: Marketing Strategien
+        target_genders: Zielkundengeschlecht
+        target_customer_ages: Zielkundenalter
+        industries: Branchenschwerpunkte
+        focuses: Einzelhandelsschwerpunkte
+        retail_categories: Produktschwerpunkte
+        stocked_brands: Marken
+        additional_brand: Weitere Marken
+        only_owner_receive_emails: Nur der Eigentümer/Bestätiger des Kaufplans erhält
+          Auftragsbestätigungs-E-Mails.
+        confirmation_email_recipients: Zu dieser Liste hinzugefügte Empfänger erhalten
+          alle Bestellbestätigungs-E-Mails.
+        no_confirmation_emails: Benutzer erhalten keine Bestellbestätigungs-E-Mails.
+          Die Liste „Alle Bestellbestätigungen erhalten“ wird ebenfalls ignoriert.
+        order_status_integrated_to: Bestellstatus integriert in
+        price_update_integrated_to: Preis -Update integriert zu
+      addresses:
+        line1: Adresszeile 1
+        line2: Adresszeile 2
+        suburb_town: Geben Sie Ihren Stadtteil/Stadt ein
+        state: Geben Sie Ihr Bundesland ein
+        post_code: Geben Sie Ihre Postleitzahl/Postleitzahl ein
+        country: Wählen Sie Ihr Land
+        shipping_same_as: Lieferadresse wie
+        billing_same_as: Rechnungsadresse wie
+      brand:
+        name: Bitte geben Sie den vollständigen Namen der Marke ein
+        short_name: Bitte geben Sie den Kurznamen der Marke ein
+        supplier_id: Anbieter wählen
+        accept_payments: Akzeptieren Sie Zahlungen
+        payment_account_code: Bluechain-Verkäuferkennung
+        supplier_default_order_status: Standardstatus
+        account_code_required: Kontocode erforderlich
+        shipping_methods: Versandarten
+        size_sequence: Größenfolge
+        attribute_sequence: Attributsequenz
+        quick_fill: QuickFill
+        consignable: Lieferbar
+        count_and_fill: Zählen & Füllen
+        pre_order_custom_text: Benutzerdefinierte Text vorbestellen
+        show_delivery_instructions: Lieferanweisungen anzeigen
+        display_range: Anzeigebereich' ODER 'Preis anzeigen' anzeigen
+        order_note: Dies wird im Modal zum Absenden der Bestellung angezeigt
+        segment_names: Segmentnamen
+        segment_label: Segmentbezeichnung
+        default_segmentable_status: Segmentierbarer Standardstatus
+        apply_segmentation: Segmentierung anwenden
+        show_segment_filter_box: Segmentfilterfeld anzeigen
+        integration_id_source: Integration_ID-Quelle
+        integration_id_sources: Integration_ID-Quellen
+        order_integrated_to: Bestellen Sie integriert
+        ats_integrated_to: ATS integriert
+        cutoff_day: Dies steuert den letzten Tag jedes Monats, an dem Bestellungen
+          angenommen werden
+        low_quantity_amount: Dies steuert die Ebene, auf der die ATS-Flags angezeigt
+          werden (Standard = 5).
+        amount_visible_quantity: Dies steuert die Ebene, in der die ATS-Beträge angezeigt
+          werden (Standard = 200).
+        default_ats_zero: Setzen Sie den Standard-ATS auf Null
+        agreement_acceptance_on_order: Akzeptieren Sie die Vereinbarung über das Bestellformular
+        cumulative_ats: Kumulativer ATS
+        post_cumulative: Postkumulatives ATS
+        import_past_po_date_ats_qty_as_atonce: Importieren Sie das vergangene Bestelldatum
+          ATS-Menge als AtOnce
+        import_po_ats_to_next_month: PO ATS in den nächsten Monat importieren
+        clear_ats_before_import: ATS für alle Produkte vor jedem ATS-Import löschen
+        keep_future_ats: Künftige ATS behalten
+        order_emails: Integrationsdateien bestellen
+        pdf_emails: PDF-Bestätigungen bestellen
+        qfill_order_emails: QuickFill PDF-Bestätigungen
+        consignment_sale_emails: Sendungsbestätigungen im PDF-Format
+        send_csv_order_file_to: CSV-Bestelldatei senden an
+        send_order_mails_to_agent: Senden Sie PDF-Bestätigungen an den Agenten
+        master_home_page: Master-Homepage
+        home_page: Zugang zum Homepage-Builder für Super-Lieferanten
+        home_page_banner: "(1215 Pixel B x 150 Pixel H)"
+        qf_home_page: "(294 Pixel B x 200 Pixel H)"
+        target_customer_genders: Zielkundengeschlechter
+        target_customer_ages: Zielkundenalter
+        marketing_strategies: Marketing Strategien
+        focuses: Einzelhandelsschwerpunkte
+        retail_categories: Produktfokus
+        industries: Branchenfokus
+        apply_price_book: Preisbücher anwenden?
+        apply_discount_scheme: Rabattsysteme anwenden?
+        apply_postage_scheme: Portoschema
+        discount_categories: Rabattkategorien
+        default_sales_person_id: Standardverkäufer, wenn Agent oder Vertriebsmitarbeiter
+          abwesend ist (muss ausgewählt werden, wenn Buyplan Ownership erzwungen wird)
+        enforce_buyplan_ownership: Stellen Sie sicher, dass Buyplans einem Eigentümer
+          zugewiesen sind
+        order_approval_required: Auftragsgenehmigung erforderlich
+        order_approval_email_agents: E-Mail-Agenten
+        order_approval_email_salesreps: E-Mail-Vertriebsmitarbeiter
+        order_approval_other_emails: Andere E-Mails
+        emails_after_order_approval: E-Mails nach Genehmigung
+        enforce_order_not_met_message: Zustimmen
+        brand_retailer_account_codes: Marken-Händler-Kontocodes
+        agreement_text: Vertragstext
+        qf_order_approval_required: Genehmigung der QuickFill-Bestellung erforderlich
+        allow_status_update_via_dls: Statusaktualisierung über DLS zulassen
+        qf_order_approval_email_agents: E-Mail-Agenten
+        qf_order_approval_email_salesreps: E-Mail-Vertriebsmitarbeiter
+        qf_order_approval_other_emails: Andere E-Mails
+        emails_after_qf_order_approval: E-Mails nach Genehmigung
+        apply_order_minimums: Wenden Sie Mindestbestellmengen an
+        apply_order_minimums_by_month: Mindestens nach Liefermonat bestellen
+        tenant_id: Mieter-ID
+        is_active: Ist aktiv ?
+        order_status_integrated_to: Bestellstatus integriert in
+        price_update_integrated_to: Preis -Update integriert zu
+        default_cnf_type: Standard-Zähl- und Fülltyp
+        show_discount_percent: Zeigen Sie Rabatt % für Pricebook -Artikel an
+        superfill: Aktivieren Sie die Superfill-Funktion
+      cin7_brand:
+        app_id: App Name
+        app_key: App Key
+        tax_status: Steuerstatus
+        default_delivery_day: Standardliefertag
+        username: Benutzername
+        pwd: Passwort
+        order_url: Bestell URL
+        branch_id: Filial-ID
+        project_name: Projektname
+        stock_control: Lagerverwaltung
+        attribute_separator: Attributtrennzeichen
+      netsuite_brand:
+        email: Netsuite-E-Mail
+        password: Netsuite-Passwort
+        account: NetSuite -Konto
+        role: Netsuite-Rolle
+        order_status: Netsuite-Bestellstatus
+        subsidiary: Netsuite-Tochter
+        terms: Netsuite-Bedingungen
+        currency: Netsuite-Währung
+        location: Netsuite-Standort
+        indent: Netsuite-Einzug
+        custom_form: Benutzerdefiniertes Netsuite-Formular
+        to_be_printed: Zu drucken
+        to_be_emailed: Zu mailen
+        to_be_faxed: Zu faxen
+        account_noturl: Konto Subdomain
+        allow_script_override: Das Skript überschreiben
+        populate_external_id: Externe ID bevölkern
+        additional_status_inseason: Zusätzlicher Statussiedlung
+        additional_status_indent: Zusätzlicher Statuseinsatz
+        inseason_source_code: Insaison -Quellcode
+        indent_source_code: Einzugsquellcode
+        send_delivery_instructions: Lieferanweisungen senden
+        send_stripe_metadata: Senden Sie Streifenmetadaten
+        delay_until_in_seconds: Verzögerung bis in Sekunden
+        create_customer_deposit: Kundeneinzahlung erstellen
+        customer_deposit_ payment_method: Zahlungsmethode
+        customer_deposit_account: Konto
+        send_create_work_order: Senden Sie Arbeitsauftrag erstellen.
+        include_release_name: Geben Sie den Release-Namen an
+        department: Netsuite-Abteilung
+        consumer_key: Netsuite Verbraucherschlüssel
+        consumer_secret: Netsuite Verbrauchergeheimnis
+        token_id: Netsuite-Token-ID
+        token_secret: Netsuite-Token-Geheimnis
+        qfill_order_types: Qfill-Auftragstypen
+      netsuite_order_types:
+        internal_id: Interne ID
+        order_type: Auftragsart
+      isync_brand:
+        username: Isync-Benutzername
+        password: Isync-Passwort
+        source: Isync-Quelle
+        url: Isync-URL
+        delivery_method_id: Isync-Übermittlungsmethode
+        barcode_prefix: Isync Barcode-Präfix
+        is_gift: Ist Geschenk
+        is_x_stock: Ist X Stock
+        payment_method_id: Isync-Zahlungsmethode
+        print_invoice: Rechnung drucken
+        line_status_id: Status der Isync-Leitung
+        header_status_id: Kopfzeilen Status
+        warehouse_id: Isync Warehouse
+        cn_type_id: Isync-CnType
+        ex_rate: Isync ExRate
+      unleashed_brand:
+        app_id: App-ID
+        app_key: App-Schlüssel
+        order_url: bestellen URL
+        ats_url: Ats-URL
+        order_status: Bestellstatus
+        warehouse_code: Lagercode
+        created_by: Erstellt von
+        tax_code: Steuer-Code
+        tax_rate: Steuersatz
+        send_order_number: Auftragsnummer senden
+        send_discounted_price: Senden Sie den ermäßigten Preis an Unleashed
+      tradegecko_brand:
+        access_token: Zugangstoken
+        order_url: Bestell-URL
+        ats_url: Ats-URL
+        status: Status
+        packed_status: Verpackter Zustand
+        warehouse: Warenlager
+        ats_warehouse_id: Ats-Lager-ID
+        tax_treatment: Steuerliche Behandlung
+        tags: Stichworte
+        send_order_number: Bestellnummer senden?
+      acumatica_brand:
+        username: Acumatica-Benutzername
+        pwd: Acumatica-Passwort
+        bill_to_as_company: Rechnung an als Unternehmen aktivieren
+        company: Firma
+        branch: Ast
+        locale: Gebietsschema
+        login_url: Anmelde-URL
+        order_url: Bestell URL
+      clear_accounts_brand:
+        url: Konto-URL löschen
+        ats_url: Konten unter URL löschen
+        auth_token: Authentifizierungstoken für Konten löschen
+      apparelmagic_brand:
+        token: ApparelMagic-Token
+        ship_to_url: ApparelMagic Versand an URL
+        ats_url: BekleidungMagic Ats
+        order_url: URL der ApparelMagic-Bestellung
+        order_warehouse_id: ApparelMagic Bestelllager
+        ats_warehouse_id: ApparelMagic Ats Warehouse
+        terms_id: ApparelMagic-Bedingungen
+        ar_acct: ApparelMagic Ar Acct
+        credit_status: ApparelMagic-Kreditstatus
+        division_id: ApparelMagic-Abteilungs-ID
+        department_number: Abteilungsnummer von ApparelMagic
+        currency_id: ApparelMagic-Währung
+        tax_rate: ApparelMagic Steuersatz
+      ostendo_brand:
+        access_token: Ostendo-Zugriffstoken
+        ats_url: Ostendo Ats URL
+        order_url: Ostendo Bestell-URL
+        configuration: Ostendo-Konfiguration
+      myob_exo_brand:
+        username: Benutzername
+        pwd: Passwort
+        api_key: API-Schlüssel
+        auth_token: Auth-Token
+        location: Ort
+        search_template_id: Suchvorlage
+        ats_url: Ats-URL
+        order_validate_url: Bestellbestätigungs-URL
+        order_url: Bestell-URL
+        send_payment_field: Senden Sie den Wert des X_WN_Payment
+      pvh_ftp_brand:
+        custom_address_note: PVH benutzerdefinierte Adressnote
+      release:
+        brand_id: Marke Diese Version gehört zu
+        name: Name der Freigabe
+        short_name: Kurzname der Veröffentlichung
+        release_type: Einrückung = Saisonal, Lagerservice = Jetzt verfügbar, SuperFill = Jetzt mit Massen-Upload verfügbar
+        status: IndentSell = ATS nicht sichtbar / InSeasonSell = ATS sichtbar / Offiline
+          = Sortiment nicht sichtbar / Marketing = Nur Templates sichtbar
+        currencies: Entfernen Sie alle Produktversionen dieser Version, um die Versionswährung
+          zu aktualisieren
+        select_currencies: Wählen Sie Währungen für alle Produkte dieser Version aus
+        default_currency: Standardwährung festlegen
+        so_type: Also tippen
+        default_warehouse_id: Wählen Sie Standardlager
+        release_discount_percentage: Rabattprozentsatz freigeben
+        release_delivery_months_with_year: Liefermonate mit Jahr
+        start_date: Startdatum
+        end_date: Enddatum
+        deadline: An diesem Datum müssen alle Einzugsaufträge im Brandscope-System
+          vorliegen
+        divisions: Abteilungen
+        collections: Sammlungen
+        order_integrated_to: Bestellen Sie integriert
+        release_code: Freigabecode
+        season: Saisoncode
+        tax_code: Steuer-Code
+        segmentable: Segmentierbar
+        core_release: Core-Release
+        apply_price_book: Preisbücher anwenden
+        apply_discount_scheme: Rabattregelung anwenden
+        order_emails: Integrationsdateien bestellen
+        pdf_emails: Bestellen Sie PDF-Bestätigungen
+        qfill_order_emails: QuickFill PDF-Bestätigungen
+        consignment_sale_emails: Sendungsbestätigungen im PDF-Format
+        tradegecko_oe_status: Status
+        tradegecko_oe_packed_status: Gepackter Status
+        tradegecko_oe_warehouse: Lager Bestellung
+        tradegecko_oe_tags: Stichworte
+        cin7rest_oe_status: Lagerverwaltung
+        cin7rest_oe_warehouse: Filial-ID
+        cin7rest_oe_field_1: Projektname
+        unleashed_oe_warehouse: Lagercode
+        apparelmagic_oe_status: Währungs-ID
+        apparelmagic_oe_warehouse: Lager Bestellung
+        apparelmagic_oe_field_1: Abteilungsnummer
+        order_approval_required: Auftragsgenehmigung erforderlich
+        tradegecko_oe_currency_id: Währungs-ID
+        visible_to_retailers: Sichtbar für Einzelhändler
+      release_assets:
+        banner_image: 994 Pixel breit und 150-250 Pixel hoch. Muss der Dateityp jpg,
+          png, gif sein
+        home_page_image: 294 Pixel breit und 200 Pixel hoch. Muss der Dateityp jpg,
+          png, gif sein
+        home_page_template: Homepage-Vorlage
+        priority: Priorität
+      netsuite_release:
+        currency: Netsuite Release-Währung
+        indent: Netsuite Release-Einrückung
+        location: Ort der Netsuite-Veröffentlichung
+        order_types: Verfügbare Ordertypen
+      nixon_release:
+        sales_catalog_id: Nixon Sales Catalog Id
+        location_id: Nixon Location Id
+      territory:
+        brand_id: Marke für Territorium
+        warehouse_id: Lager für Territorium
+        name: Name des Territoriums
+        code: Code des Territoriums
+        sales_reps: Wählen Sie Vertriebsmitarbeiter für das Gebiet aus
+        independent_agents: Wählen Sie unabhängige Agenten für das Gebiet
+        pdf_recipients: PDFs per E-Mail an
+        csv_recipients: E-Mail-CSVs an
+        active: Durch das Deaktivieren eines Gebiets wird der Einzelhändlerzugriff
+          auf die Veröffentlichungen der Marke entfernt. Dadurch werden auch alle
+          BP, BPT, QuickFill, C&F-Vorlagen, SMTBP und Konsignationen für die Einzelhändler
+          in diesem Gebiet gelöscht.
+      product_release:
+        available_months_display_form: Verfügbare Monate nach Produktveröffentlichung
+        size_sequence: Größenfolge
+        attribute_sequence: Attributsequenz
+        catalog_order: NUR numerische Werte, keine Dezimalstellen
+        product_requirements: Produktanforderungen
+        divisions: Abteilungen
+        collections: Sammlungen
+        filter_tags: Kategorien
+        product_tags: Produkt Tags
+        ats_in_indent: ATS im Einzug
+        ats_in_inseason: ATS in der Saison
+        display_wholesale_price: Dieser Preis wird verwendet, um den Preis anzuzeigen
+          (muss mit dem W/S-Preis auf der Registerkarte „Größe & Preis“ übereinstimmen)
+        display_wholesale_range: Dieser Bereich wird verwendet, um den Bereich anzuzeigen,
+          wenn kein Großhandelspreis angezeigt wird
+        display_retail_price: Dieser Preis wird verwendet, um den Preis anzuzeigen
+          (muss mit dem UVP-Preis auf der Registerkarte „Größe & Preis“ übereinstimmen)
+      product:
+        name: Produktname
+        sku: SKU des Produkts
+        colour_code: Farbcode des Produkts
+        display_colour: Diese Farbe dient nur zu Anzeigezwecken
+        generic_colour: Diese generische Farbe wird auf der Bereichsseite für Such-
+          und Filterfunktionen verwendet
+        segment_ids: Segmente auswählen
+        gender: Geschlecht auswählen
+        age_group: Altersgruppe auswählen
+        category: Hierarchiekategorie auswählen
+        product_specifications: 'Separate Spezifikationen mit neuer Linie'
+        product_changes: Produktänderungen
+        additional_details: Zusätzliche Details
+        sales_tips: Verkaufstipps
+        marketing_support: Marketingunterstützung
+        orb360_tag_value: Tag zum Anzeigen von 360-Grad-Bildern
+        pre_order_message: Benutzerdefinierter Text der Vorbestellungsnachricht
+      report_criteria:
+        export: Export
+        name: Name
+        buyplan_type: Buyplan
+        start_date: Startdatum
+        end_date: Enddatum
+        brand_id: Marke wählen
+        emails: E-Mails
+        release_ids: Wählen Sie Freigaben aus
+        territory_ids: Gebiete auswählen
+      report:
+        brand: Marke wählen
+        release: Freigabe wählen
+        currency: Währung
+        type: Typ
+        sort_by: Sortiere nach
+        month: Monat
+        py_month: Vorheriger Vergleichsmonat
+        emails: E-Mails
+      sales_report:
+        brand: Marke
+        release: Freisetzung
+        currency: Währung
+        territories: Gebiete
+      seasonal_report:
+        brand: Marke
+        release: Freisetzung
+        comparison_release: Vergleichsfreigabe
+        currency: Währung
+        sort_by: Sortiere nach
+      warehouse:
+        name: Name des Lagers
+        code: Lagercode
+        time_zone: Zeitzone des Lagers
+        territory_ids: Gebiete
+      ftp_user:
+        brandscope_ftp: Geben Sie an, ob der FTP-Server Brandscope oder Supplier ist
+        ftp_type: FTP/SFTP
+        host: Host
+        user: Nutzer
+        password: Passwort
+        passive: Passiv
+        public_key: Öffentlicher Schlüssel
+      ftp_brand:
+        brand: Marke
+        supplier: Anbieter
+        outbound_dir: Ausgehende Richt
+        inbound_dir: Eingangsverzeichnis
+        ats_update_dir: ATS-Update-Verz
+        order_status_dir: Auftragsstatus dir
+        price_udpate_dir: Preis -Update -Verzeichnis
+      datapel_brand:
+        endpoint: Endpunkt
+        username: Nutzername
+        password: Passwort
+      denstock_brand:
+        order_url: Denstock-Bestell-URL
+        ats_url: Denstock ATS-URL
+        username: Denstock-Benutzername
+        password: Denstock-Passwort
+        analysis_no: Denstock-Analysenummer
+      arl_brand:
+        order_type_code_refill: Geben Sie den Bestelltyp -Code ein
+        order_type_code_jan: Geben Sie den Bestelltyp -Code ein
+        order_type_code_feb: Geben Sie den Bestelltyp -Code ein
+        order_type_code_mar: Geben Sie den Bestelltyp -Code ein
+        order_type_code_apr: Geben Sie den Bestelltyp -Code ein
+        order_type_code_may: Geben Sie den Bestelltyp -Code ein
+        order_type_code_jun: Geben Sie den Bestelltyp -Code ein
+        order_type_code_jul: Geben Sie den Bestelltyp -Code ein
+        order_type_code_aug: Geben Sie den Bestelltyp -Code ein
+        order_type_code_sep: Geben Sie den Bestelltyp -Code ein
+        order_type_code_oct: Geben Sie den Bestelltyp -Code ein
+        order_type_code_nov: Geben Sie den Bestelltyp -Code ein
+        order_type_code_dec: Geben Sie den Bestelltyp -Code ein
+        arl_due_date_refill: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_jan: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_feb: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_mar: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_apr: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_may: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_jun: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_jul: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_aug: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_sep: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_oct: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_nov: Geben Sie das Fälligkeitsdatum ein
+        arl_due_date_dec: Geben Sie das Fälligkeitsdatum ein
+      nixon_brand:
+        order_url: Nixon Order URL
+        ats_url: Nixon ATS URL
+        username: Nixon Username
+        password: Nixon Password
+        api_key: Nixon API Key
+        sales_catalog_id: Nixon Sales Catalog ID
+        location_id: Nixon Location ID
+        qfill_sales_catalog_id: Nixon QFill Sales Catalog ID
+        qfill_location_id: Nixon QFill Location ID
+        indent_order_type: ID des Nixon-Einzugsauftragstyps
+        inseason_order_type: Nixon Inseason Order Type ID
+        future_ats_days: Nixon Future ATS-Tage
+      ats_csv:
+        brand: "-- Marke auswählen --"
+        supplier: "-- Lieferant auswählen --"
+        file: Nur CSV erlaubt
+      price_csv:
+        brand: "-- Marke auswählen --"
+        supplier: "-- Lieferant auswählen --"
+        file: Nur CSV erlaubt
+      beta_features:
+        code: Code
+        name: Name
+        is_public: Ist öffentlich
+        usernames: Benutzernamen

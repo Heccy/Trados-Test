@@ -1,0 +1,2205 @@
+---
+en:
+  activerecord:
+    errors:
+      messages:
+        confirmation: Passwords MUST match exactly.
+    attributes:
+      release_size_break:
+        size_min: Size Minimum
+  hello: Hello world
+  alert_messages:
+    generic: Are you sure?
+    invalid_otp: OTP does not match
+    no_rows: Number of rows should be greater than 1.
+    companies:
+      activate: Are you sure you want to activate this company?
+      deactivate: Are you sure you want to deactivate this company?
+      delete: Are you sure you want to delete this company?
+    brands:
+      delete_logo: This logo will be deleted. Are you sure?
+      delete: Are you sure you want to delete this brand?
+      brand_supplier_not_found: Brand or Supplier not found
+      tax_data_not_found: Tax data not found
+      invalid_tax_country: Invalid country
+      invalid_tax_type: Tax rate not found
+    bulk_stripe_rules: 
+      retailer_not_found: Retailer not found
+      brand_not_found: Brand not found
+      retailer_not_connected: Retailer not connected with given brand
+      invalid_country: Invalid tax country
+      invalid_tax: Invalid tax type
+      discount_invalid: Discount must be between 0 and 50
+      mismatch: Mismatch in Tax region/type
+      missing_headers: Missing headers %{headers}
+      import_enqueued: Import is enqueued, please check back in sometime 
+      retailer_name_mismatch: Retailer name mismatch for company code %{company_code}
+    ftp_setup:
+      delete: Warning! Perfom this operation only if you know what you are doing. Are you sure you want to delete this ftp setup?
+    order_csv:
+      delete: Are you sure you want to delete this Order Csv?
+    product_dls_mapping:
+      delete: Are you sure you want to delete this Product DLS Mapping?
+    report_criterias:
+      delete_templates: Are you sure want to delete all templates?
+    release:
+      end_date: Release End Date updated successfully
+      failed_delete: This release has existing Orders so the products cannot be removed.
+      successful_delete: Products will be deleted. Please review in sometime.
+    integration:
+      isync_login_failed: Isync Login Failed. please see log file.  
+  placeholders:
+    target_settings:
+      genders: Select Target Customer Genders
+      ages: Select Target Customer Ages
+      marketing_strategies: Select Marketing Strategies
+      retailer_focuses: Select Retail Focuses
+      product_focuses: Select Product Focus
+      industry_focuses: Select Industry Focus
+    netsuite_brand:
+      order_type: Select Available Order Types
+    retailer_setup:
+      segments: Select Segments
+    territories:
+      select: Select territories
+      warehouse: Select warehouse
+  conjunction:
+    or: OR
+  generic:
+    hi: 'Hi,'
+    export_blank_template: Export Blank Template
+    uploading: Uploading...
+    help:
+      contacts: Please reach out to our customer support team via the live chat, or contact us as below.
+    record_deleted: Record deleted successfully.
+    record_added: Record was added successfully.
+    record_updated: Record was updated successfully.
+    record_not_updated: Record could not be updated successfully.
+    any_currency: Any Currency
+    page_not_exists: The page you were looking for doesn't exist.
+    are_you_sure: Are you sure?
+    please_wait: Please wait...
+    warning: WARNING
+    invalid_access: Invalid access, please contact administrator.
+    payment_settings: Payment Settings
+    correct_value: Please correct the value
+    order_confirm_header: Order Confirmation
+    order_email_success: Order Confirmation Email sent successfully
+    view_release: View Release (Read Only)
+    verification_otp: Enter the verification code sent to your email address
+    enter_username: Enter your Username
+    expire_note: Please note that the code will expire in 10 minutes
+    create_template: Create Buyplan Template
+    create_bp: Create Buyplan
+    missing_email_label: ATS is ingtegrated to Email but required label is missing
+  buyplan_actions:
+    resend_order: Resend Order
+    delete: Delete
+    view_bpt: View BPT
+    copy_order: Copy Order
+    copy_bpt: Copy BPT
+    configure_bpt: Configure BPT
+    edit_bpt_name: Edit BPT Name
+    delete_bpt: Delete BPT
+    assign_as_bp_to_retailer: Assign as BP to Retailer
+    assign_as_bpt_to_roles: Assign as BPT to %{roles}
+    template:
+      email_pdf: Email Buy Plan PDF Template
+      export_to_pdf: Export Buy Plan PDF Template
+      export_to_csv: Export Buy Plan CSV Template
+      export_to_xlsx: Export Buy Plan XLSX Template
+    buyplan:
+      email_pdf: Email Buy Plan PDF
+      export_to_pdf: Export Buy Plan PDF
+      export_to_csv: Export Buy Plan CSV
+      export_to_xlsx: Export Buy Plan XLSX
+    qfill:
+      email_pdf: Email QuickFill PDF
+      export_to_pdf: Export QuickFill PDF
+      export_to_csv: Export QuickFill CSV
+      export_to_xlsx: Export QuickFill XLSX
+    order:
+      email_pdf: Email Order PDF
+      export_to_pdf: Export Order PDF
+      export_to_csv: Export Order CSV
+      export_to_xlsx: Export Order XLSX
+  product_upload_actions: 
+    validating_file: File is validating. This may take some time. Please feel free to leave this page and we'll send you an email once complete.
+    uploading: Retrieving File
+    validating: Validating File
+    validated: Validation Completed
+    validation_pending: This process is taking some time to complete. We will send an email once complete.
+    validation_done: Validated file has been downloaded
+    
+  stock_model_actions:
+    associate_cnf_template_to_retailer: Associate C&F Template to Retailer
+    associate_superfill_template_to_retailer: Associate Superfill Template to Retailer
+    create_superfill_for_retailer: Create Superfill for retailer
+    create_cnf_for_retailer: Create C&F for Retailer
+    edit_cnf_template_name: Edit C&F Template Name
+    edit_superfill_template_name: Edit Superfill Template Name
+    delete_cnf: Delete C&F
+    delete_superfill: Delete Superfill
+    delete_cnf_template: Delete C&F Template
+    delete_superfill_template: Delete Superfill Template
+    email_pdf: Email Count & Fill PDF
+    email_pdf_superfill: Email Superfill PDF
+    export_to_pdf: Export Count & Fill PDF
+    export_to_pdf_superfill: Export Superfill PDF
+    export_to_csv: Export Count & Fill CSV
+    export_to_csv_superfill: Export Superfill CSV
+    export_to_xlsx: Export Count & Fill XLSX
+    export_to_xlsx_superfill: Export Superfill XLSX
+    template:
+      export_to_csv: Export %{sm_type} CSV Template
+      export_to_xlsx: Export %{sm_type} XLSX Template
+  upload_product_images:
+    insert_images: Insert Images
+    upload_file: Upload File
+    start_uploading_images: Load Images to Brandscope
+    export_blank_template: Export Blank Template
+    select_file_to_import: Select File to Import
+    select_and_map_fields: Select and Map Image Fields
+    select_and_map_integration_field: Select and Map Integration fields
+    integration_id: Integration ID
+    sku_colour_code: SKU & Colour Code
+    map_fields:
+      image_url: Map Image URL with
+      filename: Map Image File Name with
+      position: Map Image Order with
+      is_primary: Map Primary Image with
+      integration_id: Map Integration ID with
+      sku: Map SKU with
+      colour_code: and Colour Code with
+  headers:
+    ats_import: ATS Import
+    project_name: BRANDSCOPE
+    sections:
+      setup: Setup
+      administration: Administration
+      events: EVENTS
+      orders: ORDERS
+      templates: TEMPLATES
+      consignments: CONSIGNMENTS
+      profile: Company
+      users: USERS
+      partners: Partners
+      product_import: PRODUCT IMPORTS
+      retailer_import: RETAILER IMPORTS
+      retailer_assign: RETAILER ASSIGN
+      general_admin: GENERAL ADMIN
+      supplier_settings: SUPPLIER SETTINGS
+      integration: INTEGRATION
+      media: MEDIA
+      pricing: PRICING
+      brands: Shop Brands
+      your_brands: YOUR BRANDS
+      qfill_brands: YOUR QUICKFILL BRANDS
+      help: Help
+      help_articles: Help Articles
+      brandscope_articles: BRANDSCOPE ARTICLES
+      general_articles: GENERAL ARTICLES
+      contact_us: Contact Us
+      v4_introduction: What's New?
+      tools: Tools
+      general: General Reports
+      comparison: Comparison Reports
+    showroom: Showroom
+    updates: Updates
+    partners: Partners
+    profile: Profiles
+    my_profile: My Profile
+    company_profile: Company Profile
+    retailers: Retailers
+    retailer_setup_quick_action: Retailer Setup
+    order_events: Order Events
+    ats_events: Ats Events
+    suppliers: Suppliers
+    agents: Agents
+    users: Users
+    user: User
+    segments: Segments
+    user_profiles: User Profiles
+    brands: Brands
+    territories: Territories
+    products: Products
+    account_n_shipping_codes: Account & Shipping Codes
+    brands_retailers_settings: Brand/Retailer Settings
+    price_books: Price Books
+    discount_schemes: Discount Schemes
+    postage_schemes: Postage Schemes
+    media_pack_assets: Media Pack Assets
+    banner_assets: Banner Assets
+    marketing_links: Campaign Links
+    admin_tasks: Admin
+    events: Events
+    order_updates: Order Event Logs
+    ats_updates: ATS Event Logs
+    order_status_updates: Order Status Event Logs
+    price_update: Price Update Event Logs
+    consignment_item_update: Consignment Event Logs
+    order_form_export: Order Export Event Logs
+    order_form_import_logs: Order Import Event Logs
+    admin_products: Products
+    upload_products: Product DLS Import
+    upload_superfill: Superfill Import
+    upload_product_status: Product Status Import
+    bulk_price_upload: Product Prices Import
+    upload_resources: Product Resources Import
+    pricebook_price_update: Pricebook Price Update
+    update_product_key_data: Product Key Data Import
+    retailer_setup: Retailer Imports
+    retailer_setup_gui: Retailer Setup GUI
+    retailer_bulk_upload: Bulk Retailer Import
+    retailer_load: Retailer Setup GUI/Import
+    setup_retailer: Setup Retailer
+    retailer_user_load: Retailer User Import
+    assign_bulk_releases: Assign Releases Import
+    upload_bulk_territories: Brand/Retailer Settings Import
+    upload_bulk_segments: Assign Segments Import
+    bulk_stripe_rules: Retailer Payment Rules Import
+    bulk_shipping_code: Assign Shipping Codes Import
+    bulk_assign_approval_rules: Assign Approval Rules Import
+    upload_resources_short: Resources Import
+    bulk_price_upload_short: Prices Import
+    upload_product_status_short: Status Import
+    account_codes: Account Codes
+    modify_size_sequence: Product Size/Attribute Sequence
+    home_page_templates: Homepage Templates
+    shipping_code: Shipping Codes
+    update_categories: Brandscope Hierarchy Categories
+    order_integration: Order File Mapping
+    ats_integration: ATS File Mapping
+    price_integration: Price Update File Mapping
+    order_status_integration: Order Status File Mapping
+    order_response_integration: Order Response File Mapping
+    product_dls_mapping: Product DLS Mapping
+    ftp_setup: FTP Setup
+    ats_export: ATS Export
+    assign_releases: Assign Releases
+    assign_segments: Assign Segments
+    assign_consignment: Assign Consignment
+    assign_territories: Assign Territories
+    general_admin: General Admin
+    beta_features: Beta Features
+    count_n_fills: Count & Fills
+    superfill: Superfill
+    templates: Templates
+    count_n_fill_templates: Count & Fill Templates
+    retailer_groups: Retailer Group
+    superfill_templates: Superfill Templates
+    consignments: Consignments
+    consignment_requests: Consignment Requests
+    consignment_sale: Consignment Sale
+    consignment_stocktake: Consignment Stocktake
+    report: Reports & Tools
+    quickfill: Quick Fill
+    top_products_by_release: Top Products By Release
+    sales_by_season: Sales By Season
+    monthly_order: Monthly Order
+    seasonal_comparison: Seasonal Comparison
+    export: Order Total Range
+    report_criteria: Scheduled Reports
+    order_detail_export: BP/BPT/Order
+    integration: Integration
+    bs_admin_tasks: BS Admin Tasks
+    duplicate_fields: Duplicate Fields
+    generate_test_data: Generate Test Data
+    ranges: Ranges
+    count_and_fill: Count & Fill
+    stock_model_buyplans: Count & Fills
+    superfill_buyplans: SuperFill
+    buyplan_quick_fill_and_order: Buy Plans, QuickFill & Orders
+    media_packs_and_catalogs: Media Packs & Catalogs
+    generate_media_packs: Generate Media Packs
+    help: Help
+    retailer_help_file: Retailer Help Files
+    agent_help_file: Agent Help Files
+    sales_rep_help_file: Sales Rep Help Files
+    supplier_help_file: Supplier Help Files
+    supplier_settings: Supplier Settings
+    ordering: Ordering
+    quickfill_retailer_how_to_guide: QuickFill - Retailer How to Guide
+    retailer_quick_start_guide: Retailer - Quick Start Guide
+    help_home: Help Home
+    internal_manuals: Internal Manuals
+    supplier_manuals: Supplier Manuals
+    field_definitions: Field Definitions
+    help_articles: Help Articles
+    user_manuals: User Manuals
+    faqs: FAQs
+    admin_setup: Admin Setup
+    troubleshooting: Troubleshooting
+    buyplans: Buy Plans
+    orders: Orders
+    orders_and_templates: Orders & Templates
+    buyplan_templates: Buy Plan Templates
+    quick_fill: QuickFill
+    quick_fills: QuickFills
+    reports: Reports
+    help_docs: Help Docs
+    account: Account
+    supplier_articles: Supplier Articles
+    general: General
+    setup: Setup
+    releases: Releases
+    how_to_guides: How To Guides
+    quick_start_guide: Quick Start Guide
+    back_to_admin: Back to Brandscope Admin
+    back_to_hq: Back to HQ
+    logout: Logout
+    change_password: Change Password
+    set_your_password: Set your password
+    edit_profile: Edit Profile
+    send_email: Email PDF
+    product_orb360_images_uploads: Product orb360 Images Uploads
+    quick_actions: Quick Actions
+    assign_name: 'Assign %{name}'
+    name_assigned_to_users: '%{name} assigned to users'
+    assign_template_to_users: Assign template to users
+    order_form_import: Buyplan Order Form Import
+    retailer_users: Retailer Users
+    product_image_import_delete: Product Image Import/Delete
+    import: Import
+    delete: Delete
+  sidebars:
+    products_uploads: Products Uploads
+    retailers_and_users: Retailers & Users
+    assign_to_retailers: Assign to Retailers
+  loading: Loading...
+  select:
+    default: "-- Select --"
+    brand: "-- Select Brand --"
+    segment: "-- Select Segment --"
+    release: "-- Select Release --"
+    releases: "-- Select Releases --"
+    supplier: "-- Select Supplier --"
+    territories: "-- Select Territories --"
+    price_book: "-- Select PriceBook --"
+    discount_scheme: "-- Select DiscountScheme --"
+    currency: "-- Select Currency --"
+    currencies: Select Currencies
+    with_name: '-- Select %{name} --'
+    delivery_months: Select Delivery Months
+    all_brands: All Brands
+    turned_off: Turned OFF
+    warehouse: "-- Select Warehouse --"
+    release_type: '-- Select Release Type --'
+    retailer_user: '-- Please select Retailer-User --'
+    retailer: 'Select Retailer'
+    template: 'Select Template'
+  portlet:
+    head:
+      options: Options
+      brand: Brand
+      supplier: Supplier
+      edit: Edit
+      new: New
+      price_books: Price Books
+      discount_schemes: Discount Schemes
+  button:
+    save: Save
+    create: Create
+    cancel: Cancel
+    ok: Ok
+    upload_assets: Upload Assets
+    upload_product_images: Upload Product Images
+    assign_links: Assign Links
+    upload_image: Upload Image
+    select_image: Select image
+    change: Change
+    remove: Remove
+    continue: Continue
+    close: Close
+    validate: Validate
+    submit: Submit
+    define: Define
+    assign: Assign
+    unassign: Unassign
+    templates: Templates
+    back: Back
+    import: Import
+    update_or_import: Update or Import
+    export_all: Export All
+    export: Export
+    add: Add
+    save_changes: Save changes
+    remove_retailers: Remove Retailers
+    select_all_territories: Select All Territories
+    copy: Copy
+    resend: Resend
+    submit_order: Submit Order
+    save_as_draft: Save As Draft
+    reconcile: Reconcile
+    generate: Generate
+    reorder: Reorder
+    add_slide_links: Add Slide Links
+    preview: Preview
+    publish: Publish
+    proceed: Proceed
+    resend_confirmation_instructions: Resend confirmation instructions
+    upload: Upload
+    generate_media_pack: Generate Media Pack
+    generate_report: Run Report
+    upload_pdf: Upload PDF File
+    pdf_change: Change PDF File
+    confirm: Confirm
+    send: Send
+    superfill_import: Superfill Import
+    please_wait: Please wait...
+    link_existing_retailer: Link Existing Retailer
+    import_order_form: Import Order Form
+  images:
+    hints:
+      select_image_120_hint: "(120px W by 90px H)"
+      banner_asset_image_hint: 'Recommended aspect ratio 4:5 (Eg.720px by 900px)'
+  generate_media_packs:
+    email: Email
+    body1: You are about to generate a Media Pack containing all the relevant media assets for selected products.
+    body2: An email containing the link to the Media Pack will be sent to the email address (or addresses) listed below.
+      Please update the email address if you want the Media Pack to be sent to a different email address or multiple email
+      addresses (comma separated).
+    phoenix_leisure_group:
+      export_big_commerce: Export Big Commerce File
+      body1: You are about to submit a request to generate a Media Pack containing all the relevant media assets for selected products.
+      body2: Please select the items below that you would like to be incldued.
+      body3: Once completed, an email containing a link to your Media Pack will be sent to the email address below. Please modify the email address if you prefer the details are sent to a different address.
+      body4: You may also choose to get your eCommerce Files sent to FTP.
+      product_images: Product Images
+      ecommerce_files: eCommerce Files
+      shopify: Shopify
+      big_commerce: Big Commerce
+      woo_commerce: Woo Commerce
+      send_ecommerce_to_ftp: Send eCommerce files to FTP
+
+  actions:
+    deactivate: Deactivate
+    activate: Activate
+    inactivate: Inactivate
+    add_new: Add New
+    view: View
+    delete: Delete
+    delete_products: Remove All Products
+    delete_all: Delete All
+    delete_all_templates: Delete All Templates
+    processing: Processing...
+    log_file: Log File
+    original_file: Original File
+    ftp_brands: Add Brands / Suppliers
+    transfer_products: Transfer Products
+    edit: Edit
+    edit_name: 'Edit %{name}'
+    more_actions: More
+    more: More
+    export: Export
+    export_ats: Export ATS
+    copy_short_link: Copy Short Link
+    privacy_policy: Privacy Policy
+    tnc: Terms and Conditions
+    cookie_policy: Cookie Policy
+    product_ats_warning: WARNING! - This will update the products ATS level (Only change if necessary)
+    resources: Resources
+    release_offline: Release is offline/LockDown/Draft, View not available
+    release_unavailable: Sorry this C&F is unavailable due to the release's mode or delivery months
+    configure_cnf_template: Configure C&F Template
+    view_cnf: View C&F
+    delete_cnf: Delete C&F
+    view_bpt: View BPT
+    configure_bpt: Configure BPT
+    cnf_inaccessible_due_to_payment: You cannot %{action} this C&F since payment is in progress.
+    copy: Copy
+  choose_file: Choose file
+  add_links: Insert one or more links
+  link_description: Link Description
+  link_value: Link Value
+  file_hints:
+    only_csv_xlsx_files: Only csv, xlsx allowed
+    only_csv_xls_xlsx_files: Only csv, xls, xlsx allowed
+    only_csv_files: Only csv files allowed
+    only_xlsx_files: Only xlsx files allowed
+  order_status_api: 
+    logs_not_found: "Sorry! We couldn't find logs for this order"
+    execption: "An error occurred while processing the sales log."
+  send_pdf_hints:
+    send_to: Enter valid email addresses separated by comma
+    subject: Enter the Email Subject
+    email_body: Enter the Email Body
+  password_hints:
+    character_limit: Minimum 8 Characters
+    uppercase_limit: Minimum 1 Uppercase Character
+    lowercase_limit: Minimum 1 Lowercase Character
+    digit_limit: Minimum 1 Digit
+    special_char_limit: Minimum 1 Special Character
+    not_same_as_previous: 'Note: Cannot be the same as a previous password'
+  errors:
+    buyplan_not_found: Buyplan not found
+    product_release_not_found: Product release not found
+    buyplan_item_not_found: Buyplan item not found
+    release_size_break_not_found: Release size break not found
+    buyplan_size_break_not_found: Buyplan size break not found
+    no_retailers_found: No Retailers associated with this user 
+    access_denied: You are not authorised to access this page, please contact Brandscope
+      admin
+    invalid_credentials: Invalid credentials
+    invalid_url: Sorry, this link is invalid. We are aware of this issue and will
+      look into it soon. Please contact the Brandscope Support team for further assistance.
+    barcode_not_found: Barcode not found
+    record_not_found: Record not found
+    record_already_exist: Record Already Exist
+    sold_out_item: Item is Sold Out
+    invalid_month: Invalid delivery month
+    past_month: Sorry, cannot add products to past delivery months
+    product_unavailable_for_month: The product is not available for chosen delivery
+      month
+    product_without_size: Product should have atleast one size
+    invalid_mode: Invalid release mode
+    missing_params: Missing params => %{params}
+    address_missing: Your address is missing!
+    something_went_wrong: Something went wrong, please contact Brandscope admin
+    stale_data: It seems that data is updated at the backend resulting to have stale
+      data. Please try again by refreshing the page.
+    order_exist: An Order was already created for this Buy Plan
+    out_of_range_quantity: Please enter quantity between 0 - 99999
+    invalid_quantity: You have entered more Qtys than available
+    invalid_cumulative_quantity: You have entered more Qtys than available (ATS for
+      this brand is accumulative).
+    invalid_qty_block: Item can only be ordered in multiples of %{order_qty_block}
+    invalid_fill_qty: Invalid Fill Quantity
+    invalid_params: Invalid params => %{params}
+    already_exists_for_given_month: product already exists in %{params}
+    incomplete_release: Sorry, release is currently unavailable. Please contact your
+      Agent, Sales Rep or Brand.
+    inactive_release: Sorry this %{release_type} is currently unavailable. Please
+      contact your Agent, Sales Rep or Brand.
+    can_not_change_release_type: can not be change from Superfill
+    selected_brand_is_not_superfill: can not be updated to superfill as selected brand is not superfill
+    release_already_exist: "Superfill release already exist for the selected Brand"
+    pre_order_month_item_not_movable: Sorry, cannot move products to/from pre-order month.
+    reorder:
+      product_release_unavailable_for_reorder: Sorry, this product is not available
+        for Re-order
+    supplier_not_found: Selected supplier not found
+    csv_errors:
+      malformed_error: There is an issue with the formatting of the CSV file. Please
+        correct the %{error} and similar places.
+      invalid_format: There is an issue with the formatting of the CSV file. Please
+        check & correct the CSV file/format.
+    required_missing_parameters: Required parameters are incorrect/missing.
+    qfill_access_denied: You are not authorised to access this Qfill as
+      no release is assigned to your company
+    qfill_assign_error: Qfill can't be created for this retailer as none of the
+      release is assigned to retailer
+    cant_be_blank: can't be blank
+    releases:
+      auto_extend:
+        extend_months: Number of months to extend should be greater than 0 and less than %{available_months}
+        end_date: End date must be greater than highest delivery month and less than %{max_delivery_month} months from today to extend.
+        no_delivery_month: Release must have current or future delivery month
+      end_date: End date must be greater than highest delivery month and less than %{max_delivery_month} months from today.
+      no_delivery_months: Release must have future delivery months
+    invalid_emails: Please provide valid email addresses and try again.
+    dls:
+      attribute_type: 'Sku: %{product_sku} is assigned with attribute_type: %{attr_type}. Product must have only one attribute type.'
+    size_min: is not valid. Should be a number greater than or equal to 0
+  info:
+    update_month_moving_non_pre_order_quantities: Moving only non-preorder quantities.
+  order_csv:
+    saved: Order csv was added successfully.
+    updated: Order csv updated successfully.
+    copied: Order csv copied successfully.
+    deleted: Order csv deleted successfully.
+    brand_missing: Brand not found.
+    invalid_file: File is invalid. Valid file types(csv)
+    invalid_symbol: Invalid symbol.
+    invalid_method: Invalid method.
+    invalid_datatype: Invalid datatype.
+    invalid_sort_field: Sort Column must present in mapping.
+    must_present_sort_by: Sort by field must present.
+    duplicate_sort_fields: Duplication of sort_by and sort_by_level2.
+  order_csv_mapping:
+    invalid_calculation: Invalid operator or oprands.
+    invalid_symbol: Invalid symbol.
+    invalid_method: Invalid method.
+    invalid_constant: Constant must be Integer or Float.
+    invalid_datatype: Invalid datatype.
+    operands_missing: Operands are missing.
+    operators_missing: Operators are missing.
+    fields_missing: Fields are missing.
+    connectors_missing: Connectors are missing.
+    comb_limit_invalid: Invalid trucation value.
+    calc_limit_invalid: Invalid decimal place value.
+    invalid_date_format: Invalid date format.
+  ats_csv:
+    heading: Ats File Mapping
+    copy: Copy Ats Csv
+    created: Ats csv created successfully.
+    updated: Ats csv updated successfully.
+    copied: Ats csv copied successfully.
+    mapping_missing: "%{mapping} Mapping missing!!!"
+    invalid_file: File is invalid. Valid file types(csv)
+    empty_file: File is invalid. It has no headers!!!
+    record_already_exist: Ats csv already exist!!!
+    select_record: Select Brand/Supplier first!!!
+    missing_headers: Missing headers %{headers}
+    missing_mappings: Missing mappings for %{headers}
+    wrong_datatype: Wrong DataType for %{header}
+    invalid_mappings: Invalid mappings %{mappings}
+    missing_conditional_mapping: Atleast one of the %{field1} or %{field2} should
+      be mapped
+    podate_mapping_result: PODate mapping is manadatory if you map Quantity
+    is_blank_po_date_to_at_once_based_mapping_result: Either map PODate or set 'Set
+      Blank PODate to At Once' flag
+    is_blank_po_date_to_at_once_based_mapping_result_warning: Do not map PODate as
+      'Set Blank PODate to At Once' flag is already set
+    add_at_once: Add AtOnce Qty ?
+    is_blank_po_date_to_at_once: Set Blank PODate to At Once
+    is_active: Is Active ?
+    at_once_qty_seperate: AtOnce Qty Seperate ?
+    header: Header
+    mapping_to: MappingTo
+    datatype: DataType
+  ats_update:
+    barcode:
+      required: Barcode should be present.
+      size_not_found: Size Not found for this barcode.
+  price_csv:
+    heading: Price Update File Mapping
+    copy: Copy Price Update Csv
+    created: Price Update csv created successfully.
+    updated: Price Update csv updated successfully.
+    copied: Price Update csv copied successfully.
+    mapping_missing: "%{mapping} Mapping missing!!!"
+    invalid_file: File is invalid. Valid file types(csv)
+    mapping_not_found: Price Update Csv mapping not found
+    empty_file: File is invalid. It has no headers!!!
+    record_already_exist: Price Update csv already exist!!!
+    select_record: Select Brand/Supplier first!!!
+    missing_headers: Missing headers %{headers}
+    missing_mappings: Missing mappings for %{headers}
+    wrong_datatype: Wrong DataType for %{header}
+    invalid_mappings: Invalid mappings %{mappings}
+    missing_conditional_mapping: Atleast one of the %{field1} or %{field2} should
+      be mapped
+    is_active: Is Active ?
+    header: Header
+    mapping_to: MappingTo
+    datatype: DataType
+  test_order_mailer:
+    download_file_message: 'Click the links below to download the Test Order PDF files:'
+  quick_fill_mailer:
+    assigned_quick_fill:
+      subject: Brandscope Alert - QuickFill Assigned
+      message: QuickFill is assigned to you from Company -(%{company_name}) by User
+        - (%{created_by})
+      view_quick_fill: View QuickFill
+  quick_fill_label: QuickFill
+  stock_model_buyplan:
+    destroy_confirmation: Existing Count and Fill related to this will NOT be deleted.
+      These will need to be deleted from your Count and Fill screen. Do you still
+      want to delete this Count and Fill?
+  templates:
+    destroy_confirmation: Existing %{template_category} related to this Template will
+      NOT be deleted. These will need to be deleted from your %{template_category}
+      screen. Do you still want to delete this Template?
+    destroy_all_confirmation: Existing %{template_category} related to Templates will
+      NOT be deleted. These will need to be deleted from your %{template_category}
+      screen. Are you sure you want to continue?
+  brands:
+    invalid_order_minimum: Either Apply Order Minimum or Apply Order Minimum By Month should be enabled
+    assign_segments_retailers: Assign Segments to Retailers
+    assign_consignment_retailers: Assign Consignment Retailers
+    add_brand: Add Brand
+    order_details: Export BP/BPT/Order Details
+    sizewise_order_details: Export BP/BPT/Order Details (by size)
+    export_retailers: Export Brand Retailers
+    export_segment: Export Brand Retailers Segments
+    export_users: Export Brand Users
+    export_retailers_releases: Export Brand Retailers vs Releases
+    export_brand_products: Export Brand Products
+    export_brand_agents: Export Brand Agents and Sales Reps
+    export_ats: Export Brand ATS
+    upload_resources: Upload Brand Resources
+    product_list: Brand Product List
+    retailer_list: Brand Retailer List
+    warehouses: Brand Warehouses
+    callouts: Brand Callouts
+    clear_all_ats: Clear All ATS Qtys
+    recalculate_product_status: Recalculate All Products Status
+    confirm_action: Confirm Action
+    update_warning: This action will update the entire brand, would you like to continue?
+    consignable_retailer: Consignable Retailer
+    select_brand: Select A Brand
+    select: "-- Select --"
+    brand_name: Brand Name
+    new_brand: New Brand
+    edit_brand: Edit Brand
+    integration: Integration
+    pricing: Brand Pricing
+    media: Media
+    target: Target
+    brand_details: Brand Details
+    enter_full_name: Please enter your full name
+    size_sequence: Size sequence
+    attribute_sequence: Attribute sequence
+    access_settings: Access Settings
+    default_cnf_type: Default Count and Fill Type
+    order_approval_settings: Order Approval Settings
+    qf_order_approval_settings: QuickFill Order Approval Settings
+    release_settings: Release Settings
+    display_range_or_price: This affects on Range page either show 'Display Range'
+      OR 'Display Price'
+    dispay_model: This will display on the submit order modal
+    segment_settings: Segment Settings
+    sources_settings: Sources Settings
+    size_header_settings: Range Page Display Settings
+    integrated_to: Integrated To
+    ats_settings: ATS Settings
+    agreement_acceptance: Agreement Acceptance
+    view_existing_pdf: View Existing PDF
+    po_are_accepted: This controls the last day of each month that PO's are accepted
+    ats_flags: This controls the level the ATS flags are displayed (Default=5)
+    ats_amounts: " This controls the level the ATS amounts are displayed (Default=200)"
+    email_settings: Email Settings
+    pricing_details: Brand Pricing Settings
+    order_minimums: Order Minimums
+    media_images: Media Images
+    primary_logo_image_size_hint: "(100px W by 125px H)"
+    add_another_logo: Add Another Logo
+    quickfill_image_size_hint: "(994px W by 150-250px H)"
+    modal_image_size_hint: "(1110px W by 150px H)"
+    home_pages: Homepages
+    main_banner_image_size_hint: "(1215px W by 150px H)"
+    quickfill_tile_image_size_hint: "(294px W by 200px H)"
+    target_settings: Target Settings
+    payment_account_code: Bluechain Seller Identifier
+    supplier_default_order_status: Default Order Status
+    assigned_segments: Segments assigned successfully.
+    unassigned_segments: Segments unassigned successfully.
+    netsuite_details: Netsuite Details
+    isync_details: ISync Details
+    cin7_details: Cin7 Details
+    cin7_custom_fields: Cin7Rest Custom Fields
+    unleashed_details: Unleashed Details
+    tradegecko_details: TradeGecko Details
+    acumatica_details: Acumatica Details
+    reckon_details: Reckon Details
+    brightpearl_instance_app_details: Brightpearl Instance App Details
+    clear_account_details: Clear Accounts Details
+    apparelmagic_details: Apparelmagic Details
+    myob_advance_details: MyobAdvance Details
+    myob_advance_split: Brandscope Monthly Split
+    myob_advance_non_split: Brandscope Order Number
+    ostendo_details: Ostendo Details
+    myobexo_details: MyobExo Details
+    myob_exo_postage_fail: "Postage is %{postage_price} for retailer %{retailer_name}"
+    exo_postage_zero: Postage must be greater than zero for Abyss.
+    orderwise_details: Orderwise Details
+    brightpearl_details: Brightpearl Details
+    quickbook_details: QuickBook Details
+    peach_details: Peach Details
+    harmony_details: Harmony Details
+    greentree_details: GreenTree Details
+    dear_system_details: DearSystem Details
+    sap_details: SAP Details
+    myob_account_right_details: Myob Account Right Details
+    order_type_settings: Order Type Settings
+    pvh_ftp_details: PVH FTP Details
+    pvh_future_order_delivery_day_out_of_range: Please select from 1 to 31
+    yes_key: 'Yes'
+    no_key: 'No'
+    export_product_title: Confirm Product Export
+    export_products_header: You will be emailed the product export once completed. Do you want to include inactive products?
+    quick_fill_for: QuickFill for %{assigned_to}
+    back_to_quick_fill_list: Back to QuickFill list
+    set_sequence:
+      success: Updating size and attribute sequence
+    incomplete_qfill_setup: QuickFill is currently unavailable, please contact your
+      agent, sales rep or brand.
+    shipping_methods: Shipping Methods
+    add_shipping_method: Add Another Shipping Method
+    remove_shipping_method: ' Remove'
+    netsuite_default_order_types: Netsuite Default Order Types
+    netsuite_payments: Netsuite Payments
+    create_qfill_for_retailer: Create QuickFill for Retailer
+    add_a_template: " Add A Template"
+    delete_all_templates: " Delete All Templates"
+    destroy: "%{state} deleted successfully."
+    destroy_all_templates: Templates deleted successfully.
+    duplicate_error: Sorry, you do not have access to %{brand_name} brand
+    new_template: New Template
+    edit_template: Edit Template
+    view: View
+    delete: Delete
+    export_pdf: Export PDF
+    invalid_buyplan: Invalid Buyplan!
+    valid_buyplan: All Items are Valid!
+    deleted_record: "%{state} has been deleted."
+    export_buyplan: Your export will be delivered by email to %{user_email}
+    invalid_emails: "%{invalid_emails} are invalid email addresses. Please provide
+      valid email addresses and try again."
+    send_email: Email will be delivered to given email addresses.
+    bpt_assigned: "%{type} successfully assigned to selected users"
+    havaianas_details: Havaianas Details
+    datapel_details: Datapel Details
+    denstock_details: Denstock Details
+    nixon_details: Nixon Details
+    cin7core_details: Cin7 Core Details
+    home_page_not_set_for_brand: Home page not set for %{brand}
+    brand_created: Brand created successfully.
+    brand_updated: Brand updated successfully.
+    brand_deleted: Brand deleted successfully.
+    ats_ftp_details: FTP ATS Details
+    arl_details: ARL Details
+    peoplevox_details: Peoplevox Details
+  buyplans:
+    delete_empty_buyplans: Delete all empty BuyPlans
+    create_qfill_for_retailer: Create QuickFill for Retailer
+    add_a_template: " Add A Template"
+    delete_all_templates: " Delete All Templates"
+    destroy: '%{state} deleted successfully.'
+    destroy_all_templates: Templates deleted successfully.
+    duplicate_error: Sorry, you do not have access to %{brand_name} brand
+    new_template: New Template
+    edit_template: Edit Template
+    view: View
+    delete: Delete
+    export_pdf: Export PDF
+    invalid_buyplan: Invalid Buyplan!
+    valid_buyplan: All Items are Valid!
+    deleted_record: '%{state} has been deleted.'
+    export_buyplan: Your export will be delivered by email to %{user_email}
+    invalid_emails: '%{invalid_emails} are invalid email addresses. Please provide
+      valid email addresses and try again.'
+    send_email: Email will be delivered to given email addresses.
+    bpt_assigned: '%{type} successfully assigned to selected users'
+    assign_template_warning: The retailers listed above don't have access to some products on this Buy Plan.
+      These products will be removed, do you wish to continue?
+    generate_media_packs:
+      email: Email
+      body1: You are about to generate a Media Pack containing all the relevant media assets for Order
+      body2: An email containing the link to the Media Pack will be sent to the email address (or addresses)
+        listed below. Please update the email address if you want the Media Pack to be sent to a different
+        email address or multiple email addresses (comma separated).
+    select_name: Select Name
+    reorder:
+      buyplan_created: Buyplan created successfully for this order
+      buyplan_already_exists: Buyplan already exists for this user
+    resend:
+      order_will_be_resent: Order for %{order_number} will be resent.
+      no_orders_selected: Select orders to resend.
+    wrong_reference: Wrong reference to Buyplan
+    bpt_already_exists: "BPT already exists for the release '%{release_name}' & '%{result}' users"
+    no_user_selected: No User selected to assign BPT
+    no_retailer_selected: No User selected to associate %{sm_type} Template
+    no_supplier_status_data: Unable to find order status data.
+    existing_qfill: This user has a pre-existing quickfill. Click continue to edit
+    new_qfill: Click continue to create a quickfill for this user
+  buyplan_items:
+    item_not_available_for_month: Item not available for that month
+    month_in_past: Quantities cannot be added for this month, this month is in the past
+    item_not_exists: Item doesn't exist, Please refresh!
+    enter_correct_value: Please correct the value.
+    item_already_exists: Item already exists
+    product_sold_out: This product is sold out
+    product_already_exist_in_bp: 'This product already exists in Buy plan named: %{buyplan}'
+    cannot_reorder_for_past_month: Item can't be reordered for past month %{month}
+    item_added_to_buyplan: 'This Item has been added to the Buy Plan named: %{name}'
+    no_items_provided: No item/quantities are provided reordering. Please try again or contact the administrator.
+    order_already_created: Order already created for this Buyplan.
+    entered_more_qty_than_available: You have entered more Qtys than are available.
+      Please check the blue Qty boxes and enter a less amount to submit your order.
+    order_qty_block: Item can only be ordered in multiples of %{order_qty_block_val}. Please update quantities in the blue boxes
+    qty_updated: Quantities updated successfully
+    could_not_update_bp: There was a problem updating the buyplan, Please reload the page and try again!
+    cannot_edit_buyplan: You are not able to edit Buyplan.
+  order_details:
+    brand_name: 'Brand Name:'
+    retailer: 'Retailer:'
+    user: 'User:'
+    salesperson: 'Salesperson:'
+    agent_rep: 'Agent/Rep:'
+    account_code: 'Account Code:'
+    order_number: 'Order Number:'
+    order_date: 'Order Date:'
+    purchase_order: 'Purchase Order#:'
+    confirmed_by: 'Confirmed By:'
+    billing_address: 'Billing Address:'
+    shipping_address: 'Shipping Address:'
+    delivery_instructions: 'Delivery Instructions:'
+    order_total: 'ORDER TOTAL:'
+    order_total_on_payment: 'ORIGINAL ORDER TOTAL'
+    number_of_items: 'NUMBER OF ITEMS:'
+    download_order: Download Order
+    download_barcodes: Download Barcodes
+    view_range: View Range
+    item_details:
+      sku: 'SKU:'
+      style: 'Style:'
+      status: 'Status:'
+      serial_no: 'Serial No.'
+      ea_rr: 'Ea. R/R:'
+      ws: 'W/S:'
+      rr: 'R/R:'
+      qty: 'Qty:'
+      total: 'Total:'
+    invoice:
+      original_total: Original Total
+      sub_total: Subtotal
+      category_discount: Category Discount
+      order_discount: Order Discount (%{discount}%)
+      total: TOTAL
+      category_discounts: Category Discounts
+      category: Category
+      original_price: Original Price
+      discount: Discount
+      discounted_amount: Discounted Amount
+      discountted_price: Discounted Price
+      pay_now_discount: "Pay now Discount"
+      postage_amount: "Freight"
+      postage_amount_month: Freight %{month}
+      total_excluding_tax: "Total (excluding tax)"
+      total_including_tax: "Total (including tax)"
+      amount_already_paid: "Amount Already Paid"
+      tax_amount: "Tax"
+    reorder:
+      buyplan_created: Buyplan created successfully for this order
+      buyplan_already_exists: Buyplan already exists for this user
+    resend:
+      order_will_be_resent: Order for %{order_number} will be resent.
+    wrong_reference: Wrong reference to Buyplan
+    bpt_already_exists: BPT already exists for the release '%{release_name}' & '%{result}'
+      users
+    no_user_selected: No User selected to assign BPT
+  supplier_api:
+    errors:
+      order_not_found:
+        code: 404
+        message: Order not found
+      brand_not_found:
+        code: 404
+        message: Brand not found
+      product_not_found:
+        code: 404
+        message: Product not found
+      invalid_data:
+        code: 422
+        message: Invalid Data
+      release_not_found:
+        code: 404
+        message: Release not found
+      invalid_supplier_status_data_json: Invalid JSON structure
+      not_integrated_to_api: Order Status not integrated to API
+    create:
+      success: "%{model_name} created successfully!"
+      failure: Unable to create %{model_name}. Please correct the errors and try again.
+    update:
+      success: "%{model_name} updated successfully!"
+      failure: Unable to update %{model_name}. Please correct the errors and try again.
+  api:
+    consignment_items:
+      no_brand_found: No brand found
+      no_data: No objects found.
+      invalid_data: Invalid data
+      invalid_retailer_code: Invalid retailer_code
+      invalid_integration_id: Invalid integration_id
+      serial_number_required: serial_number can't be blank
+      brand_not_accessible: Brand not accessible to given retailer!
+  AtsImport:
+    rows_should_greater: Number of rows should be greater than 1
+    brand_not_found: Brand not found
+    size_break_not_found: No Size Break found.
+  stock_models:
+    destroy_all_templates: Templates deleted successfully.
+    add_a_template: " Add A Template"
+    delete_all_templates: " Delete All Templates"
+    associate_smt: Updated retailers associated with this C&F Template
+    superfill_associate_smt: Updated retailers associated with this Superfill Template
+    assign_template: Assign %{sm_type} Template
+    associate_template: Associate Count & Fill Template
+    associate_superfill_template: Associate Superfill Template
+  stock_model_items:
+    size_and_attr_size_not_found: Size %{size}, Attribute Size %{attribute_size} not
+      found.
+    size_not_found: Size %{size} not found.
+    destroy: "%{state} deleted successfully."
+  test_order:
+    notice: Test order generated successfully. You will receive an email soon
+    file_name_prefix: TEST ORDER
+    full_order: FULL ORDER
+  consignment_stocktake:
+    error:
+      serial_number: Order not created. No serial numbers with 'Not Counted' status!
+      no_items_found: No consignment items found for given brand and retailer
+    success: Details of your consignment stocktake have been sent to your email
+  product_upload:
+    invalid_file: File is invalid. Only CSV file allowed.
+    imported: Products are being imported, an email will be sent to you once the import
+      is complete.
+    ready_to_upload: File is valid and ready for upload
+    validate_before_submitting: 'The file you are trying to upload contains errors.
+      Please validate the file before submitting. '
+    correct_errors: File contains invalid data. Please correct the errors.
+    key_data_update: Product Key Data Updated
+    state_ignore_warning: State column will be ignored because,
+      you do not have access to update state through DLS import
+    wrong_state: State should be within %{states}
+  size_sequence_upload:
+    import_sequence: Import Current Sequence
+    export_sequence: Export Current Sequence
+    import_file: Import File
+    save: Save Changes
+    map_fields: Select and Map Fields
+    invalid_mapping: Invalid mappings provided!!
+    missing_sizes: Missing Sizes %{sizes}
+    missing_attr_sizes: Missing AttributeSizes => %{attr_sizes}
+    invalid_sizes: Invalid Sizes %{sizes}
+    invalid_attr_sizes: Invalid AttributeSizes => %{attr_sizes}
+    duplicate_sizes: Duplicate Sizes %{sizes}
+    duplicate_attr_sizes: Duplicate AttributeSizes => %{attr_sizes}
+    ready_to_upload: File is valid and ready for upload
+    imported: Sizes/Attr Sizes are being imported, it will complete soon.
+    file: File
+    file_type: File Type
+    brand: Brand
+    map_size_with: Map Size With
+    map_attribute_size_with: Map Attribute Size With
+  size_break:
+    add: 'New size break is added in brand: %{brand_name}'
+  brandscope_api:
+    order_response: "Insert order response \n%{response_body} \n"
+    order_request:  "Insert order request \n%{request_body} \n"
+    success_msg: 'Successfully inserted order!'
+    log_msg: 'Successfully inserted order!'
+    error_msg: 'Unsuccessful. Please check log file for details'
+    error_ats_import: 'Unsuccessful. ATS_import check original file for details'
+    product_not_found: 'Some of the products were not uploaded. Please check log file for details'
+    invoice_success_msg: 'Invoice Created Successfully!'
+  havaianas_api:
+    order_response: "Insert order response \n%{response_body} \n"
+    order_request:  "Insert order request \n%{request_body} \n"
+    success_msg:     'Successfully inserted order!'
+    log_msg:        'Successfully inserted order!'
+    error_msg:      'Unsuccessful. Please check log file for details'
+    product_not_found: 'Some of the products were not uploaded. Please check log file for details'
+  product_orb360_images_upload:
+    invalid_file: "File is invalid. Only CSV file allowed."
+    imported: "Product's tag values are being updated, an email will be sent to you once the update is complete."
+    ready_to_upload: "File is valid and ready for upload"
+    validate_before_submitting: "The file you are trying to upload contains errors. Please validate the file before submitting. "
+    correct_errors: "File contains invalid data. Please correct the errors."
+  duplicate_fields:
+    import:
+      marked_as_inactivated: Marked as Inactivated
+      size_not_found: Size not found with for Brandscope Id %{id}
+    success: Check your email, the result csv will be sent to you.
+    mailer:
+      export_subject: 'Duplicate Fields Export Result for : %{brand_name}'
+      import_subject: 'Duplicate Fields Import Result for : %{brand_name}'
+  segment:
+    missing: 'No segment found with given name: - %{missing_segment}'
+  retailer_import:
+    missing_segment: 'No segment found with given brand: - %{brand_name} and name:
+      - %{missing_segment}'
+    invalid_currency: Invalid currency provided.
+  user:
+    send_welcome_mail: We've sent a welcome email to selected user’s email address.
+    already_confirmed: Email was already confirmed, please try signing in.
+    resend_login_details: We've sent a Login Details to selected user email address.
+    accept_term_and_conditions: Please accept the Terms and Conditions to continue.
+    invalid_username: This user does not exist. Please note that user names are case-sensitive. If you need assistance please contact admin@brandscope.com.au
+    not_registered: The username is already registered, please try signing in.
+    inactive_user: Sorry, this user is inactive.
+    mail_failure: Something went wrong, please contact Brandscope customer service
+      on admin@brandscope.com.au.
+    locale:
+      update:
+        success: Language changed successfully.
+        failure: Could not change language.
+    retailer_users:
+      failure: Please select either brand or retailer
+  address:
+    invalid_country: is not included in the list
+  report_criteria:
+    exported: Your request for export is successfully added.
+    saved: Report Criteria was successfully saved.
+    destroy: Report Format destroyed successfully.
+    atleast_one: atleast one should be selected
+  clear_ats:
+    request_submitted: Request to clear %{brand_name} ATS submitted successfully.
+    mail_subject: Clear ATS of %{brand_name}
+    mail_message: Request to Clear ATS for %{brand_name} Completed Successfully.
+  recalculate_product_status:
+    request_submitted: Request to Recalculate Products Status of %{brand_name} submitted
+      successfully.
+    mail_subject: Recalculate Products Status of %{brand_name}
+    mail_message: Request to Recalculate Product Status for %{brand_name} Completed
+      Successfully.
+  reports:
+    order_detail_report:
+      csv_send_message: Check your email, the order details csv will be sent to you.
+    brand_retailers_export:
+      more_retailers_for_delay: As retailers associated with selected brand are more,
+        we are sending the retailers export to your email in a short while.
+    brand_users_export:
+      more_users_for_delay: As users associated with selected brand are more, we are
+        sending the users export to your email in a short while.
+    top_products_by_release: Top products report will be sent to your email shortly.
+    sales_by_season: Sales by Season report will be sent to your email shortly.
+    monthly_order: Monthly order report will be sent to your email shortly.
+    seasonal_comparison: Seasonal comparison report will be sent to your email shortly.
+    order_detail: '%{type} Order detail report will be sent to your email shortly.'
+  DLS:
+    missing_headers: Missing Headers
+    category: is not in valid category list
+    invalid_months: "%{months} not present in DeliveryMonths of given Release"
+    invalid_month_format: "%{months} not valid (valid format ex JAN16 or JANUARY)"
+    invalid_name: contains invalid name
+    product_field: values for this SKU/Colour must all be the same
+    attribute_sequence: is Invalid
+    product:
+      cancelled: Cancelled product cannot be uploaded
+      not_found: CarryOver - This product is flagged as a carry-over, but no product
+        can be found with given SKU/Colour combination
+      exists: CarryOver - This product is NOT flagged as a carry-over, but there is
+        already a product with the SKU/Colour combination
+    size_break:
+      can_not_update_attribute_size: attribute_value can not be change for existing size %{size} and integration_id %{integration_id}
+      size_exists: Size - This product already has a size, Sizes cannot be blank for
+        this product.
+      duplicate_size: Size - Duplicate row with same SKU/ProductColourCode/Size already
+        exists
+      blank_size_exists: Size - This product already exists in system with a blank
+        size, cannot add more sizes.
+      not_found: This product is flagged as a carry-over, but no product can be found
+        with given SKU/Colour combination
+      exists: This product is NOT flagged as a carry-over, but there is already a
+        product with the SKU/Colour combination
+      size_min: Must be an Integer
+    size:
+      size_exists: This product already has a size, Sizes cannot be blank for this
+        product.
+      duplicate_size: Duplicate row with same SKU/ProductColourCode/Size already exists
+      blank_size_exists: This product already exists in system with a blank size,
+        cannot add more sizes.
+    product_release:
+      month_min: Must be an Integer
+      different_month_min: 'Product %{product_sku} already assigned with some month min value. Product must have only one month min value.'
+  ProductDlsFormat:
+    saved: Product Datasheet Format was added successfully.
+    updated: Product Datasheet Format updated successfully.
+    deleted: Product Datasheet Format deleted successfully.
+    copied: Product Datasheet Format Copied successfully.
+    invalid_file: Invalid file format, Valid file types(csv)
+    brand_missing: Brand not found
+  showroom:
+    login_as_label: Login As
+    summary: Summary
+    consignment: Consignment
+    my_brands: My Brands
+    consignment_request: Consignment Request
+  companies:
+    export_all_retailers: Export All Retailers
+    retailers_brands: Retailer's Brands
+    suppliers_brands: Supplier's Brands
+    agents_brands: Agent's Brands
+    company_profile: Company Profile
+    add_user: Add User
+    company_details: Company Details
+    default_release_settings: "Default Release Settings"
+    address: Address
+    retailer: Retailer
+    images: Images
+    export_users: Export Users
+    store_detail: Store Detail
+    business_detail: Business Detail
+    select_image: Select image
+    retailer_bulk_upload: Bulk Retailer Import
+    retailer_upload: Retailer Setup GUI/Import
+    retailer_user_upload: Retailer User Import
+    assign_releases_to_retailer: Assign Releases Import
+    assign_territories_to_retailer: Brand/Retailer Settings Import
+    assign_bulk_stripe_rules: Retailer Payment Rules Import
+    assign_segments_to_retailer: Assign Segments Import
+    payment_account_code: Bluechain Payer Identifier
+    select_headquarter: Select Headquarter
+    address_change_note: Changes made here are not reflected in your Brand's ERP system.
+      Please contact your Supplier to make corresponding address changes.
+    confirmation_email_settings_error: cannot be turned ON when 'Do Not Receive Confirmation
+      Emails' is enabled.
+    activate_company: Please activate Company Account
+    removing_retailers: 'Removing Retailers is in process...'
+    company_deleted: Company has been deleted.
+    company_activated: Company has been activated!
+    company_deactivated: Company has been deactivated!
+    file_too_large: File Size is too large (Max limit 1 MB).
+    no_file_chosen: No File Chosen.
+    import_complete: Import Complete. Please check the status.
+    addresses:
+      head_office_address: Head Office Address
+      billing_address: Billing Address
+      shipping_address: Shipping Address
+      default: default
+      alternate_1: alternate-1
+      alternate_2: alternate-2
+      alternate_3: alternate-3
+      alternate_4: alternate-4
+    default_superfill_mapping: "Default Superfill Mappings"
+  shipping_codes:
+    bulk_shipping_code_upload: Bulk Shipping Code Upload
+    invalid_csv: Invalid Header Name!
+    success_import: Successfull Imported
+    invalid_data: Partialy uploaded due to Invalid Retailer or Brand name!
+    assign_shipping_codes_retailer: Assign Shipping Codes to Retailer
+  order_form_import:
+    brand: "Brand"
+    release: "Release"
+    buyplan: "Buyplan"
+    retailer: "Retailer"
+  users:
+    retailer: Retailer
+    supplier: Supplier
+    agent: Agent
+    edit_email: Edit Email
+    resend_login_details: Resend Login Details
+    send_welcome_mail: Send Welcome Email
+    details: Details
+    password: Password
+    settings: Settings
+    profile_image: Profile Image
+    my_profile: My Profile
+    edit_user_profile: Edit User Profile
+    new_user_profile: New User Profile
+    login_as_user: Login As This User
+    brandscope_password_expired: "Your Brandscope password has expired.
+      A reset password link has been sent to your email address %{email}.
+      Please use the reset password link to set your new password and login to Brandscope.
+      If you no longer have access to your username's email address,
+      please contact our customer service team on +61 7 5508 2000 for further assistance."
+    activated: User has been activated!
+    deactivated: User has been deactivated!
+    current_password_incorrect: The current password you entered is incorrect, please try again.
+    new_password_must_be_different: New Password must be different from your old one. Please try again.
+    password_changed_successfully: Password Changed successfully.
+    password_and_confirmation_not_same: Password and Confirmation Password are not same.
+  datapel_api:
+    order_response: "Insert order response \n%{response_body} \n"
+    order_request: "Insert order request \n%{request_body} \n"
+    success_msg: Successfully inserted order!
+    log_msg: Successfully inserted order!
+    error_msg: Unsuccessful. Please check log file for details
+    product_not_found: Some of the products were not uploaded. Please check log file
+      for details
+  denstock_api:
+    order_response: "Insert order response \n%{response_body} \n"
+    order_request: "Insert order request \n%{request_body} \n"
+    success_msg: Successfully inserted order!
+    error_msg: Unsuccessful. Please check log file for details
+  nixon_api:
+    order_response: "\nInsert order response \n%{response} \n"
+    success_msg:    'Successfully inserted order!'
+    log_msg:        'Successfully inserted order!'
+  ftp_brand:
+    invalid_dir_name: FTP Directory Name has already been taken.
+    unable_to_create_dir: Unable to create %{dir_path}
+    directory_not_found: Directory not found.
+    update:
+      success: 'FTP Brand Updated Succefully'
+      failure: 'Could Not Update FTP Brand'
+
+  warehouse:
+    add_warehouse: Add Warehouse
+    warehouses: Warehouses
+    new_warehouse: New Warehouse
+    edit_warehouse: Edit Warehouse
+    warehouse_details: Warehouse Details
+    export_ats: Your export will be delivered by email to %{user_email}
+
+  callout:
+    callouts: Callouts
+    add_callout: Add Callout
+    new_callout: New Callout
+    edit_callout: Edit Callout
+    delete: Callout has been deleted
+    created: Callout created Successfully
+    updated: Callout updated Successfully
+    icon:
+      deleted: Icon Deleted Successfully
+      cannot_create: Cannot create callout with icon
+
+
+  releases:
+    add_release: Add Release
+    release: Release
+    delivery_months: Delivery Months
+    propagate: Propagate
+    add: Add
+    extend: Extend
+    remove: Remove
+    confirm_remove_delivery_month: 'Are you sure you want to delete %{month} from this release?
+      There are %{buyplan_count} BPs with products on them for this month.
+      All these products will be deleted.'
+    warn_last_delivery_month_removal: A release must have at least one delivery month available.
+      If you would like to make order submissions temporarily unavailable,
+      please set the release's status to InSeason - Idle
+    confirm_add_delivery_month: 'Are you sure you want to add %{month} to delivery months?
+      This operation will add %{month} to the Release only.'
+    confirm_propagate_delivery_month: 'Are you sure you want to propagate %{month} to all Products Releases of this Range?'
+    confirm_extend_delivery_month: 'Are you sure you want to add %{month} to release delivery months and related product releases?'
+    assign_retailers: Assign Retailers
+    product_dls: Export Product DLS
+    product_dls_import: Product DLS Import
+    product_prices: Export Product Prices DLS
+    product_resource_dls: Export Product Resource DLS
+    pdf_catalogue: Export PDF Catalogue
+    release_product_list: Release's Products
+    test_order_file: Generate Test Order File
+    order_details: Export BP/BPT/Order Details
+    sizewise_order_details: Export BP/BPT/Order Details (by size)
+    new: New
+    edit: Edit
+    release_details: Release Details
+    integration: Integration
+    media: Media
+    other_fields: Other Fields - Extras
+    dates: Dates
+    categories: Categories
+    integrated_to: Integrated To
+    release_codes: Release Codes
+    access_settings: Access Settings
+    email_settings: Email Settings
+    release_images: Release Images
+    price_bulk_upload: Price Bulk Upload
+    original_price_update_hint: Original price can be used for calculating future
+      discounts. Do not choose this option if you want to do a standard price update
+    test_order: Test Order
+    assigned_retailers: Retailers Assigned Successfully.
+    unassigned_retailers: Retailers Unassigned Successfully.
+    bulk_price_update: Original price can be used for calculating future discounts.
+      Do not choose this option if you want to do a standard price update
+    bulk_price_import_success: File Importing
+    bulk_price_import_failed: Invalid File
+    sentry_bulk_price_import_failed: Bulk Price Upload - Invalid File - %{error}
+    bulk_price_uploaded: Price is being imported, We'll update the log once complete.
+    incomplete_setup: Release is currently unavailable, please contact your agent
+      or brand.
+    export_catalogue: Check your email, catalogue will be sent to you.
+    export_ats: Export Release ATS
+    orders_present_for_draft: This release has associated orders, so it can't be deleted.
+    create_success: Release has been created.
+    create_fail: Release has not been created.
+    delete_release: The release and associated Buy Plans, QuickFills, Count & Fills
+      and Consignments will be deleted
+    status_change_error: Release Status can not be changed to Draft mode. Please Contact
+      Brandscope customer support.
+    update_success: Release has been updated.
+    update_fail: Release has not been updated.
+    netsuite_details: Netsuite Details (Do Not Modify)
+    tradegecko_details: TradeGecko Details
+    cin7rest_details: Cin7Rest Details
+    cin7rest_custom_fields: Cin7Rest Custom Fields
+    unleashed_details: Unleashed Details
+    apparelmagic_details: Apparelmagic Details
+    home_page_template: Home Page Template
+    priority: Priority
+    release_not_available: '%{release} is currently not available.'
+    auto_extend: "Auto Extend"
+    no_auto_extend_email: "Auto extend email receipts does not exist."
+    update:
+      invalid_release_error: 'Can not update the invalid release'
+      invalid_update_cond: 'Can not remove delivery months'
+    export_product_catalogue:
+      header: Export PDF Product Catalogue
+      exporting: Exporting...
+      required: This field is required
+      note: 'Note: If no Group By selected, all the products for %{release_name} release in catalogue order will be exported.'
+    tradegecko:
+      oe_status: Status
+      oe_packed_status: Packed Status
+      oe_warehouse: Order Warehouse
+      oe_tags: Tags
+    cin7rest:
+      oe_status: Stock Control
+      oe_warehouse: Branch ID
+      oe_field_1: Project Name
+    unleashed:
+      oe_warehouse: Warehouse Code
+    apparelmagic:
+      oe_status: Currency ID
+      oe_warehouse: Order Warehouse
+      oe_field_1: Department Number
+    request_deletion: Deleting release request submitted. This can take some time,
+      so this process will run in the background.
+    division_remove_error: Sorry, Division could not be removed as it's in use by
+      a product.
+    collection_remove_error: Sorry, Collection could not be removed as it's in use
+      by a product.
+    not_visible_to_retailers: Access to this release has currently been disabled
+    reorder:
+      success: "Products re-ordered successfully"
+    remove_unavailable: Remove functionality is currently unavailable.
+    export_products_header: Do you want to include inactive products on the DLS?
+
+  brand_templates:
+    preview: Preview
+    duplicate: Copy Template
+    publish: Publish
+    unpublish: Unpublish
+    delete: Delete
+    home_page_template:
+      created: Home Page Template has been successfully created.
+      not_created: Home Page Template has not been created.
+      deleted: Home Page Template has been deleted.
+      published: Home Page successfully published.
+      not_published: Home Page not published.
+      requested_copy: Requested template copy is being generated, please check your email for update.
+  resource_upload:
+    resource_upload: Resource Upload
+    imported: Resources imported successfully.
+  territories:
+    add_territory: Add Territory
+    retailer_to_territory: Assign Retailer to Territory
+    new_territory: New Territory
+    edit_territory: Edit Territory
+    change_active_flag_hint: Setting a Territory to inactive will remove retailer
+      access to the brand's releases. This will also delete all BP, BPT, QuickFill,
+      C&F Template, SMTBP and Consignments for the retailers on this Territory.
+    retailer_territory_updated: Territory for retailer has been updated
+    created: Territory has been created.
+    updated: Territory has been updated.
+    deleted: Territory has been deleted.
+    cannot_update_territory: Territory cannot be set to blank, delete existing buyplan first
+  products:
+    product_key_update: Product Key Update
+    product_releases: Product's Releases
+    product_search: Product Search
+    view_ats: View ATS
+    product_details: Product Details
+    product_release_details: Product Release Details
+    additional_info: Additional Info
+    display_colour_hint: This colour is for display purposes only
+    generic_colour_hint: This Generic Colour is used on the Range page for search
+      and filters features
+    categories: Categories
+    product_specifications_hint: 'Separate specifications with new line'
+    product_upload: Product Upload
+    update_product_key_data: Update Product Key Data
+    products_releases: Product's Releases
+    product_release_edit: Product Release Edit
+    product: Product
+    release: Release
+    product_release_details: Product Release Details
+    integration: Integration
+    pricing: Pricing and Order Minimums
+    catalog_order_hint: Numeric vales ONLY, No decimals
+    display_pricing: Display Pricing
+    wholesale_price_hint: This price is used to display the price (Must match W/S
+      Price on 'Size & Price' tab)
+    wholesale_range_hint: This range is used to display the range if not specified
+      Display Wholesale price is used
+    retail_price_hint: This price is used to display the price (Must match RRP Price
+      on 'Size & Price' tab)
+    product_upload_error_message: Products Data Upload is in progess. Please Submit
+      after some time
+    failed_destroy: Sorry, product is not deleted, please try in sometime  
+    product_is_in_use: Sorry, this product is in use by an Order
+    deleted_product: Product has been deleted
+    orb360_tag_value: This ORB360 Tag is used on the Range page for showing 360 degree images
+    description: Product specifications information. Separate specifications with new line
+    updated: Product updated successfully
+    image_cannot_be_blank: Image can't be blank
+    correct_the_value: Please correct the value.
+    enter_correct_value: Please enter correct value
+    successfully_saved: Successfully saved.
+    product_key:
+      product_exists_for_sku_colour_code: We have product exists with same sku and colour_code
+      updated: New Product Key updated successfully.
+      error1: New SKU/ New Colour Code %{errors}
+      error2: ', Product key data update in progress. Please refresh the page or check back soon.'
+    status_upload:
+      file_is_valid: File is valid and ready for upload
+      import_in_progress: The import is in progress, please try after some time
+      product_status_importing: Products status are being imported, an email will be sent to you once the import is complete.
+      file_has_errors_upload: The file you are trying to upload contains errors. Please validate the file before submitting.
+      file_has_errors_validate: The file you are trying to upload contains errors
+    change_status:
+      updating: Updating status.
+      import_in_progress: The import is in progress, please try after some time
+    pvh_ftp_details: PVH FTP Details
+    pre_order:
+      details_section: Pre-Order Details
+      default_message: This product can be ordered with a lead time of %{lead_time} days.
+      errors:
+        pre_order_lead_time_days: Must be greater than 30 days and less than 365 days
+        pre_order_message: Must be present if lead time days is greater than 0 (zero)
+        must_be_integer: Must be an Integer
+  product_release:
+    updated: Product Release has been successfully updated!
+    update_failed: Product Release has not been updated
+  home_page_template:
+    add_home_page_template: Add Homepage Template
+    new_home_page_template: New Homepage Template
+    previous_release: Previous Release
+    brand_homepage: Brand Homepage
+    next_release: Next Release
+  account_and_shipping_code:
+    account_codes: Account and Shipping Codes
+    shipping_codes: Brand/Retailer Settings
+    payment_settings: Retailer Payment Settings
+    account_code_updated: Account Code Updated Successfully!
+    shipping_code_updated: Shipping Code Updated Successfully!
+    save_error: "Please correct the value"
+  order_minimums:
+    order_minimum_updated: Order Minimum Updated Successfully
+  events:
+    upload_ats: Upload ATS
+    upload_prices: Upload Prices
+    consignment_events: Consignment Events
+    product_price_upload_events: Product Price Upload Events
+    ats_upload: ATS Upload
+    comment_update:
+      success: Admin Comment Saved Successfully.
+      error: Please correct the value.
+    ats:
+      importing: Ats is being imported, an email will be sent to you once the import is complete.
+  admin_products:
+    product_imports: Product Imports
+    upload_products: Upload Products
+    product_status_uploads: Product Status Uploads
+    upload_products_status: Upload Product's Status
+    status_upload: Status Upload
+    resource_uploads: Resource Uploads
+    upload_resources: Upload Resources
+    product_key_data: Product Key Data Updates
+    upload_updates: Upload Updates
+  product_keys_update:
+    product_key_update_rules: Product Key Update Rules
+    product_attributes_update: Update Product Attributes
+    product_sizes_attributes: Update Product Sizes Attributes
+    rules:
+      sku_colourcode_rule: SKU and ColourCode can be updated at the same time.
+      integration_id_rule: Integration_ID needs to be updated on its own.
+      size_attribute_rule: Size and Attribute Size can be updated at the same time.
+      adding_new_attribute_rule: Attribute Size can only be updated. Adding a new
+        Attribute Size needs to be completed via DLS.
+      bulk_update_key_rule: If you would like to bulk update multiple Product Keys,
+        please download the
+      product_key_dls_template: Product Key DLS template
+  price_book:
+    add_new_price_book: Add New Price Book
+    import_items: Import Items
+    import_items_by_discount_category: Import Items by Discount Category
+    delete_price_book: Delete Price Book
+    delete_item: Delete Item
+    delete_selected_items: Delete Selected Item/s
+    template_exports: Template Exports
+    template_option: You have the option here of either
+    exporting_template_from_existing_price_book: Exporting a template filled with
+      products from existing Price Book
+    exporting_chosen_template: Exporting a template filled with products from your
+      chosen release.
+    exporting_blank_template: Exporting a blank template which you can fill manually.
+    export: Export
+    blank_template: Export Blank Template
+    create_price_book: Create Price Book
+    submit_price_book: Submit Price Book
+    please_wait: Please wait...
+    import_tooltip: Do not update existing items and import new ones
+    update_or_import_tooltip: Update existing items and import new ones
+    discount_category_form:
+      discount_category: Discount Category
+      wholesale_price: Wholesale Price
+      display_wholesale_price: Display Wholesale Price
+      release_status: Release Status
+      release_select_default: All Releases
+  price_book_assignment:
+    upload_file: Upload File
+    upload_file_hint: A data load sheet file to assign price books
+    bulk_assign: Bulk Assign
+  discount_scheme:
+    new_discount_scheme: "Add New Discount Scheme"
+    import_rules: "Import Discount Scheme Rules"
+    new_discount_rule: "Add New Discount Rule"
+    delete_discount_scheme: "Delete Discount Scheme"
+    delete_discount_rule: "Delete Discount Rule"
+    create_discount_scheme: "Create Discount Scheme"
+    create_discount_scheme_rule: "Create Discount Scheme Rule"
+    template_exports: Template Exports
+    template_option: You have the option here of either
+    exporting_template_from_existing_discount_scheme: "Exporting a template filled with products from existing Discount Scheme"
+    exporting_blank_template: "Exporting a blank template which you can fill manually."
+    export: "Export"
+    blank_template: "Export Blank Template"
+    submit_discount_scheme: Save Discount Scheme
+    please_wait: Please wait...
+  postage_scheme:
+    new_postage_scheme: "Add New Postage Scheme"
+    new_postage_rule: "Add New Postage Rule"
+    delete_postage_scheme: "Delete Postage Scheme"
+    delete_postage_rule: "Delete Postage Rule"
+    create_postage_scheme: "Create Postage Scheme"
+    save_postage_scheme: Save Postage Scheme
+    create_postage_scheme_rule: "Create Postage Scheme Rule"
+    exporting_template_from_existing_discount_scheme: "Exporting a template filled with products from existing Discount Scheme"
+    exporting_blank_template: "Exporting a blank template which you can fill manually."
+    export: "Export"
+    blank_template: "Export Blank Template"
+    created: Postage Scheme Created Successfully.
+    updated: Postage Scheme updated successfully.
+    deleted: Postage Scheme deleted successfully.
+    assigned: Postage Scheme Assigned Successfully.
+    unassigned: Postage Scheme Unassigned Successfully.
+  postage_scheme_rule:
+    created: "Postage Scheme Rule created successfully."
+    updated: "Postage Scheme Rule updated successfully."
+    deleted: "Postage Scheme Rule deleted successfully."
+  postage_scheme_assignment:
+    upload_file: "Upload File"
+    upload_file_hint: "A data load sheet file to assign postage schemes"
+    bulk_assign: "Bulk Assign"
+    bulk_assigned: "Successfully assigned discount scheme to %{count} retailers"
+  discount_scheme_rule:
+    export_template_from_existing_discount_scheme_rules: Exporting a template filled with rules from your existing Discount Scheme.
+    rule_already_exists: Discount scheme rule already exists on this discount category
+      and release type
+  discount_scheme_assignment:
+    upload_file: Upload File
+    upload_file_hint: A data load sheet file to assign discount schemes
+    bulk_assign: Bulk Assign
+  bulk_assign_errors:
+    file_error: "File not found or could not be opened."
+    invalid_file: "File is not a valid CSV."
+    invalid_headers: "File has some invalid headers - %{headers}"
+    missing_headers: "File has some missing headers - %{headers}"
+    validation_errors:
+      blank_brand: Brand must be present
+      brand_not_found: Brand does not exists
+      user_cannot_access_brand: User does not have access to this Brand
+      blank_resource: '%{resource} must be present'
+      resource_not_found: '%{resource} does not exist for brand'
+      blank_company_code_or_account_code: CompanyCode or AccountCode must be present
+      account_code_not_found: AccountCode does not exist for given Brand
+      retailer_not_found_using: Retailer not found using given %{code}
+      retailer_cannot_access_brand: Retailer does not have access to the Brand
+
+  update_categories:
+    brandscope_hierarchy_categories: Brandscope Hierarchy Categories
+    hierarchy_category: Hierarchy Category
+    new_category: New Category
+    edit_category: Edit Category
+    transfer_products: Transfer products
+    move_products_under: Move products under
+    level: Level
+    level_3: Level 3
+    created: Categories have been created successfully
+    updated: Category has been updated.
+    deleted: Category has been deleted
+    already_exists: '%{categories} Categories already exist'
+    no_products_under_category: There are no products under this category
+    category_contains_products: This category contains products. Kindly transfer these products to another category before deletion.
+    transfer_successful: '%{old_category} products have been successfully updated with new category %{new_category}'
+  order_csvs:
+    order_csv_mapping: Order Csv Mapping
+    add_order_csv_mapping: Add Order Csv Mapping
+    order_csv: Order Csv
+    copy_order_csv: Copy Order Csv
+    order_integration_mapping: Order File Mapping
+    csv_file_details: Csv File Details
+    csv_header_mappings: Csv Header Mappings
+    header: Header
+    datatype: DataType
+    mappingto: MappingTo
+    custom_row_data_type: Custom Row DataType
+    custom_row_mapping_to: Custom Row MappingTo
+    only_first_row: Only First Row
+    length: Length
+    right_aligned: Right Aligned?
+    csv_mapping_help: Order Csv Mapping Help
+    symbols: Symbols
+    methods: Methods
+    constant: Constant
+    constant_value: Any Constant value including empty.
+    constant_example: 'Example : BRANDSCOPE.'
+    calculation: Calculation
+    math_calculation: Simple mathematical calculations.
+    ltr_operations: Operations are performed left to right not priority wise.
+    calculation_example: 'Example => constant: 2 + constant: 4 * constant: 5'
+    calculation_result: Result => 40 not 22.
+    calculation_methods: You can also able to use some methods in calculations.
+    method_types: That methods are => Item Quantity, Item Price, Items Total Amount.
+    combination: Combination
+    combine_multiple_fields: Used to combine multiple fields i.e symbols, methods
+      or constants.
+    connectors_for_combination: You can use four connectors to combine fields
+    connector_types: That connectors are => underscore, comma, dash, plus.
+    combination_example: 'Example => method: Brand Name _ method: Order Number'
+    combination_result: Result => Volcom_12345
+    plus_for_combination: If you want to connect two fields without any connector
+      use plus(+) symbol.
+    space_method: If you want to connect two fields with space then use space method.
+    space_method_example: 'Example => method:Brand Name + method: Space + method:
+      Order Number'
+    space_method_result: Result => Volcom 1234
+    date: Date
+    date_formats: Various Date formats for Order Date, Delivery Date, Custom Delivery
+      Date, and Cancel Date.
+    date_type_format: Textfield value = Order Date(format) or Delivery Date(format)
+      or Custom Delivery Date(format) or Cancel Date(format)
+    format_examples: Format Examples.
+    date_format_hint: Example => Suppose order date = 01/01/2016.
+    date_format_hint_one: dd/mm/yy      => 01/01/16
+    date_format_hint_two: dd/mm/yyyy    => 01/01/2016
+    date_format_hint_three: dd mmm yy     => 01 Jan 16
+    date_format_hint_four: dd MMM yyyy   => 01 JAN 2016
+    date_format_hint_five: dd mmmm yy    => 01 January 16
+    date_format_hint_six: DD MMMM yy    => 01 JANUARY 16
+    sequence_format: You can use dd, mm, yy in any sequence.
+    sequence_format_example: Example =>
+    sequence_format_hint_one: yy/mm/dd      => 16/01/01
+    sequence_format_hint_two: mm/dd/yy      => 01/01/2016
+    delimeter_format: You can use any delimeter in date.
+    delimeter_format_example: Example =>
+    delimeter_format_hint_one: mm-dd-yy      => 01-01-16
+    delimeter_format_hint_two: mm#dd#yy      => 01#01#16
+    delimeter_format_hint_three: mm.dd.yy      => 01.01.16
+    dd_mm_yy_format: You can use only one or two in dd,mm,yy
+    dd_mm_yy_format_example: Example =>
+    mm_format_hint_one: MMM => JAN
+    mm_format_hint_two: MMMM => JANUARY
+    symbol_description: Symbol Description
+    method_description: Method Description
+    split_monthly_without_suffix: Split monthly without suffix ?
+    independent_header_row: Independent Header Line?
+    footer_line_content: Footer Line Content
+    first_line_content: First Line Content
+  product_dls_mapping:
+    add_product_dls_mapping: Add Product DLS Mapping
+    product_dls_header_mapping: Product DLS Header Mapping
+    dls_mapping: Product DLS Mapping
+    copy_product_dls_format: Copy Product Dls Format
+    header: Header
+    mappingto: Mapping To
+    defaultto: Default To
+    is_active: Is Active ?
+  consignment:
+    add_consignment: Add Consignment
+    consignment_sale: Consignment Sale
+    show_sold_items: Show Sold Items
+    instructions_for_sold_items: 'INSTRUCTIONS: Select sold items and then Submit
+      Order.'
+    consignment_stocktake: Consignment Stocktake
+    brand: Brand
+    retailer: Retailer
+    items_in_stock: 'INSTRUCTIONS: Select items in stock and then Reconcile.'
+    stocktake_report: Stocktake Report
+    brand_name: Brand Name
+    retailer_name: Retailer Name
+    note: 'Note: Items with status ''Not Counted'' will be invoiced.'
+    item_status: Above list contains items with status 'Sold' and/or 'No Serial Match'.
+      Please check.
+    retailer_error_msg: There are no available releases
+    not_found: No Consignment Products Found
+  orders:
+    resend_order: Resend Order
+    delivery_months: Delivery Months
+    supplier_status_updated: Order status Updated Successfully!
+    temporary_order_number: Temporary Order Number
+    temporary_order_number_msg: ' (Temporary Order Number: %{temporary_order_number})'
+    order_status: Order Status
+  ftp_setup:
+    ftp_users: FTP Accounts
+    add_ftp_user: Add Ftp User
+    new_ftp_user: New FTP User
+    edit_ftp_user: Edit FTP User
+    for_ftp_user: For Ftp User
+    ftp_brands: Add Brands / Suppliers
+    add_brand: Add Brand
+    add_supplier: Add Supplier
+    new_ftp_brand: New FTP Brand
+    edit_ftp_brand: Edit FTP Brand
+    new_ftp_supplier: New FTP Supplier
+    edit_ftp_supplier: Edit FTP Supplier
+    bs_ftp_user_host: "%{ftp_type}.brandscope.com"
+    created: Ftp user created successfully.
+    errors:
+      ftp_user_setup_failed: Unable to create ftp user
+      invalid_host: Invalid host
+      ftp_login_failed: Ftp login failed
+      user_already_exists: "%{user} already exists"
+      invalid_public_key: Invalid Public Key
+      cannot_delete_user: 'Could not delete the user. Reason: %{message}'
+      password_complexity: 'Must be minimum 8 characters long. Must contain at least
+        one lower case, upper case, digit, special character. Allowed special characters
+        are / ^ ( ) _ - + = . , : ; " '' ~ ` # @ $ ! % * ? &'
+  report_criterias:
+    export_order_range: Export Order Total Range
+    export: Export
+  scheduled_reports:
+    scheduled_reports_list: Scheduled Reports List
+    add_new: Add New
+    add_scheduled_reports: Add Scheduled Reports
+    edit_scheduled_reports: Edit Scheduled Reports
+  resources:
+    resources: Resources
+  stock_model:
+    new_template: New Template
+    edit_template: Edit Template
+  consignable_retailers:
+    updates: Consignable Retailers updated successfully.
+  security_challenge:
+    title: Confirm Your Action
+    confirmation_hint: To confirm & proceed, please type (%{security_action}) in input
+      below.
+    input_placeholder: Type Above Security Text
+    segment_alert: This will unassign (%{row_count}) retailer(s) from the segments (%{attribute_name})
+      and delete any products with these segments from all Buy Plan types. Are you sure
+      you want to proceed?
+    assign_segments_alert: This will assign (%{retailer_count}) retailers to segments (%{segments}). Are you sure you want to proceed?
+    add_group_users_hint: This %{group_name} group contains %{group_users} retailers %{assigned} of which have already assigned to Buyplans of this release. This template will only be assigned to the %{available_group_users} Retailers.
+    delete_order_alert: This will delete selected order %{attribute_name}. Are you
+      sure you want to remove?
+    delete_product_alert: This will delete (%{attribute_name}) and delete this products
+      from all Buy Plan types, Discount Schemes and Price Books. Are you sure you
+      want to delete?
+    delete_buyplan_alert: This operation will delete (%{attribute_name}) BuyPlans. Are you sure
+      you want to proceed with this action?
+    delete_all_products_alert: This operation will delete %{attribute_name}  Products from the release are you sure you want proceed this action? To confirm & proceed, please type the number of Products %{attribute_name} in input below.  
+    beta_feature_alert: This will open this feature for all users!
+    deactivate_brand_alert: Deactivating the brand will remove all its integration
+      settings, retailers, active buyplans, account codes, and other related configurations.
+      Are you sure?
+    deactivate_user_alert: Are you sure you want to deactivate this user?
+    deactivate_supplier_alert: Are you sure you want to deactivate this supplier?
+    delete_buyplans_alert: This Operation will delete %{row_count} Buyplans, are you sure you want to proceed this action?
+    delete_buyplans_hint: To confirm & proceed, please type the number of buyplans %{row_count} in input
+      below.
+    bulk_delete_images_alert: This Operation will delete multiple number of images, are you sure you want to proceed this action?
+    delete_callout_alert: This will unassign (%{attribute_name}) callout from products and delete the callout.
+      Are you sure you want to proceed?
+  order_validation:
+    parsing_error: Error while parsing response
+    brightpearl_api_limit_reach: BrightPearl Response limit reached. Please try again
+      after a few minutes.
+    quantity: Please enter at least 1 qty to submit this order
+    month: Qtys must be entered in current or future delivery months to submit this
+      order
+    order_minimums: You cannot submit this order as minimum order amount criteria
+      not met
+    order_minimums_by_month: You cannot submit this order as minimum order amount by month criteria not met
+    buyplan_is_order: Buyplan should not be in order state
+    release_inseason_idle: Release should not be in inseason idle state
+    release_offline: Release should not be in offline state
+    no_retailer_address: Retailer should have addresses
+    no_retailer_account_code: Retailer should have account code
+    product_not_selected: At least one product should be selected
+    warn_past_month_qty: Quantities for past months will be set to ZERO
+    brightpearl:
+      limit_reached: BrightPearl Response limit reached. Please try again after a
+        few minutes.
+      no_price_list: PriceList should setup for %{acc_code} in BrightPearl.
+    sales_person_not_assigned: Salesperson should be assigned
+    missing_details: "%{brand_name}% cannot provide Financial Detail. API Error."
+    brightpearl_shipping_address: "Shipping Address must be present."
+    deposit_amount: "Deposit Amount should be between %{min} and %{max}"
+    alread_processed_order: "Already submitted as an order, you will receive the order details shortly."
+    ats_quantity_validation_failed: "Entered more Qtys than available"
+    select_shipping_address: Select a shipping address
+    incomplete_custom_shipping_address: Incomplete custom shipping address not allowed
+    special_characters_not_allowed: Special characters (!, |, comma) are not allowed in address line 1 and address line 2
+    order_qty_block: "Quantity should be multiple of %{order_qty_block}"
+    size_min_qty: "Minimum order quantity of %{size_min_qty}"
+    min_order_qty_for_month: "Minimum order quantity of %{min_order_qty_for_month} for the month"
+
+  load_buyplan:
+    territory_or_warehouse_updation_failed: "Error while updating territory or warehouse on buyplan"
+    retailer_not_in_terry: Retailer does not belong to brand's territory
+    creation_failed: An unknown error occured while creating the Buy Plan.
+    import_in_progress: BuyPlan import is in-progress. Please try again later.
+
+  registration:
+    success: Thank you! We will be in touch shortly to confirm your account details
+      and complete your registration. Please feel free to contact us if you have any
+      questions.
+  select_deselect_products:
+    max_selectable_products: More than 150 products cannot be added to your Buy Plan.
+      Please refine your filters to add multiple products.
+    max_removable_products: More than 150 products cannot be removed from your Buy
+      Plan. Please refine your filters to remove multiple products.
+    no_products_found: No products were added to Buy Plan as all filtered products
+      are Sold Out.
+    buyplan_items_already_exists: Item already exists on Buy Plan
+    import_failed: We experienced an issue adding your products to the Buy Plan. We
+      are aware of this issue and will look into it soon.
+    import_success: "%{product_count} Products successfully added to Buy Plan"
+    buyplan_items_deleted: "%{product_count} Products successfully deleted from Buy
+      Plan"
+    buyplan_items_not_selected: No Buyplan Items found for deletion
+    deletion_failed: We experienced an issue deselecting your products from the Buy
+      Plan. We are aware of this issue and will look into it soon.
+  beta_features:
+    update:
+      notice: Record was updated successfully.
+  update_sales_person:
+    success: Salesperson updated successfully.
+    cannot_assign_user_as_sales_person: Cannot assign user with ID %{user_id} as salesperson.
+  companies_territories:
+    order_approval_rule_updated: Order Approval Rule Updated Successfully.
+    qf_order_approval_rule_updated: QF Order Approval Rule Updated Successfully.
+    price_rule_message: At the request of %{brand}. All orders with a total below %{amount}
+      must be approved by Agent/Sales rep. You may still make modifications
+      until approved.
+    always_rule_message: At the request of %{brand}, this order will need to be approved by your Sales Representative
+      after submission. You may still make modifications until approved.
+    never_rule_message: Orders do not need approval from Agent / Salesrep.
+    bulk_import_success: Bulk Import Complete. Please check the status.
+    errors:
+      order_approval_rule: Invalid order approval rule value. Must be 'Always' or
+        'Never' or a Whole Number
+  approve_decline_order:
+    messages:
+      submitted_for_approval: Order has been submitted for approval.
+      order_declined: Order has been declined.
+    errors:
+      not_authorized_to_approve: You are not authorized to approve this order.
+      not_authorized_to_decline: You are not authorized to decline this order.
+      cannot_decline: Order cannot be declined because it is not awaiting for approval.
+      message_not_provided: Please provide a message for the Retailer.
+  cin7_brand:
+    errors:
+      invalid_character_or_length: 'Invalid characters or length of attribute separator.
+        Allowed characters are / \ : - |'
+  product_ats:
+    invalid_quantity: Quantity must be greater than 0
+    last_updated_at: Last Updated At
+    last_imported_at: Last Imported At
+    load_all_ats: Load ALL ATS
+    load_atonce_only: Load AtOnce ATS Only
+    load_future_only: Load Future ATS Only
+
+  submit_order:
+    buyplan_processing_failed: Couldn't process Buy Plan. Please contact Brandscope
+      Admin.
+    brand_access_denied: Sorry, your Buy Plan could not be submitted. You no longer
+      have access to the brand.
+    order_details_not_saved: Couldn't save Order Details. Please contact Brandscope
+      Admin.
+    order_address_not_saved: Couldn't save Order Address. Please contact Brandscope
+      Admin.
+    convert_to_buyplan_failed: Unknown error occured while processing the count & fill.
+    cnf_sentry_message: 'StockModel Order Post Processing failed - stock_model_id: %{stock_model_id}, buyplan_id: %{buyplan_id}'
+  media_pack_assets:
+    assign_links:
+      placeholders:
+        description: 'For example, Youtube Link'
+        value: 'For example, https://www.youtube.com/'
+      labels:
+        add_new_link: Add New Link
+    create:
+      links: Please provide one or more links. Link's can't be blank
+    supplier_not_found: No suppliers Found.
+  product_asset_import:
+    model_mapping_failure: Invalid Records to import!!
+    temporary_table_import_failure: Invalid Attributes while import!!
+    brand_not_found: Brand not present while import!!
+    url_or_filename_mapping: URL and/or filename must be present.
+    success: Product Images are being imported, an email with the status will be sent to you once the import is complete
+    bulk_delete_request_submitted: Request to bulk delete Product Images is submitted. An email with the status will be sent to you once the request is processed.
+  limit_search_criteria: More than 1000 records found, please optimise your search
+    criteria.
+  brands_menu:
+    homepage: Homepage
+    quick_fill: QuickFill
+    indent_releases: Shop Prebook
+    inseason_releases: Shop Inseason
+    count_n_fills: Shop Count & Fills
+    consignments: Consignments
+
+  order_status_csv:
+    heading: Order Status File Mapping
+    heading_with_name: Order Status File Mapping - %{name}
+    copy: Copy Order Status Csv - %{type} - %{name}
+    title: Order Status Csv
+    new: Add New Order Status Csv
+    file_hint: Only CSV allowed
+    wrong_datatype: Wrong DataType for %{header}
+    missing_headers: Missing headers %{headers}
+    missing_mappings: Missing mappings for %{headers}
+    invalid_mappings: Invalid mappings %{mappings}
+    invalid_file: File is invalid or corrupt. Valid file types(csv)
+    empty_file: File is invalid. It has no headers.
+    record_already_exist: Order Status CSV already exist.
+    select_record: Select Brand/Supplier first.
+    created: Order Status Csv created successfully.
+    updated: Order Status Csv updated successfully.
+    copied: Order Status Csv copied successfully.
+    mapping_not_found: Order Status Csv with ID `%{mapping_id}` mapping not found
+    mappings:
+      header: Header
+      mapping_to: MappingTo
+      data_type: DataType
+
+  order_status:
+    file_not_found: CSV file not found
+    invalid_file: File is invalid or corrupt.
+    invalid_params: "%{params} must be present in params hash"
+    event_log_not_found: Couldn't find event log with ID `%{event_log_id}`
+    mapping_not_found: Order Status Csv mapping not found
+    generate_mapping_hash_failed: Could not generate mapping hash
+    missing_headers: Missing headers %{headers}
+    conversion_failed: CSV to JSON conversion failed
+    success_log_message: 'LoadTime: %{load_time}, Imported: %{success_count}, Failed:
+      %{failed_count}'
+    failed_log_message: Failed to update order status
+    updated: Updated
+    order_not_found: Brandscope order not found
+    no_status_data: Nothing to show :(
+    brand_not_integrated_to_ftp: Order Status update is not integrated to FTP
+
+  order_response_csv:
+    heading: Order Response File Mapping
+    heading_with_name: Order Response File Mapping - %{name}
+    copy: Copy Order Response Csv - %{type} - %{name}
+    title: Order Response Csv
+    new: Add New Order Response Csv
+    file_hint: Only CSV allowed
+    wrong_datatype: Wrong DataType for %{header}
+    missing_headers: Missing headers %{headers}
+    missing_mappings: Missing mappings for %{headers}
+    invalid_mappings: Invalid mappings %{mappings}
+    invalid_file: File is invalid or corrupt. Valid file types(csv)
+    empty_file: File is invalid. It has no headers.
+    record_already_exist: Order Response CSV already exist.
+    select_record: Select Brand/Supplier first.
+    created: Order Response Csv created successfully.
+    updated: Order Response Csv updated successfully.
+    copied: Order Response Csv copied successfully.
+    mapping_not_found: Order Response Csv with ID `%{mapping_id}` mapping not found
+    invalid_config: Invalid mapping configuration. Check order response file mapping.
+    enable_update_order_status: "'Update Order Status' must enabled if monthly response is enabled."
+    cannot_be_disabled: Either 'Update Order Status' or 'Update Supplier Reference' must be enabled.
+    mappings:
+      header: Header
+      mapping_to: MappingTo
+      data_type: DataType
+
+  price_update:
+    file_not_found: CSV file not found
+    invalid_file: File is invalid or corrupt.
+    invalid_params: "%{params} must be present in params hash"
+    event_log_not_found: Couldn't find event log with ID `%{event_log_id}`
+    mapping_not_found: Price Update Csv mapping not found
+    generate_mapping_hash_failed: Could not generate mapping hash
+    missing_headers: Missing headers %{headers}
+    conversion_failed: CSV to JSON conversion failed
+    success_log_message: "LoadTime: %{load_time}, Imported: %{success_count}, Failed:
+      %{failed_count}"
+    failed_log_message: Failed to update price
+    updated: Updated
+    no_status_data: Nothing to show :(
+    invalid_currency: Provided currency does not exists for any of the releases associated with given integration id
+    invalid_integration_id: Invalid IntegrationID
+    failed_update: Failed for %{release_name} Release %{error_msg} |
+
+  sftpgo:
+    errors:
+      invalid_config: 'Invalid config: %{message}'
+      missing_params: Missing base_url or admin_username or admin_password
+      undesired_response: 'Undesired response from operation: %{message}'
+
+  stripe:
+    label:
+      account: "Account Dashboard"
+      connect: "Connect to Stripe"
+      onboard: "Onboarding Process"
+      payments: "Payments"
+    button:
+      connect: "Connect to Stripe"
+      login: "Login to Stripe Dashboard"
+    invalid_connected_account: "Supplier must have a Connected Stripe Account to accept stripe payments."
+    invalid_pay_now: "You cannot enable pay now only without activating stripe payments."
+    invalid_discount: "Please provide Discount percentage on pay now and Discount value must be between 0 and %{value}"
+    invalid_discount_value: "Discount % value must be between 0 and %{value}"
+    missing_tax_rate: "Please add tax rates"
+    account_details: "Stripe Account"
+    payment_processed: "Payment request submitted successfully."
+    payment_failed: "There was an error while trying to make payment by stripe, Please try again after sometime."
+    valid_tax_countries: "Allowed Stripe Tax Countries are %{value}"
+    valid_tax_types: "Allowed Stripe Tax Types are %{value}"
+    invalid_tax_rate_id: "Please correct Stripe Tax region and Stripe Tax type combination"
+    accept_payment:
+      disabled: "Brand is not allowed to accept payments"
+    in_progress:
+      buyplan:
+        edit: "You cannot edit this buyplan since payment is in progress"
+        view: "You cannot view this buyplan since payment is in progress"
+      cnf:
+        edit: You cannot edit this C&F since payment is in progress
+        view: You cannot view this C&F since payment is in progress
+    order_failed:
+      buyplan:
+        edit: You cannot edit this because payment was succesful and order failed. Please contact admin.
+        view: You cannot view this because payment was succesful and order failed. Please contact admin.
+    failure_reason: Payment Failure Reason
+    retry_payment: Retry Payment
+    webhook:
+      invalid_request_body: 'Webhook error while parsing basic request - %{message}'
+      invalid_signature: 'Webhook signature verification failed - %{message}'
+      event_processing_failed: 'Webook processing failed: %{id}'
+      invalid_event: 'Unhandled event type: %{type}'
+      success: 'Webhook Event Handled Successfully!'
+      payment_not_found: "Couldn't find payment with given id: %{id}"
+      payment_failed: "Payment was not successfull"
+    payment_in_progress: "You cannot edit this %{type} since payment is in progress."
+    account:
+      created: Stripe Connected Account Created Successfully.
+      failed: Stripe Connected Account Onboarding process is not complete. Please try again.
+  integration_service:
+    errors:
+      invalid_sale_data_object: Invalid sale_data object
+      invalid_api_response: Invalid API response => %{error}
+      missing_body: Missing body in the API response
+  order_form:
+    import:
+      invalid_extension_error: Only .xlsx files are allowed
+      invalid_format: There is an issue with the formatting of the XLSX file. Please check & correct the XLSX file/format.
+      malformed_error: Buyplan no longer exists or there is an issue with the formatting of the XLSX file. Please export the new order form & do not modify the file except quantity.
+      extinct_buyplan: Buyplan no longer exists.
+      file_unchanged_error: File is unchanged. Please update quantities and import again.
+      invalid_missing_headers: File has some invalid/missing headers - %{headers}
+      success: The order form has been uploaded successfully, you will be notified via email
+      invalid_integration_id: Integration type must be barcode/Sku and Colour code combination.
+      invalid_quantity: Quantity can't be blank/negative/zero
+      row_count_error: Row count must be greater than 0
+      publisher_presence: Publisher must be present
+    export:
+      ready_to_upload: File is valid and ready for upload
+      export_order_form: Your order form is exporting. You will receive an email with the order form soon.
+      generate: Email Order Form
+      import: Import Order Form
+      download_order_form: Export Order Form
+      invalid_quantity: Quantity must be a number greater than or equal to 0
+      custom_note_hint: Enter any text here that you would like to include in Email sent to user
+  barcode_scanning:
+    params_missing: Missing required parameter "barcode" or "release_id"
+    size_break:
+      not_found: Could not find a sizebreak matching given barcode - please check the barcode and try again
+    import:
+      row_count_error: Row count must be greater than 0
+      success: Import is in progress, you will be notified via email
+  retailer_ats_upload:
+    superfill: Superfill
+    select_retailer: Select Retailer
+    select_user: Select User
+    select_brands: Select Brands
+    success: Superfill uploaded successfully, you will be notified via email
+    row_count: Rows should be more than one.
+    invalid_header_mapping: Invalid header mapping provided
+    publisher_presence: Publisher must be present
+    mandatory_headers: Quantity and Mapping of Integration Fields must be present
+    invalid_integration_id: Integration type must be barcode/Sku and Colour code combination.
+    invalid_quantity: Quantity can't be blank/negative
+    invalid_count_quantity: Entered Quantity must be less than or equal to Stock Quantity
+    product_not_found: Product not found with given combination.
+    map_fields: Select and Map ATS Fields
+    sku_header: SKU, Colour & Size
+    title: "Retailer ATS Upload for %{name}"
+    barcode: Barcode

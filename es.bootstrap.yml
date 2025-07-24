@@ -1,0 +1,16 @@
+---
+es:
+  helpers:
+    actions: Comportamiento
+    links:
+      back: Atrás
+      cancel: Cancelar
+      confirm: Estas seguro
+      destroy: Eliminar
+      new: Nuevo
+      edit: Modificar
+    titles:
+      edit: Modificar
+      save: Guardar
+      new: Nuevo
+      delete: Eliminar

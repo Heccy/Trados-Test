@@ -1,0 +1,84 @@
+---
+pt:
+  devise:
+    confirmations:
+      confirmed: A sua conta foi confirmada com sucesso.
+      send_instructions: Dentro de alguns minutos receberá um e-mail com instruções
+        sobre como confirmar a sua conta.
+      send_paranoid_instructions: Se o seu endereço de e-mail existir na nossa base
+        de dados, dentro de alguns minutos receberá um e-mail com instruções sobre
+        como confirmar sua conta.
+    failure:
+      already_authenticated: ''
+      inactive: Desculpe, a sua conta está inactiva. Por favor, contacte o apoio ao
+        cliente da Brandscope.
+      invalid: Nome de usuário ou senha inválidos.
+      invalid_token: Token de autenticação inválido.
+      locked: A sua conta está bloqueada.
+      not_found_in_database: Nome de usuário ou senha inválidos.
+      timeout: Sessão expirada, faça login novamente para continuar.
+      unauthenticated: Faça login ou inscreva-se para continuar.
+      unconfirmed: Confirme a sua conta antes de continuar. Introduza o nome de usuário
+        no ecrã de boas-vindas para iniciar a configuração. <br><a href='/users/welcome/new'>Visite
+        a tela de boas-vindas</a>
+      company_is_not_active: A sua empresa não está activa.
+      password_complexity: 'Requisito de complexidade não atendido. Por favor use:
+        1 maiúscula, 1 minúscula, 1 dígito e 1 caracter especial.'
+    mailer:
+      confirmation_instructions:
+        subject: Instruções de confirmação
+      reset_password_instructions:
+        subject: Instruções de redefinição de senha
+      unlock_instructions:
+        subject: Instruções de desbloqueio
+    omniauth_callbacks:
+      failure: Não foi possível autenticá-lo de %{kind} porque "%{reason}".
+      success: Autenticado com sucesso da conta %{kind}.
+    passwords:
+      no_token: Não pode aceder a esta página sem vir de um e-mail de redefinição
+        de senha. Se vier de um e-mail de redefinição de senha, certifique-se de usar
+        o URL completo fornecido.
+      send_instructions: Enviámos para o seu e-mail instruções para redefinir a sua
+        senha. Se não receber as instruções dentro de alguns minutos, verifique as
+        pastas de spam e lixo do seu e-mail.
+      send_paranoid_instructions: Se o seu endereço de e-mail existir na nossa base
+        de dados, dentro de alguns minutos receberá no seu e-mail um link para redefinir
+        a sua senha.
+      updated: A sua senha foi alterada com sucesso. A sua sessão está iniciada.
+      updated_not_active: A sua senha foi alterada com sucesso.
+      previously_used: Esta senha foi usada anteriormente. Introduza uma senha única.
+    registrations:
+      destroyed: Adeus! A sua conta foi cancelada com sucesso. Esperamos ver-te novamente
+        em breve.
+      signed_up: Bem vindo! Registou-se com sucesso.
+      signed_up_but_inactive: Registou-se com sucesso. No entanto, não é possível
+        fazer login porque a sua conta ainda não está activa.
+      signed_up_but_locked: Registou-se com sucesso. No entanto, não é possível fazer
+        login porque a sua conta está bloqueada.
+      signed_up_but_unconfirmed: Foi enviado para o seu e-mail um link de confirmação.
+        Por favor, abra o link para ativar sua conta.
+      update_needs_confirmation: A sua conta foi actualizada com sucesso, mas precisamos
+        verificar o seu novo endereço de e-mail. Por favor, verifique o seu e-mail
+        e clique no link de confirmação para finalizar a actualização do seu novo
+        endereço de e-mail.
+      updated: A sua conta foi actualizada com sucesso.
+    sessions:
+      signed_in: ''
+      signed_out: ''
+    unlocks:
+      send_instructions: Dentro de alguns minutos receberá um e-mail com instruções
+        sobre como desbloquear a sua conta.
+      send_paranoid_instructions: Se a sua conta existir, dentro de alguns minutos
+        receberá um e-mail com instruções sobre como desbloqueá-la.
+      unlocked: A sua conta foi desbloqueada com sucesso. Faça login para continuar.
+  errors:
+    messages:
+      already_confirmed: Já confirmado, tente fazer login.
+      confirmation_period_expired: Precisa ser confirmado dentro de %{period}, solicite
+        um novo.
+      expired: Expirou, solicite um novo.
+      not_found: Não encontrado
+      not_locked: Não foi bloqueado
+      not_saved:
+        one: '1 erro impediu que este %{resource} fosse salvo:'
+        other: "%{count} erros impediram que este %{resource} fosse salvo:"

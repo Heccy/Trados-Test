@@ -1,0 +1,555 @@
+{
+  "clear_all_ats_before_import": "Clear ALL ATS Before Import",
+  "clear_all_future_ats_before_import": "Clear ALL Future ATS Before Import",
+  "clear_all_atonce_ats_before_import": "Clear ALL AtOnce ATS Before Import",
+  "brand_display_name_validation": "Brand Display Name cannot be empty.",
+  "brand_enforce_buyplan_ownership": "Enforce Buyplan Ownership must be enabled.",
+  "brand_active_releases_error": "Cannot inactive brand unless all releases are inactive.",
+  "supplier_active_brands_error": "Cannot inactive supplier unless all brands are inactive.",
+  "cin7_custom_fields_error": "Duplicate codes are not allowed in Cin7 Custom Fields.",
+  "pdf_remove": "PDF File Removed",
+  "change_pdf": "Changed PDF File",
+  "seleted_pdf": "PDF File Selected",
+  "warning_message": "Super Supplier Admins not found for selected supplier",
+  "releases_status": "This release is currently not available.",
+  "zero_products" : "No products found for this release",
+  "invalid_quantities": "You have entered more Qtys than are available. Please check the blue Qty boxes and enter a less amount to submit your order.",
+  "export_pdf_info": "Your PDF is getting generated",
+  "export_spreadsheet_info": "Your Spreadsheet is getting generated",
+  "item_not_available": "Item not available",
+  "sucess_message": "Successfully Saved!",
+  "error-message": "Error while saving. Please try again!",
+  "discount_success_message": "Discount Rule added successfully",
+  "record_not_updated": "Record could not be updated successfully",
+  "export_products": "Your products are exporting. You will receive an email with the product export file soon",
+  "filetoobig": "File too big",
+  "type_to_search": "Type to search",
+  "import": {
+    "errorDiscountScheme": "There were some errors while importing the file. \u003cbr /\u003ePlease \u003ca href=\"data:text/plain;charset=utf-8,{{fileName}}\" download='DiscountScheme Import Result.csv'\u003eclick here\u003c/a\u003e to download.",
+    "PriceBookScheme": "There were some errors while importing the file. \u003cbr /\u003ePlease \u003ca href=\"data:text/csv;charset=utf-8,{{fileName}}\" download=\"PriceBook Import Result.csv\"\u003eclick here\u003c/a\u003e to download.",
+    "errorPostageScheme": "There were some errors while importing the file. \u003cbr /\u003ePlease \u003ca href=\"data:text/plain;charset=utf-8,{{fileName}}\" download='PostageScheme Import Result.csv'\u003eclick here\u003c/a\u003e to download.",
+    "success": "Items imported successfully"
+  },
+  "item_not_available_month": "Item not available for that month",
+  "expire_release_success": "Expiring Release. You'll receive a confirmation email once complete.",
+  "release_currencie": {
+    "success": "Currency removed from release successfully.",
+    "error": "Unable to remove selected currency from release, as it has Buyplan/Qfill/Consignment/Stock Model associated with it."
+  },
+  "release_status": {
+    "expiring": "Expiring Release. You'll receive a confirmation email once complete."
+  },
+  "remove_currency": {
+    "success": "Currency removed from release successfully.",
+    "error": "Unable to remove selected currency from release, as it has Buyplan/Qfill/Consignment/Stock Model associated with it."
+  },
+  "invalid_day": "Invalid Day Selection for {{formattedMonth}}. Prefered Delivery Date must be between 1 and {{deliveryDays}}.",
+  "buyplanItem": { "removed": "Item Removed." },
+  "delete_file": "File removed successfully!",
+  "upload_file": "Please upload the file",
+  "form_validation": {
+    "save_company_details": "Please save company details before proceeding to Address"
+  },
+  "file_removed": "File removed successfully!",
+  "media_upload": "Media uploaded successfully!",
+  "submit_links_message": "Links assigned successfully!",
+  "remove_link_message": "Link removed successfully!",
+  "links_cannot_be_blank": "Please provide one or more links. Link's can't be blank",
+  "media_asset_fail" : "Error uplloading the file",
+  "media_model": {
+    "media_pack": "Media Pack generated sucessfully!",
+    "big_commerce_file": "Big Commerce File is sent to your email!",
+    "request_status": "Request submitted successfully!",
+    "invalid_email": "Invalid Email Address!"
+  },
+  "update_price": {
+    "success": "Price updated successfully",
+    "error": "Something went wrong",
+    "incorrect_file": "This file does not exist as it contains errors."
+  },
+  "order_min_update": {
+    "success": "Order minimum value updated successfully"
+  },
+  "size_sequence_error": "Sorry, the brand has no sizes or attributes to import",
+  "something_went_wrong": "Something Went Wrong! Please contact admin.",
+  "select_blank_options": {
+    "default": "-- Select --",
+    "with_name": "-- Select {{name}} --",
+    "please_select": "-- Please Select --"
+  },
+  "discount_scheme": {
+    "selector_default": "-- Select Discount Scheme --",
+    "confirm_remove_scheme": "Are you sure you want to remove selected discount scheme ?",
+    "confirm_remove_rule": "Are you sure you want to remove selected rule ?"
+  },
+  "postage_scheme": {
+    "selector_default": "-- Select Postage Scheme --",
+    "confirm_remove_scheme": "Are you sure you want to remove selected postage scheme ?",
+    "confirm_remove_rule": "Are you sure you want to remove selected rule ?"
+  },
+  "discount_scheme_assignment": {
+    "assign_success": "DiscountScheme Assigned Successfully",
+    "unassign_success": "DiscountScheme Unassigned Successfully",
+    "bulk_success": "Successfully assigned discount scheme to {{successCount}} retailer(s).",
+    "validation_errors": "There were some errors while importing the file. \u003cbr /\u003ePlease \u003ca href=\"data:text/plain;charset=utf-8,{{fileData}}\" download='{{filename}}'\u003eclick here\u003c/a\u003e to download.",
+    "bulk_error": "An unknown error occurred. Please refresh the page and try again.",
+    "upload_file": "Please choose a file to upload"
+  },
+  "price_book": {
+    "confirm_remove_price_book": "Are you sure you want to remove selected price book ?",
+    "confirm_remove_item": "Are you sure you want to remove selected item ?",
+    "selected_items": "You have selected {{item_count}} item/s.",
+    "confirm_remove_items": "Are you sure you want to delete all the selected item/s?"
+  },
+  "price_book_assignment": {
+    "assign_success": "Price Book Assigned Successfully",
+    "unassign_success": "Price Book Unassigned Successfully",
+    "bulk_success": "Successfully assigned price book to {{successCount}} retailer(s).",
+    "validation_errors": "There were some errors while importing the file. \u003cbr /\u003ePlease \u003ca href=\"data:text/plain;charset=utf-8,{{fileData}}\" download='{{filename}}'\u003eclick here\u003c/a\u003e to download.",
+    "bulk_error": "An unknown error occurred. Please refresh the page and try again.",
+    "upload_file": "Please choose a file to upload."
+  },
+  "uppy_note": "Images only, 10 MB or less",
+  "comma_separated": "Enter comma separated {{value}}",
+  "optimise_search_criteria": "More than 1000 records found, please optimise your search criteria.",
+  "territory": {
+    "invalid_character_or_length": "Invalid characters or length of attribute separator. Allowed characters are / \\ : - |",
+    "duplicate_fields": "Duplicate codes are not allowed in Cin7Rest Custom Fields",
+    "inactive_territory_alert": "Setting a Territory to inactive will remove retailer access to the brand's releases. This will also delete all BP, BPT, QuickFill, C\u0026F Template, SMTBP and Consignments for the retailers on this Territory. Are you sure you want to continue?"
+  },
+  "order_approval": {
+    "invalid_rule_value": "Invalid {{rule_value}} value. Must be 'Always' or 'Never' or a Whole Number"
+  },
+  "alert_messages": {
+    "generic": "Are you sure?",
+    "ats_csv_mapping": "Are you sure you want to remove selected mapping ?",
+    "confirm_remove_csv_mapping": "Are you sure you want to remove selected mapping ?",
+    "delete_this": "Are you sure you want to delete this {{value}}?",
+    "companies": {
+      "retailer_has_orders": "This retailer(including retailer outlets) has {{order_count}} orders assigned to it, are you sure you want to delete?",
+      "activate": "Are you sure you want to activate this company?",
+      "deactivate": "Are you sure you want to deactivate this company?",
+      "delete": "Are you sure you want to delete this company?",
+      "remove_retailers": "This will remove ({{count}}) retailer(s) from the brand completely and delete all their current BPs. Are you sure to remove?",
+      "retailer_not_found": "Unable to determine the retailer to remove. Please try selecting a retailer first.",
+      "brand_not_found": "Please select the brand to first to remove retailer"
+    },
+    "releases": {
+      "unassign": "This will remove ({{count}}) Retailer(s) access from the release ({{release_name}}). Are you sure you want to remove?",
+      "remove_month": "Are you sure you want to delete {{tag}} from this release? There might be BPs with products on them for this month. All these products will be deleted?",
+      "delivery_month_warning": "A release must have at least one delivery month available. If you would like to make order submissions temporarily unavailable, please set the release's status to InSeason - Idle",
+      "end_date_year_month_warning": "Please enter end-date year and month.",
+      "sap_order_type_missing": "SAP Order Type field was not populated"
+    },
+    "order_csv": { "overwrite": "Are you sure to overwrite?" },
+    "buyplan": {
+      "remove_item": "Are you sure you want to remove this item from the buyplan? You will not be able to add it back!"
+    },
+    "product_release": {
+      "delete": "Are you sure you want to delete this Product Release?",
+      "deactivate_warning": "WARNING! You are Deactivating the products, this will remove these products for this release from all Buy Plans, Buy Plan Templates, Stock Model, Count & Fill Templates, Orders are not affected"
+    },
+    "select_a_row": "Select Atleast 1 row",
+    "choose_a_file": "Please choose a file to upload",
+    "consignment_items": {
+      "select_item": "Select at least one consignment item"
+    },
+    "price_csv_mapping": "Are you sure you want to remove selected mapping ?",
+    "max_resend_order": "Max {{count}} rows can be selected"
+  },
+  "chosen_js": {
+    "placeholder_text_single": "Select an Option",
+    "placeholder_text_multiple": "Select Options",
+    "no_results_text": "No results match"
+  },
+  "date_range_picker": {
+    "last_3_days": "Last 3 Days",
+    "last_7_days": "Last 7 Days",
+    "last_30_days": "Last 30 Days",
+    "last_3_months": "Last 3 Months",
+    "last_6_months": "Last 6 Months",
+    "all": "All",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "from": "From",
+    "to": "To",
+    "custom_range": "Custom Range"
+  },
+  "ui_multi_select_js": {
+    "add_all": "Add all",
+    "remove_all": "Remove all",
+    "items_count": "items selected"
+  },
+  "dropzone_js": {
+    "default_message": "Drop files here to upload",
+    "fallback_message": "Your browser does not support drag'n'drop file uploads.",
+    "fallback_text": "Please use the fallback form below to upload your files like in the olden days.",
+    "file_too_big": "File is too big ({{filesize}}MB). Max filesize: {{maxFilesize}}MB.",
+    "invalid_file_type": "You can't upload files of this type.",
+    "response_error": "Server responded with {{statusCode}} code.",
+    "cancel_upload": "Cancel upload",
+    "cancel_upload_confirmation": "Are you sure you want to cancel this upload?",
+    "remove_file": "Remove file___"
+  },
+  "tooltips": {
+    "buyplan_unavailable": "Sorry this Buy Plan is unavailable due to the release's mode",
+    "consignment_unavailable": "Sorry this Consignment is unavailable due to the release's mode",
+    "consignment_request_unavailable": "Sorry this Consignment Request is unavailable due to the release's mode",
+    "buyplan_template_unavailable": "Sorry this Buy Plan Template is unavailable due to the release's mode",
+    "cnf_unavailable": "Sorry this C&F is unavailable due to the release's mode"
+  },
+  "commons": { "yes": "Yes", "no": "No" },
+  "template":{
+    "defaultCategory": "(None)",
+    "templateAvl": "Template not available",
+    "selectRetailer": "-- Please select Retailer-User --"
+  },
+  "ag_grid_headers": {
+    "generic": {
+      "supplier": "Supplier",
+      "retailer": "Retailer",
+      "user": "User",
+      "brand": "Brand",
+      "brand_name": "Brand Name",
+      "release": "Release",
+      "releases": "Releases",
+      "status": "Status",
+      "active": "Active",
+      "created_on": "Created On",
+      "created_by": "Created By",
+      "created_at": "Created At",
+      "updated_by": "Updated By",
+      "updated_at": "Updated At",
+      "template": "Template Name",
+      "action": "Action",
+      "actions": "Actions",
+      "name": "Name",
+      "type": "Type",
+      "territories": "Territories",
+      "territory": "Territory",
+      "image": "Image",
+      "images": "Images",
+      "file": "File",
+      "email_list": "Email List",
+      "postage_scheme": "Postage Scheme",
+      "buyplan_name": "Buyplan Name",
+      "account_codes": "Account Codes"
+    },
+    "account_code": {
+      "primary": "Primary Account Code",
+      "ship_to": "Ship To Account Code (Optional)",
+      "bill_to": "Bill To Account Code (Optional)",
+      "bluechain_payment_enabled": "Bluechain Payments Enabled",
+      "head_office_address_default_code": "Head Office Address Default Code",
+      "billing_address_default_code": "Billing Address Default Code",
+      "shipping_address_default_code": "Shipping Address Default Code",
+      "shipping_address_alternate1_code": "Shipping Address Alternate-1 Code",
+      "shipping_address_alternate2_code": "Shipping Address Alternate-2 Code",
+      "retailer_status": "Retailer Status",
+      "pay_now_discount": "Discount % on Pay Now",
+      "tax_country": "Tax Country",
+      "tax_type": "Tax Type",
+      "incorrect_tax": "Please correct Stripe Tax region and Stripe Tax type combination",
+      "media_packs_enabled": "Media Pack Download",
+      "superfill": "Superfill"
+    },
+    "shipping_code": {
+      "default_cnf_type": "Default C&F Type",
+      "order_approval_rule": "Order Approval Rule",
+      "qf_order_approval_rule": "QF Order Approval Rule",
+      "indent_minimum_order_amount": "Indent Minimum Order Amount",
+      "inseason_minimum_order_amount": "Inseason Minimum Order Amount",
+      "quickfill_minimum_order_amount": "QuickFill Minimum Order Amount"
+    },
+    "agents_list": {
+      "company_code": "Company Code",
+      "agency_name": "Agency Name",
+      "number_of_users": "Number of Users",
+      "brands": "Brands"
+    },
+    "event_logs": {
+      "log_level": "Log Level",
+      "message": "Message",
+      "order_events": {
+        "admin_comment": "Admin Comment",
+        "order_number": "Order Number"
+      }
+    },
+    "banner_assets": { "number_of_assets": "Number of Assets" },
+    "beta_feature": {
+      "code": "Code",
+      "is_public": "Is Public",
+      "affected_user_count": "Affected Users Count",
+      "affected_usernames": "Affected Usernames"
+    },
+    "brand_templates": { "location": "Location" },
+    "brand_warehouse": { "warehouse_code": "Warehouse Code" },
+    "brand_assign_segments": { "assigned": "Assigned", "segments": "Segments" },
+    "brands_list": {
+      "brand_display_name": "Brand Display Name",
+      "number_of_retailers": "Number of Retailers",
+      "order_integrated": "Orders Integrated",
+      "ats_integrated": "ATS Integrated",
+      "segments_feature": "Segments Feature",
+      "order_approval_required": "Order Approval Required",
+      "price_books": "Price Books",
+      "discount_schemes": "Discount Schemes",
+      "apply_order_minimums": "Apply Order Minimums",
+      "warehouses_count": "Warehouses Count",
+      "po_cutoff_day": "PO Cutoff Day",
+      "default_ats_zero": "ATS Default Zero",
+      "accumulative": "Accumulative",
+      "post_accumulative": "Post Accumulative",
+      "master_homepage": "Master Homepage",
+      "quickfill": "QuickFill",
+      "count_and_fill": "Count & Fill"
+    },
+    "brands_retailers_list": {
+      "company_code": "Company Code",
+      "abn_acn": "Business ID",
+      "head_quarter": "HeadQuarter"
+    },
+    "retailers_list": {
+      "company_code": "Company Code",
+      "abn_acn": "Business ID",
+      "head_quarter": "HeadQuarter",
+      "retailer_name": "Retailer Name",
+      "number_of_users": "Number of Users",
+      "brands": "Brands",
+      "retailer_id": "Retailer ID"
+    },
+    "suppliers_list": {
+      "company_code": "Company Code",
+      "supplier_name": "Supplier Name",
+      "number_of_users": "Number of Users",
+      "brands": "Brands"
+    },
+    "territories_list": {
+      "sales_reps": "Sales Reps",
+      "independent_agents": "Independent Agents",
+      "number_of_retailers": "Number of Retailers",
+      "pdf_recipients": "Additional PDF Emails",
+      "csv_recipients": "Additional CSV Emails"
+    },
+    "users_list": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "username": "Username",
+      "email": "Email",
+      "company": "Company",
+      "role": "Role",
+      "phone": "Phone",
+      "mobile": "Mobile",
+      "login_count": "Login Count",
+      "last_login": "Last Login",
+      "system_confirmed": "System Confirmed"
+    },
+    "products_list": {
+      "product": "Product",
+      "catalogue_order": "Catalogue Order",
+      "delivery_month": "Delivery Month",
+      "available_months": "Available Months",
+      "sku": "SKU",
+      "colour": "Colour",
+      "colour_code": "Colour Code",
+      "display_colour": "Display Colour",
+      "category": "Category",
+      "categories": "Categories",
+      "bscp_category": "BSCP Category",
+      "hierarchy_category": "Hierarchy Category",
+      "gender": "Gender",
+      "age_group": "Age Group",
+      "collections": "Collections",
+      "divisions": "Divisions",
+      "wholesale_price": "Wholesale Price",
+      "retail_price": "Retail Price",
+      "quantity": "Quantity",
+      "total": "Total",
+      "integration_id": "Integration ID",
+      "integration_ids": "Integration IDs",
+      "size": "Size",
+      "sizes": "Sizes",
+      "attribute": "Attribute",
+      "attribute_size": "Attribute Size",
+      "attribute_type": "Attribute Type",
+      "barcode": "Barcode",
+      "currency": "Currency",
+      "original_wp": "Original W. P.",
+      "original_rp": "Original R. P.",
+      "orb360_tag": "ORB360 Tag"
+    },
+    "releases_list": {
+      "default_currency": "Default Currency",
+      "currencies": "Currencies",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "deadline": "Deadline",
+      "delivery_months": "Delivery Months",
+      "orders_integrated": "Orders Integrated",
+      "segments_feature": "Segments Feature",
+      "price_books": "Price Books",
+      "discount_schemes": "Discount Schemes",
+      "order_approval_required": "Order Approval Required",
+      "assigned": "Assigned"
+    },
+    "buyplans_list": {
+      "release_status": "Release Status",
+      "salesperson": "Salesperson",
+      "items": "Items",
+      "currency": "Currency",
+      "total": "Total",
+      "indent_days_left": "Prebook Days Left",
+      "approval_status": "Approval Status",
+      "owner": "Owner",
+      "assigned_to": "Assigned To",
+      "assigned_user": "Assigned User",
+      "order_number": "Order Number",
+      "confirmed_by": "Confirmed By",
+      "confirmed_by_role": "Confirmed By Role",
+      "confirmed_date": "Confirmed Date",
+      "order_date": "Order Date",
+      "purchase_order": "Purchase Order",
+      "origin": "Origin",
+      "bluechain_payment_status": "Bluechain Payment Status",
+      "supplier_status": "Supplier Status",
+      "payment_state": "Payment State",
+      "payment_ref_id": "Payment Reference ID",
+      "payment_method": "Payment Method",
+      "supplier_reference": "Supplier Reference",
+      "territory": "Territory",
+      "imported_by": "Imported By",
+      "imported_on": "Imported On",
+      "delete_error": "Sorry! could not delete buyplans, please contact brandscope admin",
+      "no_buyplans_error": "No buyplans with zero items available to delete"
+    },
+    "consignable_retailers": {
+      "retailer_name": "Retailer Name",
+      "assigned": "Assigned"
+    },
+    "consignment_items": {
+      "serial_number": "Serial Number",
+      "product": "Product",
+      "attribute_size": "Attribute Size",
+      "size_break": "Size Break",
+      "sold_date": "Sold Date"
+    },
+    "discount_schemes": {
+      "discount_scheme": "Discount Scheme",
+      "discount_scheme_name": "Discount Scheme Name",
+      "description": "Description",
+      "scheme_type": "Scheme Type",
+      "active": "Active ?",
+      "start_time": "Start Time",
+      "end_time": "End Time",
+      "release_status": "Release Status",
+      "discount_type": "Discount Type",
+      "discount_category": "Discount Category",
+      "factor": "Factor",
+      "rule_type": "Rule Type",
+      "currency": "Currency",
+      "value": "Value",
+      "minimum_value": "Minimum Value",
+      "maximum_value": "Maximum Value"
+    },
+    "price_books": {
+      "price_book": "Price Book",
+      "price_book_name": "Price Book Name",
+      "currency": "Currency",
+      "description": "Description",
+      "active": "Active ?",
+      "start_time": "Start Time",
+      "end_time": "End Time",
+      "release_status": "Release Status",
+      "ws_price": "PriceBook WS Price",
+      "display_ws_price": "PriceBook Display WS Price",
+      "retail_price": "Retail Price",
+      "standard_ws_price": "Standard WS Price",
+      "discount_wrt_pricebook": "Discount WRT PriceBook"
+    },
+    "postage_schemes": {
+      "postage_scheme": "Postage Scheme",
+      "postage_scheme_name": "Postage Scheme Name",
+      "description": "Description",
+      "scheme_type": "Scheme Type",
+      "active": "Active ?",
+      "start_time": "Start Time",
+      "end_time": "End Time",
+      "rule_type": "Rule Type",
+      "measure": "Measure",
+      "currency": "Currency",
+      "postage_amount": "Postage Amount",
+      "minimum_value": "Minimum Value",
+      "maximum_value": "Maximum Value",
+      "split_by": "Split By"
+    },
+    "marketing_links": {
+      "short_link": "Short Link",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "user_name": "User Name",
+      "company": "Company",
+      "visit_count": "Visit Count"
+    },
+    "ftp_brands_list": {
+      "outbound_dir": "Outbound dir",
+      "inbound_dir": "Inbound dir",
+      "ats_update_dir": "Ats Update dir",
+      "order_status_dir": "Order Status dir",
+      "price_update_dir": "Price Update dir",
+      "ats_level": "Ats Level"
+    },
+    "ftp_users_list": {
+      "user_name": "User Name",
+      "host": "Host",
+      "passive": "Passive",
+      "number_of_directories": "Number of Directories",
+      "hostname": "Hostname",
+      "port": "Port",
+      "ftp_type": "FTP Type"
+    },
+    "media_pack_assets": {
+      "number_of_assets": "Number of Assets",
+      "number_of_links": "Number of Links",
+      "no_rows_to_show": "Please select any Release"
+    },
+    "order_csvs": {
+      "brand_name": "Brand Name",
+      "header_included": "Header Included",
+      "split_monthly": "Split Monthly"
+    },
+    "categories": {
+      "level1": "Level 1",
+      "level2": "Level 2",
+      "level3": "Level 3",
+      "level4": "Level 4"
+    },
+    "image_upload": {
+      "upload_status": "Upload Status",
+      "valid_url": "Valid URL ?",
+      "image_filename": "Image FileName",
+      "image_url": "Image URL",
+      "position": "Position",
+      "is_primary": "Is Primary"
+    },
+    "size_sequence_import": {
+      "value": "Value",
+      "type": "Type",
+      "upload_status": "Upload Status"
+    },
+    "addresses": {
+      "line1": "Address Line 1",
+      "line2": "Address Line 2",
+      "suburb_town": "Suburb / City",
+      "state": "State / Province",
+      "post_code": "Post Code / Zip Code",
+      "country": "Country"
+    }
+  },
+  "callout": {
+    "icon": {
+      "big_file": "File should be less than 1MB",
+      "invalid_type": "Permitted file types are PNG/GIF/JPG/JPEG",
+      "hint": "PNG, GIF or JPG (Max File Size: 1MB)"
+    }
+  }
+}

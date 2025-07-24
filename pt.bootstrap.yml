@@ -1,0 +1,16 @@
+---
+pt:
+  helpers:
+    actions: Ações
+    links:
+      back: Costas
+      cancel: Cancelar
+      confirm: Tem certeza?
+      destroy: Excluir
+      new: Novo
+      edit: Editar
+    titles:
+      edit: Editar
+      save: Salve 
+      new: Novo
+      delete: Excluir

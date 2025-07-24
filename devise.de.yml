@@ -1,0 +1,89 @@
+---
+de:
+  devise:
+    confirmations:
+      confirmed: "Ihr Konto wurde erfolgreich bestätigt.\t"
+      send_instructions: "Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen
+        zur Bestätigung Ihres Kontos.\t"
+      send_paranoid_instructions: "Wenn Ihre E-Mail-Adresse in unserer Datenbank vorhanden
+        ist, erhalten Sie in wenigen Minuten eine E-Mail mit Anweisungen zur Bestätigung
+        Ihres Kontos.\t"
+    failure:
+      already_authenticated: ''
+      inactive: "Entschuldigung, das Konto Ihres Benutzers ist inaktiv. Bitte wenden
+        Sie sich an den Brandscope-Kundendienst.\t"
+      invalid: "Ungültiger Benutzername oder Passwort.\t"
+      invalid_token: "Ungültiges Authentifizierungstoken.\t"
+      locked: "Ihr Konto ist gesperrt.\t"
+      not_found_in_database: "Ungültiger Benutzername oder Passwort.\t"
+      timeout: "Ihre Sitzung ist abgelaufen, bitte melden Sie sich erneut an, um fortzufahren.\t"
+      unauthenticated: "Sie müssen sich anmelden oder registrieren, bevor Sie fortfahren
+        können.\t"
+      unconfirmed: "Sie müssen Ihr Konto bestätigen, bevor Sie fortfahren. Bitte geben
+        Sie Ihren Benutzernamen auf dem Willkommensbildschirm ein, um den Einrichtungsvorgang
+        zu starten. <br><a href='/users/welcome/new'>Besuchen Sie den Begrüßungsbildschirm</a>\t"
+      company_is_not_active: "Ihr Unternehmen ist nicht aktiv.\t"
+      password_complexity: "Komplexitätsanforderung nicht erfüllt. Bitte verwenden
+        Sie: 1 Großbuchstaben, 1 Kleinbuchstaben, 1 Ziffer und 1 Sonderzeichen.\t"
+    mailer:
+      confirmation_instructions:
+        subject: "Bestätigungsanweisungen\t"
+      reset_password_instructions:
+        subject: "Anweisungen zum Zurücksetzen des Passworts\t"
+      unlock_instructions:
+        subject: "Anweisungen zum Entsperren\t"
+    omniauth_callbacks:
+      failure: "Sie konnten nicht von %{kind} authentifiziert werden, weil „%{reason}“.\t"
+      success: "Vom Konto %{kind} erfolgreich authentifiziert.\t"
+    passwords:
+      no_token: "Sie können nicht auf diese Seite zugreifen, ohne von einer E-Mail
+        zum Zurücksetzen des Passworts zu kommen. Wenn Sie von einer E-Mail zum Zurücksetzen
+        des Passworts kommen, stellen Sie bitte sicher, dass Sie die vollständige
+        angegebene URL verwendet haben.\t"
+      send_instructions: "Wir haben eine Anleitung zum Zurücksetzen des Passworts
+        an Ihre E-Mail-Adresse gesendet. Wenn Sie innerhalb weniger Minuten keine
+        Anweisungen erhalten, überprüfen Sie die Spam- und Junk-Filter Ihrer E-Mail.\t"
+      send_paranoid_instructions: "Wenn Ihre E-Mail-Adresse in unserer Datenbank vorhanden
+        ist, erhalten Sie in wenigen Minuten einen Link zur Passwortwiederherstellung
+        an Ihre E-Mail-Adresse.\t"
+      updated: "Ihr Kennwort wurde erfolgreich geändert. Sie sind jetzt angemeldet.\t"
+      updated_not_active: "Ihr Kennwort wurde erfolgreich geändert.\t"
+      previously_used: "Dieses Passwort wurde zuvor verwendet. Bitte geben Sie ein
+        eindeutiges Passwort ein.\t"
+    registrations:
+      destroyed: Auf Wiedersehen!
+      signed_up: "Herzlich willkommen! Sie haben sich erfolgreich angemeldet.\t"
+      signed_up_but_inactive: "Sie haben sich erfolgreich angemeldet. Wir konnten
+        Sie jedoch nicht anmelden, da Ihr Konto noch nicht aktiviert ist.\t"
+      signed_up_but_locked: "Sie haben sich erfolgreich angemeldet. Wir konnten Sie
+        jedoch nicht anmelden, da Ihr Konto gesperrt ist.\t"
+      signed_up_but_unconfirmed: "Eine Nachricht mit einem Bestätigungslink wurde
+        an Ihre E-Mail-Adresse gesendet. Bitte öffnen Sie den Link, um Ihr Konto zu
+        aktivieren.\t"
+      update_needs_confirmation: "Sie haben Ihr Konto erfolgreich aktualisiert, aber
+        wir müssen Ihre neue E-Mail-Adresse verifizieren. Bitte überprüfen Sie Ihre
+        E-Mail und klicken Sie auf den Bestätigungslink, um die Bestätigung Ihrer
+        neuen E-Mail-Adresse abzuschließen.\t"
+      updated: "Sie haben Ihr Konto erfolgreich aktualisiert.\t"
+    sessions:
+      signed_in: ''
+      signed_out: ''
+    unlocks:
+      send_instructions: "Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen
+        zum Entsperren Ihres Kontos.\t"
+      send_paranoid_instructions: "Wenn Ihr Konto existiert, erhalten Sie in wenigen
+        Minuten eine E-Mail mit Anweisungen zum Entsperren.\t"
+      unlocked: "Ihr Konto wurde erfolgreich entsperrt. Bitte melden Sie sich an um
+        fortzufahren.\t"
+  errors:
+    messages:
+      already_confirmed: "Bereits bestätigt, bitte versuchen Sie sich anzumelden\t"
+      confirmation_period_expired: "Muss innerhalb von %{period} bestätigt werden,
+        bitte fordern Sie eine neue an\t"
+      expired: "abgelaufen ist, fordern Sie bitte eine neue an\t"
+      not_found: "nicht gefunden\t"
+      not_locked: "war nicht gesperrt\t"
+      not_saved:
+        one: "1 Fehler hat das Speichern dieser %{resource} verhindert:\t"
+        other: "%{count} Fehler verhinderten, dass diese %{Ressource} gespeichert
+          wurde:\t"

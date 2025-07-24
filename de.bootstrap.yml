@@ -1,0 +1,16 @@
+---
+de:
+  helpers:
+    actions: "Aktionen\t"
+    links:
+      back: "Zurück\t"
+      cancel: "Abbrechen\t"
+      confirm: Sind Sie sicher?
+      destroy: "Löschen\t"
+      new: "Neu\t"
+      edit: "Bearbeiten\t"
+    titles:
+      edit: "Bearbeiten\t"
+      save: "Speichern\t"
+      new: "Neu\t"
+      delete: "Löschen\t"
