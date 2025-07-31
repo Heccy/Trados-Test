@@ -1,0 +1,2076 @@
+---
+en:
+  activerecord:
+    errors:
+      messages:
+        confirmation: パスワードは完全に一致する必要がある。
+    attributes:
+      release_size_break:
+        size_min: 最小サイズ
+  hello: Hello world
+  alert_messages:
+    generic: 本当に？
+    invalid_otp: OTPが一致しない
+    no_rows: 行数は1より大きくなければならない。
+    companies:
+      activate: この会社を有効にしてもよろしいか？
+      deactivate: この会社を無効にしてもよろしいか？
+      delete: この会社を削除してもよろしいか？
+    brands:
+      delete_logo: このロゴは削除される。本当に？
+      delete: このブランドを削除してもよろしいか？
+      brand_supplier_not_found: ブランドまたはサプライヤが見つからない
+      tax_data_not_found: 税金データが見つからない
+      invalid_tax_country: 無効な国
+      invalid_tax_type: 税率が見つからない
+    bulk_stripe_rules: 
+      retailer_not_found: 正規ディーラーが見つからない
+      brand_not_found: ブランドが見つからない
+      retailer_not_connected: ディーラーが特定のブランドに接続していない
+      invalid_country: 無効な課税国
+      invalid_tax: 無効な税タイプ
+      discount_invalid: 割引は0から50の間でなければならない
+      mismatch: 税の地域/タイプが一致しない
+      missing_headers: "ヘッダー%{headers}が見つからない"
+      import_enqueued: インポートがキューに入っている。しばらくしてからチェックインし直してください 
+      retailer_name_mismatch: 会社コード%｛company_code｝の正規ディーラー名が一致しない
+    ftp_setup:
+      delete: 警告！自分が何をしているか分かっている場合にのみ、この操作を実行する。このftpセットアップを削除してもよろしいか？
+    order_csv:
+      delete: この注文CSVを削除してもよろしいか？
+    product_dls_mapping:
+      delete: この製品DLSマッピングを削除してもよろしいか？
+    report_criterias:
+      delete_templates: すべてのテンプレートを削除してもよろしいか？
+    release:
+      end_date: リリース終了日が正常に更新された
+      failed_delete: このリリースには既存の注文があるため、製品を削除できない。
+      successful_delete: 製品は削除される。しばらくしてから見直してほしい。
+    integration:
+      isync_login_failed: iSyncログインに失敗。ログファイルを参照。  
+  placeholders:
+    target_settings:
+      genders: ターゲットとなる顧客の性別を選択
+      ages: ターゲットとなるお客様の年齢を選択
+      marketing_strategies: マーケティング戦略を選択
+      retailer_focuses: 小売業の焦点を選択する
+      product_focuses: 製品フォーカスを選択
+      industry_focuses: 業種別のフォーカスを選択
+    netsuite_brand:
+      order_type: 使用可能な注文タイプを選択
+    retailer_setup:
+      segments: セグメントを選択
+    territories:
+      select: 地域を選択
+      warehouse: 倉庫を選択
+  conjunction:
+    or: または
+  generic:
+    hi: 'こんにちは、'
+    export_blank_template: 空白のテンプレートをエクスポート
+    uploading: アップロード中...
+    help:
+      contacts: ライブチャットを介してカスタマーサポートチームにお問い合わせいただくか、以下のようにお問い合わせ。
+    record_deleted: レコードは正常に削除された。
+    record_added: レコードが正常に追加された。
+    record_updated: レコードは正常に更新された。
+    record_not_updated: レコードを正常に更新できなかった。
+    any_currency: 任意の通貨
+    page_not_exists: お探しのページは存在しない。
+    are_you_sure: 本当に？
+    please_wait: お待ちください...
+    warning: 警告
+    invalid_access: 無効なアクセス権。管理者に連絡してください。
+    payment_settings: 支払い設定
+    correct_value: 値を修正する
+    order_confirm_header: ご注文の確認
+    order_email_success: 注文確認メールが正常に送信された
+    view_release: リリースの表示（読み取り専用）
+    verification_otp: メールアドレスに送信された認証コードを入力
+    enter_username: ユーザー名を入力
+    expire_note: コードの有効期限は10分後
+    create_template: 購入計画テンプレートを作成
+    create_bp: 購入プランを作成する
+    missing_email_label: ATSは電子メールに統合されているが、必要なラベルがない
+  buyplan_actions:
+    resend_order: 注文を再送信
+    delete: 削除
+    view_bpt: BPTを表示
+    copy_order: 注文をコピー
+    copy_bpt: BPTをコピー
+    configure_bpt: BPTを設定する
+    edit_bpt_name: BPT名を編集
+    delete_bpt: BPTを削除
+    assign_as_bp_to_retailer: ディーラーにBPとして割り当てる
+    assign_as_bpt_to_roles: "BPTとして%{ロール}に割り当てる"
+    template:
+      email_pdf: 購入プランPDFテンプレートを電子メールで送信
+      export_to_pdf: 購入計画PDFテンプレートをエクスポート
+      export_to_csv: 購買計画CSVテンプレートをエクスポート
+      export_to_xlsx: 購入計画XLSXテンプレートをエクスポート
+    buyplan:
+      email_pdf: 購入プランPDFを電子メールで送信
+      export_to_pdf: 購入プランPDFをエクスポート
+      export_to_csv: 購入プランCSVをエクスポート
+      export_to_xlsx: 購入計画XLSXをエクスポート
+    qfill:
+      email_pdf: QuickFill PDFを電子メールで送信
+      export_to_pdf: QuickFill PDFを書き出す
+      export_to_csv: QuickFill CSVをエクスポート
+      export_to_xlsx: QuickFill XLSXをエクスポート
+    order:
+      email_pdf: 注文のPDFを電子メールで送信
+      export_to_pdf: 注文のPDFをエクスポート
+      export_to_csv: 注文CSVをエクスポート
+      export_to_xlsx: エクスポートオーダーXLSX
+  product_upload_actions: 
+    validating_file: ファイルを検証中。これには時間がかかるかもしれない。Please feel free to leave this page and we will send you an email once complete.
+    uploading: ファイルを取得中
+    validating: ファイルを検証中
+    validated: 検証完了
+    validation_pending: このプロセスが完了するまでに時間がかかっている。完了したらメールを送信する。
+    validation_done: 検証済みファイルがダウンロードされた
+    
+  stock_model_actions:
+    associate_cnf_template_to_retailer: C&Fテンプレートをディーラーに関連付ける
+    associate_superfill_template_to_retailer: スーパーフィルテンプレートをディーラーに関連付ける
+    create_superfill_for_retailer: 小売業者向けのスーパーフィルを作成する
+    create_cnf_for_retailer: ディーラーのC&Fを作成する
+    edit_cnf_template_name: C&Fテンプレート名を編集
+    edit_superfill_template_name: スーパーフィルテンプレート名を編集
+    delete_cnf: C&Fを削除
+    delete_superfill: スーパーフィルを削除
+    delete_cnf_template: C&Fテンプレートを削除
+    delete_superfill_template: スーパーフィルテンプレートを削除
+    email_pdf: 電子メールのカウントとPDFへの記入
+    email_pdf_superfill: Superfill PDFを電子メールで送信
+    export_to_pdf: カウントと塗りつぶしPDFをエクスポート
+    export_to_pdf_superfill: Superfill PDFをエクスポートする
+    export_to_csv: カウント&フィルCSVをエクスポート
+    export_to_csv_superfill: Superfill CSVをエクスポート
+    export_to_xlsx: エクスポートカウント&フィルXLSX
+    export_to_xlsx_superfill: Superfill XLSXをエクスポートする
+    template:
+      export_to_csv: "%{sm_type} CSVテンプレートをエクスポート"
+      export_to_xlsx: "%{SM_TYPE} XLSXテンプレートをエクスポート"
+  upload_product_images:
+    insert_images: 画像を挿入する
+    upload_file: ファイルをアップロード
+    start_uploading_images: Brandscopeに画像を読み込む
+    export_blank_template: 空白のテンプレートをエクスポート
+    select_file_to_import: インポートするファイルを選択
+    select_and_map_fields: 画像フィールドを選択してマップする
+    select_and_map_integration_field: 統合フィールドを選択してマップする
+    integration_id: インテグレーションID
+    sku_colour_code: SKUとカラーコード
+    map_fields:
+      image_url: 画像URLをマップする
+      filename: 画像ファイル名を次の文字列でマップ
+      position: マップイメージの順序
+      is_primary: プライマリイメージをマップする
+      integration_id: 統合IDを次のものにマップ
+      sku: SKUをマップする
+      colour_code: およびカラーコードを使用して
+  headers:
+    ats_import: ATSインポート
+    project_name: BRANDSCOPE
+    sections:
+      setup: セットアップ
+      administration: 行政
+      events: イベント
+      orders: 注文
+      templates: テンプレート
+      consignments: 受託
+      profile: 会社
+      users: 利用者
+      partners: パートナー
+      product_import: 製品の輸入
+      retailer_import: 小売店の輸入
+      retailer_assign: ディーラーによる割り当て
+      general_admin: 一般管理者
+      supplier_settings: サプライヤの設定
+      integration: 統合
+      media: メディア
+      pricing: 価格
+      brands: ブランドを購入する
+      your_brands: あなたのブランド
+      qfill_brands: QUICKFILLブランド
+      help: ヘルプ
+      help_articles: ヘルプ記事
+      brandscope_articles: BRANDSCOPEの記事
+      general_articles: 一般記事
+      contact_us: お問い合わせ
+      v4_introduction: What's New?
+      tools: ツール
+      general: 一般レポート
+      comparison: 比較レポート
+    showroom: ショールーム
+    updates: アップデート
+    partners: パートナー
+    profile: プロフィール
+    my_profile: 自分のプロフィール
+    company_profile: 会社概要
+    retailers: 小売業者
+    retailer_setup_quick_action: 正規ディーラーの設定
+    order_events: イベントを注文
+    ats_events: ATSイベント
+    suppliers: サプライヤー
+    agents: エージェント
+    users: 利用者
+    user: ユーザー
+    segments: セグメント
+    user_profiles: ユーザープロファイル
+    brands: ブランド
+    territories: 領土
+    products: 製品
+    account_n_shipping_codes: アカウントと配送コード
+    brands_retailers_settings: ブランド/ディーラー設定
+    price_books: プライス・ブックス
+    discount_schemes: 割引制度
+    postage_schemes: 郵便料金
+    media_pack_assets: メディアパックの素材
+    banner_assets: バナー素材
+    marketing_links: キャンペーンリンク
+    admin_tasks: 管理者
+    events: 行事
+    order_updates: イベントログを注文する
+    ats_updates: ATSイベントログ
+    order_status_updates: オーダーステータスイベントログ
+    price_update: 価格更新イベントログ
+    consignment_item_update: 委託イベントログ
+    order_form_export: イベントログのエクスポートを注文
+    order_form_import_logs: オーダーインポートイベントログ
+    admin_products: 製品
+    upload_products: 製品DLSインポート
+    upload_superfill: スーパーフィルインポート
+    upload_product_status: 製品ステータスのインポート
+    bulk_price_upload: 製品価格インポート
+    upload_resources: プロダクトリソースのインポート
+    pricebook_price_update: 価格表の価格更新
+    update_product_key_data: プロダクトキーデータのインポート
+    retailer_setup: ディーラーの輸入
+    retailer_setup_gui: ディーラーセットアップGUI
+    retailer_bulk_upload: ディーラーの一括インポート
+    retailer_load: ディーラーセットアップGUI/Import
+    setup_retailer: ディーラーをセットアップする
+    retailer_user_load: 正規ディーラーユーザーインポート
+    assign_bulk_releases: リリースの割り当てインポート
+    upload_bulk_territories: ブランド/ディーラー設定のインポート
+    upload_bulk_segments: セグメントのインポートを割り当て
+    bulk_stripe_rules: 正規ディーラー支払いルールのインポート
+    bulk_shipping_code: 出荷コードを割り当てインポート
+    bulk_assign_approval_rules: 承認ルールの割り当てインポート
+    upload_resources_short: リソースのインポート
+    bulk_price_upload_short: 価格のインポート
+    upload_product_status_short: ステータスのインポート
+    account_codes: アカウントコード
+    modify_size_sequence: 製品サイズ/属性シーケンス
+    home_page_templates: ホームページテンプレート
+    shipping_code: 配送コード
+    update_categories: ブランドスコープの階層カテゴリ
+    order_integration: 注文ファイルのマッピング
+    ats_integration: ATSファイルマッピング
+    price_integration: 価格更新ファイルマッピング
+    order_status_integration: 注文ステータスファイルのマッピング
+    order_response_integration: 注文応答ファイルのマッピング
+    product_dls_mapping: 製品DLSマッピング
+    ftp_setup: FTPセットアップ
+    ats_export: ATSエクスポート
+    assign_releases: リリースを割り当てる
+    assign_segments: セグメントを割り当てる
+    assign_consignment: 委託を割り当てる
+    assign_territories: テリトリーを割り当てる
+    general_admin: 一般管理者
+    beta_features: ベータ版の機能
+    count_n_fills: カウント&フィル
+    superfill: Superfill
+    templates: テンプレート
+    count_n_fill_templates: カウント&フィルテンプレート
+    retailer_groups: ディーラーグループ
+    superfill_templates: Superfill Templates
+    consignments: 委託
+    consignment_requests: 委託要求
+    consignment_sale: 委託販売
+    consignment_stocktake: 委託在庫
+    report: レポートとツール
+    quickfill: クイックフィル
+    top_products_by_release: リリース別の上位製品
+    sales_by_season: シーズンごとの売上
+    monthly_order: 毎月の順序
+    seasonal_comparison: 季節による比較
+    export: 注文合計範囲
+    report_criteria: スケジュールされたレポート
+    order_detail_export: BP/BPT/注文
+    integration: 統合
+    bs_admin_tasks: BS管理タスク
+    duplicate_fields: フィールドを複製する
+    generate_test_data: テストデータを生成
+    ranges: 範囲
+    count_and_fill: カウント&フィル
+    stock_model_buyplans: カウント&フィル
+    superfill_buyplans: スーパーフィル
+    buyplan_quick_fill_and_order: プランの購入、クイックフィル、注文
+    media_packs_and_catalogs: メディアパックとカタログ
+    generate_media_packs: メディアパックを生成する
+    help: ヘルプ
+    retailer_help_file: ディーラーヘルプファイル
+    agent_help_file: エージェントヘルプファイル
+    sales_rep_help_file: 営業担当者のヘルプファイル
+    supplier_help_file: サプライヤヘルプファイル
+    supplier_settings: サプライヤ設定
+    ordering: 注文
+    quickfill_retailer_how_to_guide: クイックフィル-ディーラーのハウツーガイド
+    retailer_quick_start_guide: ディーラー-クイックスタートガイド
+    help_home: ヘルプホーム
+    internal_manuals: 社内マニュアル
+    supplier_manuals: サプライヤマニュアル
+    field_definitions: フィールドの定義
+    help_articles: ヘルプ記事
+    user_manuals: ユーザーマニュアル
+    faqs: よくある質問
+    admin_setup: 管理者の設定
+    troubleshooting: トラブルシューティング
+    buyplans: プランを購入する
+    orders: 注文
+    orders_and_templates: 注文とテンプレート
+    buyplan_templates: 購入プランテンプレート
+    quick_fill: クイックフィル
+    quick_fills: QuickFills
+    reports: レポート
+    help_docs: ヘルプドキュメント
+    account: アカウント
+    supplier_articles: サプライヤ記事
+    general: 一般
+    setup: セットアップ
+    releases: リリース
+    how_to_guides: ハウツーガイド
+    quick_start_guide: クイックスタートガイド
+    back_to_admin: Brandscope管理者に戻る
+    back_to_hq: HQに戻る
+    logout: ログアウト
+    change_password: パスワードの変更
+    set_your_password: パスワードを設定する
+    edit_profile: プロファイルを編集
+    send_email: PDFを電子メールで送信
+    product_orb360_images_uploads: Product orb360画像のアップロード
+    quick_actions: クイックアクション
+    assign_name: '%｛name｝を割り当てる'
+    name_assigned_to_users: '%｛name｝がユーザーに割り当てられている'
+    assign_template_to_users: テンプレートをユーザーに割り当てる
+    order_form_import: Buyplan注文フォームのインポート
+    retailer_users: ディーラーユーザー
+    product_image_import_delete: 製品イメージのインポート/削除
+    import: インポート
+    delete: 削除
+  sidebars:
+    products_uploads: 製品のアップロード
+    retailers_and_users: 小売業者とユーザー
+    assign_to_retailers: ディーラーに割り当てる
+  loading: 読み込み中...
+  select:
+    default: "--選択--"
+    brand: "--ブランドの選択--"
+    segment: "--セグメントの選択--"
+    release: "--リリースの選択--"
+    releases: "--リリースの選択--"
+    supplier: "--サプライヤの選択--"
+    territories: "--地域を選択--"
+    price_book: "-- PriceBookを選択--"
+    discount_scheme: "-- DiscountSchemeを選択--"
+    currency: "--通貨の選択--"
+    currencies: 通貨を選択
+    with_name: '--%{name}を選択--'
+    delivery_months: 納入月を選択
+    all_brands: すべてのブランド
+    turned_off: オフになっている
+    warehouse: "--倉庫を選択--"
+    release_type: '--リリースタイプの選択--'
+    retailer_user: '--正規ディーラー-ユーザーを選択してください--'
+    retailer: 'ディーラーを選択'
+    template: 'テンプレートを選択'
+  portlet:
+    head:
+      options: オプション
+      brand: ブランド
+      supplier: サプライヤー
+      edit: 編集
+      new: 新規
+      price_books: プライス・ブックス
+      discount_schemes: 割引制度
+  button:
+    save: 保存
+    create: クリエイト
+    cancel: キャンセル
+    ok: OK
+    upload_assets: アセットをアップロードする
+    upload_product_images: 製品画像をアップロードする
+    assign_links: リンクを割り当てる
+    upload_image: 画像をアップロード
+    select_image: 画像を選択
+    change: 変更
+    remove: 削除
+    continue: 続行
+    close: 閉じる
+    validate: 検証
+    submit: 送信
+    define: 定義
+    assign: 割り当て
+    unassign: 割り当てを解除
+    templates: テンプレート
+    back: 戻る
+    import: インポート
+    update_or_import: 更新またはインポート
+    export_all: すべてエクスポート
+    export: エクスポート
+    add: 追加
+    save_changes: 変更を保存する
+    remove_retailers: 正規ディーラーを削除する
+    select_all_territories: すべての地域を選択
+    copy: コピー
+    resend: 再送信
+    submit_order: 注文を送信する
+    save_as_draft: 下書きとして保存
+    reconcile: 調整
+    generate: 生成
+    reorder: 並べ替え
+    add_slide_links: スライドリンクを追加
+    preview: プレビュー
+    publish: 公開
+    proceed: 続行する
+    resend_confirmation_instructions: 確認手順を再送信する
+    upload: アップロード
+    generate_media_pack: メディアパックを生成
+    generate_report: レポートを実行
+    upload_pdf: PDFファイルをアップロードする
+    pdf_change: PDFファイルを変更
+    confirm: 確認
+    send: 送信
+    superfill_import: スーパーフィルインポート
+    please_wait: お待ちください...
+    link_existing_retailer: 既存のディーラーをリンクする
+    import_order_form: 注文フォームをインポートする
+  images:
+    hints:
+      select_image_120_hint: "（幅120px高さ90px）"
+      banner_asset_image_hint: '推奨されるアスペクト比4:5（例：720px×900px）'
+  generate_media_packs:
+    email: 電子メール
+    body1: 選択した製品に関連するすべてのメディアアセットを含むメディアパックを生成しようとしている。
+    body2: メディアパックへのリンクが記載された電子メールが、下記の電子メールアドレス（複数可）に送信される。メディアパックを別のメールアドレスまたは複数のメールアドレス(カンマ区切り)に送信する場合は、メールアドレスを更新する。
+    phoenix_leisure_group:
+      export_big_commerce: Big Commerceファイルをエクスポートする
+      body1: 選択した製品に関連するすべてのメディアアセットを含むメディアパックの生成要求を送信しようとしている。
+      body2: 以下の中から、必要な項目を選択してください。
+      body3: 完了すると、メディアパックへのリンクを含む電子メールが以下の電子メールアドレスに送信される。別のアドレスに送信する場合は、メールアドレスを変更してください。
+      body4: また、FTPに送信されたeコマースファイルを取得することを選択することができる。
+      product_images: 製品イメージ
+      ecommerce_files: eコマースファイル
+      shopify: Shopify
+      big_commerce: ビッグコマース
+      woo_commerce: 宇通商
+      send_ecommerce_to_ftp: eCommerceファイルをFTPに送信する
+
+  actions:
+    deactivate: 無効にする
+    activate: アクティブ化
+    inactivate: 非アクティブ化
+    add_new: 新規を追加
+    view: 表示
+    delete: 削除
+    delete_products: すべての製品を削除
+    delete_all: すべて削除
+    delete_all_templates: すべてのテンプレートを削除
+    processing: 処理中...
+    log_file: ログファイル
+    original_file: 元のファイル
+    ftp_brands: ブランド/サプライヤを追加
+    transfer_products: 製品の転送
+    edit: 編集
+    edit_name: '%｛name｝を編集'
+    more_actions: その他
+    more: その他
+    export: エクスポート
+    export_ats: ATSをエクスポート
+    copy_short_link: 短いリンクをコピー
+    privacy_policy: プライバシーポリシー
+    tnc: 利用規約
+    cookie_policy: クッキーポリシー
+    product_ats_warning: 警告! -これにより、製品のATSレベルが更新される(必要な場合のみ変更される)
+    resources: リソース
+    release_offline: リリースがオフライン/ロックダウン/下書きで、ビューは使用できない
+    release_unavailable: 残念ながら、このC&Fはリリースのモードまたは納入月のため利用できない
+    configure_cnf_template: C&Fテンプレートを設定する
+    view_cnf: C&Fを表示
+    delete_cnf: C&Fを削除
+    view_bpt: BPTを表示
+    configure_bpt: BPTを設定する
+    cnf_inaccessible_due_to_payment: "支払いが進行中のため、このC&Fは%{action}できない。"
+    copy: コピー
+  choose_file: ファイルを選択
+  add_links: 1つ以上のリンクを挿入
+  link_description: リンクの説明
+  link_value: リンク値
+  file_hints:
+    only_csv_xlsx_files: CSVのみ、xlsxを使用可能
+    only_csv_xls_xlsx_files: CSV、xls、xlsxのみ許可
+    only_csv_files: CSVファイルのみ許可
+    only_xlsx_files: xlsxファイルのみ許可
+  order_status_api: 
+    logs_not_found: "すまないこの注文のログが見つからなかった"
+    execption: "セールスログの処理中にエラーが発生した。"
+  send_pdf_hints:
+    send_to: 有効なメールアドレスをカンマで区切って入力
+    subject: 電子メールの件名を入力
+    email_body: 電子メールの本文を入力する
+  password_hints:
+    character_limit: 8文字以上
+    uppercase_limit: 1文字以上の大文字
+    lowercase_limit: 1文字以上の小文字
+    digit_limit: 最小1桁
+    special_char_limit: 1文字以上の特殊文字
+    not_same_as_previous: '注：以前のパスワードと同じにすることはできない'
+  errors:
+    buyplan_not_found: 購入プランが見つからない
+    product_release_not_found: 製品リリースが見つからない
+    buyplan_item_not_found: 購入プラン項目が見つからない
+    release_size_break_not_found: リリースサイズブレークが見つからない
+    buyplan_size_break_not_found: Buyplan size breakが見つからない
+    no_retailers_found: このユーザーに関連付けられている正規ディーラーはない 
+    access_denied: このページにアクセスする権限がない場合は、Brandscope管理者に連絡する
+    invalid_credentials: 無効な資格情報
+    invalid_url: 申し訳ありませんが、このリンクは無効である。我々はこの問題を認識しており、すぐにそれを調べる。詳細については、Brandscopeサポートチームに連絡すること。
+    barcode_not_found: バーコードが見つからない
+    record_not_found: レコードが見つからない
+    record_already_exist: レコードがすでに存在する
+    sold_out_item: 商品は売り切れ
+    invalid_month: 無効な納入月
+    past_month: 申し訳ありません。過去の納入月に製品を追加できない
+    product_unavailable_for_month: 選択した納入月に製品を入手できない
+    product_without_size: 製品には少なくとも1つのサイズが必要
+    invalid_mode: 無効なリリースモード
+    missing_params: "欠落しているパラメータ=>%{params}"
+    address_missing: 住所がない!
+    something_went_wrong: 問題が発生した。Brandscope管理者に連絡する
+    stale_data: バックエンドでデータが更新され、データが古くなっているようだ。ページを更新して再試行する。
+    order_exist: この購入プランの注文はすでに作成されている
+    out_of_range_quantity: 0-99999の間の数量を入力
+    invalid_quantity: 利用可能な数量を超える数量を入力した
+    invalid_cumulative_quantity: 入力したQtysの数が利用可能数を超えている（このブランドのATSは累積的）。
+    invalid_qty_block: "項目は%{order_qty_block}の倍数でのみ注文可能"
+    invalid_fill_qty: 無効な充填数量
+    invalid_params: "無効なパラメータ=>%{params}"
+    already_exists_for_given_month: "製品は%{params}にすでに存在する"
+    incomplete_release: 残念ながら、リリースは現在利用できない。代理店、営業担当者またはブランドに連絡すること。
+    inactive_release: "残念ながら、この%{RELEASE_TYPE}は現在利用できない。代理店、営業担当者またはブランドに連絡すること。"
+    can_not_change_release_type: Superfillから変更できない
+    selected_brand_is_not_superfill: 選択したブランドがスーパーフィルではないため、スーパーフィルに更新できない
+    release_already_exist: "選択したブランドのSuperfillリリースはすでに存在する"
+    pre_order_month_item_not_movable: 申し訳ありませんが、予約注文月との間で商品を移動できない。
+    reorder:
+      product_release_unavailable_for_reorder: 申し訳ありませんが、この製品は再注文できない
+    supplier_not_found: 選択したサプライヤが見つからない
+    csv_errors:
+      malformed_error: "CSVファイルのフォーマットに問題がある。%{error}などの箇所を修正してください。"
+      invalid_format: CSVファイルのフォーマットに問題がある。CSVファイル/フォーマットを確認して修正する。
+    required_missing_parameters: 必要なパラメータが正しくない/欠落している。
+    qfill_access_denied: 会社にリリースが割り当てられていないため、このQfillにアクセスする権限がない
+    qfill_assign_error: リリースのどれも正規ディーラーに割り当てられていないため、この正規ディーラー用にQfillを作成できない
+    cant_be_blank: 空白にできない
+    releases:
+      auto_extend:
+        extend_months: "延長する月数は0より大きく%{available_months}より小さくなければならない"
+        end_date: "延長するには、終了日が最高納入月よりも後で%{max_delivery_month}か月未満であること。"
+        no_delivery_month: リリースには現在または将来の配信月が必要
+      end_date: "終了日は、最高納入月よりも後で、本日から%{max_delivery_month}月未満であること。"
+      no_delivery_months: リリースには将来の納入月が必要
+    invalid_emails: 有効な電子メールアドレスを入力して、再試行する。
+    dls:
+      attribute_type: 'SKU：%{PRODUCT_SKU}はattribute_typeで割り当てられている：%{attr_type}。プロダクトには属性タイプが1つだけ必要'
+    size_min: 有効ではない。0以上の数値にする必要がある
+  info:
+    update_month_moving_non_pre_order_quantities: 非予約注文数量のみの移動。
+  order_csv:
+    saved: 注文CSVが正常に追加された。
+    updated: 注文CSVが正常に更新された。
+    copied: 注文CSVが正常にコピーされた。
+    deleted: 注文CSVが正常に削除された。
+    brand_missing: ブランドが見つからない。
+    invalid_file: ファイルが無効。有効なファイルタイプ（CSV）
+    invalid_symbol: 無効なシンボル。
+    invalid_method: 無効なメソッド。
+    invalid_datatype: 無効なデータ型。
+    invalid_sort_field: マッピングにソート列が存在する必要がある。
+    must_present_sort_by: "[並べ替え]フィールドが存在する必要がある。"
+    duplicate_sort_fields: SORT_BYとSORT_BY_LEVEL2の重複。
+  order_csv_mapping:
+    invalid_calculation: 無効な演算子またはオペランド。
+    invalid_symbol: 無効なシンボル。
+    invalid_method: 無効なメソッド。
+    invalid_constant: 定数は整数または浮動小数点数でなければならない。
+    invalid_datatype: 無効なデータ型。
+    operands_missing: オペランドが欠落している。
+    operators_missing: 演算子がない。
+    fields_missing: フィールドが欠落している。
+    connectors_missing: コネクタがない。
+    comb_limit_invalid: 無効なトラクション値。
+    calc_limit_invalid: 無効な小数点以下の値。
+    invalid_date_format: 無効な日付形式。
+  ats_csv:
+    heading: ATSファイルマッピング
+    copy: ATS CSVをコピー
+    created: ATS CSVが正常に作成された。
+    updated: ATS CSVが正常に更新された。
+    copied: ATS CSVが正常にコピーされた。
+    mapping_missing: "%{mapping}マッピングが見つかりません！！！"
+    invalid_file: ファイルが無効。有効なファイルタイプ（CSV）
+    empty_file: ファイルが無効。ヘッダーがない！！！
+    record_already_exist: ATS CSVはすでに存在する!!!
+    select_record: ブランド/サプライヤを先に選択！！！
+    missing_headers: "ヘッダー%{headers}が見つからない"
+    missing_mappings: "%{headers}のマッピングが見つからない"
+    wrong_datatype: "%{header}のデータ型が正しくない"
+    invalid_mappings: "無効なマッピング%{mappings}"
+    missing_conditional_mapping: "%{field1}または%{field2}の少なくとも1つをマップする必要がある"
+    podate_mapping_result: 数量をマッピングする場合はPODateマッピングが必須
+    is_blank_po_date_to_at_once_based_mapping_result: PODateをマップするか、「Set Blank PODate to at Once」フラグを設定する
+    is_blank_po_date_to_at_once_based_mapping_result_warning: 「Set Blank PODate to at Once（一度に空白のPODateを設定）」フラグがすでに設定されているため、PODateをマップしない
+    add_at_once: AtOnce数量を追加？
+    is_blank_po_date_to_at_once: 空白のPODateを一度に設定
+    is_active: アクティブか？
+    at_once_qty_seperate: AtOnce個別数量?
+    header: ヘッダー
+    mapping_to: マッピングTo
+    datatype: DataType
+  ats_update:
+    barcode:
+      required: バーコードが表示されている。
+      size_not_found: このバーコードのサイズが見つからない。
+  price_csv:
+    heading: 価格更新ファイルマッピング
+    copy: 価格更新CSVをコピー
+    created: 価格更新CSVが正常に作成された。
+    updated: 価格更新CSVが正常に更新された。
+    copied: 価格更新CSVが正常にコピーされた。
+    mapping_missing: "%{mapping}マッピングが見つかりません！！！"
+    invalid_file: ファイルが無効。有効なファイルタイプ（CSV）
+    mapping_not_found: 価格更新CSVマッピングが見つからない
+    empty_file: ファイルが無効。ヘッダーがない！！！
+    record_already_exist: 価格更新CSVはすでに存在する！！！
+    select_record: ブランド/サプライヤを先に選択！！！
+    missing_headers: "ヘッダー%{headers}が見つからない"
+    missing_mappings: "%{headers}のマッピングが見つからない"
+    wrong_datatype: "%{header}のデータ型が正しくない"
+    invalid_mappings: "無効なマッピング%{mappings}"
+    missing_conditional_mapping: "%{field1}または%{field2}の少なくとも1つをマップする必要がある"
+    is_active: アクティブか？
+    header: ヘッダー
+    mapping_to: マッピングTo
+    datatype: DataType
+  test_order_mailer:
+    download_file_message: 'テスト注文のPDFファイルをダウンロードするには、次のリンクをクリックする。'
+  quick_fill_mailer:
+    assigned_quick_fill:
+      subject: Brandscopeアラート-クイックフィルが割り当てられている
+      message: "QuickFillは会社からあなたに割り当てられている-（%{company_name}）によってユーザ-（%{created_by}）"
+      view_quick_fill: クイックフィルを表示
+  quick_fill_label: クイックフィル
+  stock_model_buyplan:
+    destroy_confirmation: これに関連する既存のカウントとフィルは削除されない。これらは、カウントとフィル画面から削除する必要がある。このカウントとフィルを削除してもよろしいか？
+  templates:
+    destroy_confirmation: "このテンプレートに関連する既存の%{template_category}は削除されない。これらは%{template_category}画面から削除する必要がある。このテンプレートを削除してもよろしいか？"
+    destroy_all_confirmation: "テンプレートに関連する既存の%{template_category}は削除されない。これらは%{template_category}画面から削除する必要がある。続行してもよろしいか？"
+  brands:
+    invalid_order_minimum: "[Apply Order Minimum]または[Apply Order Minimum by Month]が有効になっている"
+    assign_segments_retailers: ディーラーにセグメントを割り当てる
+    assign_consignment_retailers: 委託小売業者を割り当てる
+    add_brand: ブランドを追加
+    order_details: BP/BPT/注文の詳細をエクスポート
+    sizewise_order_details: BP/BPT/オーダー詳細のエクスポート（サイズ別）
+    export_retailers: ブランド小売業者を輸出
+    export_segment: ブランド小売業者セグメントをエクスポート
+    export_users: ブランドユーザーをエクスポート
+    export_retailers_releases: ブランド小売業者とリリースをエクスポート
+    export_brand_products: ブランド製品の輸出
+    export_brand_agents: ブランド代理店および営業担当者の輸出
+    export_ats: ブランドATSをエクスポート
+    upload_resources: ブランドリソースをアップロードする
+    product_list: ブランド製品リスト
+    retailer_list: ブランド小売業者リスト
+    warehouses: ブランド倉庫
+    callouts: ブランドコールアウト
+    clear_all_ats: すべてのATS Qtysをクリア
+    recalculate_product_status: すべての製品ステータスを再計算
+    confirm_action: アクションの確認
+    update_warning: このアクションはブランド全体を更新する。続行しますか？
+    consignable_retailer: 委託販売店
+    select_brand: ブランドを選択
+    select: "--選択--"
+    brand_name: ブランド名
+    new_brand: ニューブランド
+    edit_brand: ブランドを編集
+    integration: 統合
+    pricing: ブランド価格
+    media: メディア
+    target: ターゲット
+    brand_details: ブランドの詳細
+    enter_full_name: フルネームを入力
+    size_sequence: サイズシーケンス
+    attribute_sequence: 属性シーケンス
+    access_settings: アクセス設定
+    default_cnf_type: デフォルトのカウントとフィルタイプ
+    order_approval_settings: 注文の承認設定
+    qf_order_approval_settings: クイックフィル注文承認設定
+    release_settings: リリース設定
+    display_range_or_price: "これは、[範囲]ページに[表示範囲]または[表示価格]が表示される"
+    dispay_model: これは、注文の送信モーダルに表示される
+    segment_settings: セグメント設定
+    sources_settings: ソース設定
+    size_header_settings: 範囲ページの表示設定
+    integrated_to: に統合されている
+    ats_settings: ATS設定
+    agreement_acceptance: 契約の受諾
+    view_existing_pdf: 既存のPDFを表示
+    po_are_accepted: POが受理される各月の最終日を制御する
+    ats_flags: ATSフラグが表示されるレベルを制御する(デフォルト=5)
+    ats_amounts: " ATS量が表示されるレベルを制御する(デフォルト=200)"
+    email_settings: 電子メール設定
+    pricing_details: ブランド価格設定
+    order_minimums: 最小注文数
+    media_images: メディアイメージズ
+    primary_logo_image_size_hint: "（幅100px高さ125px）"
+    add_another_logo: 別のロゴを追加
+    quickfill_image_size_hint: "（幅994px×高さ150～250px）"
+    modal_image_size_hint: "（幅1110px高さ150px）"
+    home_pages: ホームページ
+    main_banner_image_size_hint: "（幅1215px高さ150px）"
+    quickfill_tile_image_size_hint: "（幅294px高さ200px）"
+    target_settings: ターゲット設定
+    payment_account_code: Bluechainセラー識別子
+    supplier_default_order_status: デフォルトの注文ステータス
+    assigned_segments: セグメントが正常に割り当てられた。
+    unassigned_segments: セグメントが正常に割り当て解除された。
+    netsuite_details: Netsuiteの詳細
+    isync_details: iSyncの詳細
+    cin7_details: Cin7詳細
+    cin7_custom_fields: Cin7Restカスタムフィールド
+    unleashed_details: 解き放たれた詳細
+    tradegecko_details: TradeGeckoの詳細
+    acumatica_details: Acumaticaの詳細
+    reckon_details: Reckonの詳細
+    brightpearl_instance_app_details: Brightpearlインスタンスアプリの詳細
+    clear_account_details: アカウントの詳細をクリア
+    apparelmagic_details: Apparelmagicの詳細
+    myob_advance_details: MyobAdvanceの詳細
+    myob_advance_split: ブランドスコープ・マンスリー・スプリット
+    myob_advance_non_split: ブランドスコープ注文番号
+    ostendo_details: Ostendoの詳細
+    myobexo_details: MyobExoの詳細
+    myob_exo_postage_fail: "小売業者%｛RETAILER_NAME｝の送料は%｛POSTAGE_PRICE｝"
+    exo_postage_zero: アビスの場合、送料はゼロより大きくなければならない。
+    orderwise_details: 注文の詳細
+    brightpearl_details: Brightpearlの詳細
+    quickbook_details: Quickbookの詳細
+    peach_details: Peach Details
+    harmony_details: Harmonyの詳細
+    greentree_details: グリーンツリーディテール
+    dear_system_details: DearSystemの詳細
+    sap_details: SAPの詳細
+    myob_account_right_details: Myobアカウント権限の詳細
+    order_type_settings: 注文タイプの設定
+    pvh_ftp_details: PVH FTPの詳細
+    pvh_future_order_delivery_day_out_of_range: 1から31を選択
+    yes_key: 'はい'
+    no_key: 'いいえ'
+    export_product_title: 製品のエクスポートを確認
+    export_products_header: 完了すると、製品のエクスポートが電子メールで送信される。非アクティブな製品を含めますか？
+    quick_fill_for: "%{assigned_to}のクイックフィル"
+    back_to_quick_fill_list: クイックフィルリストに戻る
+    set_sequence:
+      success: サイズと属性シーケンスを更新中
+    incomplete_qfill_setup: QuickFillは現在利用できないため、代理店、販売担当者またはブランドに連絡すること。
+    shipping_methods: 発送方法
+    add_shipping_method: 別の配送方法を追加
+    remove_shipping_method: ' 削除'
+    netsuite_default_order_types: Netsuiteのデフォルトの注文タイプ
+    netsuite_payments: Netsuite Payments
+    create_qfill_for_retailer: ディーラーのクイックフィルを作成する
+    add_a_template: " テンプレートを追加する"
+    delete_all_templates: " すべてのテンプレートを削除"
+    destroy: "%{state}は正常に削除された。"
+    destroy_all_templates: テンプレートは正常に削除された。
+    duplicate_error: "申し訳ありません。%{brand_name}ブランドへのアクセス権がない"
+    new_template: 新しいテンプレート
+    edit_template: テンプレートを編集
+    view: 表示
+    delete: 削除
+    export_pdf: PDFをエクスポートする
+    invalid_buyplan: 無効な購入プラン！
+    valid_buyplan: すべての項目が有効！
+    deleted_record: "%{state}が削除された。"
+    export_buyplan: "エクスポートは%{user_email}に電子メールで送信される"
+    invalid_emails: "%{invalid_emails}は無効なメールアドレスである。有効な電子メールアドレスを入力して、再試行する。"
+    send_email: 電子メールは指定された電子メールアドレスに配信される。
+    bpt_assigned: "%{type}が選択したユーザーに正常に割り当てられた"
+    havaianas_details: ハワイアナスの詳細
+    datapel_details: データペルの詳細
+    denstock_details: Denstockディテール
+    nixon_details: ニクソンの詳細
+    cin7core_details: Cin7コアの詳細
+    home_page_not_set_for_brand: "%{brand}のホームページが設定されていない"
+    brand_created: ブランドが正常に作成された。
+    brand_updated: ブランドは正常に更新された。
+    brand_deleted: ブランドは正常に削除された。
+    ats_ftp_details: FTP ATSの詳細
+    arl_details: ARLの詳細
+    peoplevox_details: Peoplevoxの詳細
+  buyplans:
+    delete_empty_buyplans: 空のBuyPlanをすべて削除
+    create_qfill_for_retailer: ディーラーのクイックフィルを作成する
+    add_a_template: " テンプレートを追加する"
+    delete_all_templates: " すべてのテンプレートを削除"
+    destroy: '%{state}は正常に削除された。'
+    destroy_all_templates: テンプレートは正常に削除された。
+    duplicate_error: "申し訳ありません。%{brand_name}ブランドへのアクセス権がない"
+    new_template: 新しいテンプレート
+    edit_template: テンプレートを編集
+    view: 表示
+    delete: 削除
+    export_pdf: PDFをエクスポートする
+    invalid_buyplan: 無効な購入プラン！
+    valid_buyplan: すべての項目が有効！
+    deleted_record: '%{state}が削除された。'
+    export_buyplan: "エクスポートは%{user_email}に電子メールで送信される"
+    invalid_emails: '%{invalid_emails}は無効なメールアドレスである。有効な電子メールアドレスを入力して、再試行する。'
+    send_email: 電子メールは指定された電子メールアドレスに配信される。
+    bpt_assigned: '%{type}が選択したユーザーに正常に割り当てられた'
+    assign_template_warning: 上記の小売業者は、この購入プランの一部の製品にアクセスできない。これらの製品は削除される。続行しますか？
+    generate_media_packs:
+      email: 電子メール
+      body1: 注文に関連するすべてのメディアアセットを含むメディアパックを生成しようとしている
+      body2: メディアパックへのリンクが記載された電子メールが、下記の電子メールアドレス（複数可）に送信される。メディアパックを別のメールアドレスまたは複数のメールアドレス(カンマ区切り)に送信する場合は、メールアドレスを更新する。
+    select_name: 名前を選択
+    reorder:
+      buyplan_created: この注文の購入プランが正常に作成された
+      buyplan_already_exists: このユーザの購入プランはすでに存在する
+    resend:
+      order_will_be_resent: "%{order_number}の注文は再送される。"
+      no_orders_selected: 再送する注文を選択する。
+    wrong_reference: Buyplanへの参照が間違っている
+    bpt_already_exists: "リリース'%{release_name}'および'%{result}'ユーザのBPTはすでに存在する"
+    no_user_selected: BPTを割り当てるユーザーが選択されていない
+    no_retailer_selected: "%{SM_TYPE}テンプレートを関連付けるユーザが選択されていない"
+    no_supplier_status_data: オーダーステータスデータが見つからない。
+    existing_qfill: "このユーザーには既存のクイックフィルがある[続行]をクリックして編集"
+    new_qfill: "[続行]をクリックしてこのユーザーのクイックフィルを作成"
+  buyplan_items:
+    item_not_available_for_month: その月のアイテムは利用できない
+    month_in_past: 今月の数量は追加できず、今月は過去のもの
+    item_not_exists: アイテムが存在しない。更新してください。
+    enter_correct_value: 値を修正する。
+    item_already_exists: 項目はすでに存在する
+    product_sold_out: この商品は完売している
+    product_already_exist_in_bp: 'この製品は、次の名前の購入プランにすでに存在する：%｛buyplan｝'
+    cannot_reorder_for_past_month: "過去1ヶ月%{month}の項目を再注文できない"
+    item_added_to_buyplan: 'このアイテムは、購入プランに追加された%｛name｝'
+    no_items_provided: リオーダするアイテム/数量は提供されていない。再試行するか、管理者に連絡してください。
+    order_already_created: このBuyplanに対してすでに作成されているオーダー。
+    entered_more_qty_than_available: 入力されたQtysの数が利用可能な数を超えている。を確認してください青い数量ボックスを入力し、より少ない量を送信するご注文。
+    order_qty_block: "項目は%{order_qty_block_val}の倍数でのみ注文できる。青色のボックスの数量を更新してください"
+    qty_updated: 数量が正常に更新された
+    could_not_update_bp: 購入プランの更新中に問題が発生したため、ページを再読み込みして再試行してください。
+    cannot_edit_buyplan: Buyplanを編集できない。
+  order_details:
+    brand_name: 'ブランド名：'
+    retailer: 'ディーラー：'
+    user: 'ユーザー：'
+    salesperson: '販売員：'
+    agent_rep: 'エージェント/担当者：'
+    account_code: 'アカウントコード：'
+    order_number: '注文番号：'
+    order_date: '注文日：'
+    purchase_order: '注文書番号：'
+    confirmed_by: '確認者：'
+    billing_address: '請求先住所：'
+    shipping_address: '配送先住所：'
+    delivery_instructions: '配送方法：'
+    order_total: 'ご注文の合計：'
+    order_total_on_payment: '元の注文の合計'
+    number_of_items: 'アイテムの数：'
+    download_order: 注文をダウンロード
+    download_barcodes: バーコードをダウンロードする
+    view_range: 範囲を表示
+    item_details:
+      sku: 'SKU：'
+      style: 'スタイル：'
+      status: 'ステータス：'
+      serial_no: 'シリアル番号'
+      ea_rr: 'EAR/R（右/右）：'
+      ws: 'W/S：'
+      rr: 'R/R（右/右）：'
+      qty: '数量：'
+      total: '合計：'
+    invoice:
+      original_total: 元の合計
+      sub_total: 小計
+      category_discount: カテゴリーディスカウント
+      order_discount: "注文割引（%{discount}%）"
+      total: 合計
+      category_discounts: カテゴリディスカウント
+      category: カテゴリ
+      original_price: 元の価格
+      discount: 割引
+      discounted_amount: 割引額
+      discountted_price: 割引価格
+      pay_now_discount: "今すぐ割引で支払う"
+      postage_amount: "貨物"
+      postage_amount_month: "運賃%{month}"
+      total_excluding_tax: "合計（税別）"
+      total_including_tax: "合計（税込）"
+      amount_already_paid: "すでに支払われた金額"
+      tax_amount: "税金"
+    reorder:
+      buyplan_created: この注文の購入プランが正常に作成された
+      buyplan_already_exists: このユーザの購入プランはすでに存在する
+    resend:
+      order_will_be_resent: "%{order_number}の注文は再送される。"
+    wrong_reference: Buyplanへの参照が間違っている
+    bpt_already_exists: "リリース'%{release_name}'および'%{result}'ユーザのBPTはすでに存在する"
+    no_user_selected: BPTを割り当てるユーザーが選択されていない
+  supplier_api:
+    errors:
+      order_not_found:
+        code: 404
+        message: 注文が見つからない
+      brand_not_found:
+        code: 404
+        message: ブランドが見つからない
+      product_not_found:
+        code: 404
+        message: 製品が見つからない
+      invalid_data:
+        code: 422
+        message: 無効なデータ
+      release_not_found:
+        code: 404
+        message: リリースが見つからない
+      invalid_supplier_status_data_json: 無効なJSON構造
+      not_integrated_to_api: 注文ステータスがAPIに統合されていない
+    create:
+      success: "%｛model_name｝が正常に作成された！"
+      failure: "%{model_name}を作成できない。エラーを修正して再試行する。"
+    update:
+      success: "%｛model_name｝が正常に更新された！"
+      failure: "%{model_name}を更新できない。エラーを修正して再試行する。"
+  api:
+    consignment_items:
+      no_brand_found: ブランドが見つからない
+      no_data: オブジェクトが見つからない。
+      invalid_data: 無効なデータ
+      invalid_retailer_code: 無効なRETAILER_CODE
+      invalid_integration_id: 無効なintegration_id
+      serial_number_required: serial_numberは空白にできない
+      brand_not_accessible: 指定された正規ディーラーがブランドにアクセスできない！
+  AtsImport:
+    rows_should_greater: 行数は1より大きくなければならない
+    brand_not_found: ブランドが見つからない
+    size_break_not_found: サイズブレークが見つからない。
+  stock_models:
+    destroy_all_templates: テンプレートは正常に削除された。
+    add_a_template: " テンプレートを追加する"
+    delete_all_templates: " すべてのテンプレートを削除"
+    associate_smt: このC&Fテンプレートに関連する更新された正規ディーラー
+    superfill_associate_smt: このSuperfillテンプレートに関連する更新された正規ディーラー
+    assign_template: "%{sm_type}テンプレートの割り当て"
+    associate_template: カウント&フィルテンプレートを関連付ける
+    associate_superfill_template: スーパーフィルテンプレートを関連付ける
+  stock_model_items:
+    size_and_attr_size_not_found: "サイズ%{size}、属性サイズ%{attribute_size}が見つからない。"
+    size_not_found: "サイズ%{size}が見つからない。"
+    destroy: "%{state}は正常に削除された。"
+  test_order:
+    notice: テストオーダーが正常に生成された。すぐに電子メールが送信される
+    file_name_prefix: テスト順序
+    full_order: フルオーダー
+  consignment_stocktake:
+    error:
+      serial_number: オーダーが作成されていない。「カウントされていない」ステータスのシリアル番号がない！
+      no_items_found: 特定のブランドおよび正規ディーラーのコンサイメントアイテムが見つからない
+    success: 委託在庫の詳細が電子メールに送信された
+  product_upload:
+    invalid_file: ファイルが無効。CSVファイルのみ許可。
+    imported: 製品がインポートされている場合、インポートが完了すると電子メールが送信される。
+    ready_to_upload: ファイルが有効で、アップロードの準備ができている
+    validate_before_submitting: 'アップロードしようとしているファイルにエラーが含まれている。送信する前にファイルを検証する。 '
+    correct_errors: ファイルに無効なデータが含まれている。その誤りを訂正してくれ。
+    key_data_update: プロダクトキーデータが更新された
+    state_ignore_warning: DLSインポートを介して状態を更新するアクセス権がないため、状態列は無視される
+    wrong_state: "状態は%{states}以内である必要がある"
+  size_sequence_upload:
+    import_sequence: 現在のシーケンスをインポート
+    export_sequence: 現在のシーケンスをエクスポート
+    import_file: ファイルをインポート
+    save: 変更を保存する
+    map_fields: フィールドを選択してマップする
+    invalid_mapping: 無効なマッピングが指定されている
+    missing_sizes: "不足しているサイズ%{sizes}"
+    missing_attr_sizes: "AttributeSizes=>%{attr_sizes}が見つからない"
+    invalid_sizes: "無効なサイズ%{sizes}"
+    invalid_attr_sizes: "無効な属性サイズ=>%{attr_sizes}"
+    duplicate_sizes: "重複するサイズ%{sizes}"
+    duplicate_attr_sizes: "重複する属性サイズ=>%{attr_sizes}"
+    ready_to_upload: ファイルが有効で、アップロードの準備ができている
+    imported: sizes/Attr sizesはインポート中で、まもなく完了する。
+    file: ファイル
+    file_type: ファイルタイプ
+    brand: ブランド
+    map_size_with: マップサイズ
+    map_attribute_size_with: 属性サイズを次の条件でマップ
+  size_break:
+    add: 'ブランドに新しいサイズの区切りが追加された：%｛brand_name｝'
+  brandscope_api:
+    order_response: "順序応答\n%{response_body}を挿入 \n"
+    order_request:  "注文要求\n%{request_body}を挿入 \n"
+    success_msg: '正常に挿入された順序!'
+    log_msg: '正常に挿入された順序!'
+    error_msg: '失敗。詳細についてはログファイルを確認'
+    error_ats_import: '失敗。ATS_IMPORT詳細は元のファイルをチェック'
+    product_not_found: '一部の製品がアップロードされなかった。詳細についてはログファイルを確認'
+    invoice_success_msg: '請求書が正常に作成された！'
+  havaianas_api:
+    order_response: "順序応答\n%{response_body}を挿入 \n"
+    order_request:  "注文要求\n%{request_body}を挿入 \n"
+    success_msg:     '正常に挿入された順序!'
+    log_msg:        '正常に挿入された順序!'
+    error_msg:      '失敗。詳細についてはログファイルを確認'
+    product_not_found: '一部の製品がアップロードされなかった。詳細についてはログファイルを確認'
+  product_orb360_images_upload:
+    invalid_file: "ファイルが無効。CSVファイルのみ許可。"
+    imported: "製品のタグ値が更新されている場合、更新が完了するとメールが送信される。"
+    ready_to_upload: "ファイルが有効で、アップロードの準備ができている"
+    validate_before_submitting: "アップロードしようとしているファイルにエラーが含まれている。送信する前にファイルを検証する。 "
+    correct_errors: "ファイルに無効なデータが含まれている。その誤りを訂正してくれ。"
+  duplicate_fields:
+    import:
+      marked_as_inactivated: 非アクティブとしてマークされている
+      size_not_found: "Brandscope ID %{id}のサイズがで見つからない"
+    success: 電子メールを確認すると、結果CSVが送信される。
+    mailer:
+      export_subject: '重複するフィールドのエクスポート結果：%｛brand_name｝'
+      import_subject: '重複するフィールドインポート結果：%｛brand_name｝'
+  segment:
+    missing: '指定された名前のセグメントが見つかりません：-%{missing_segment}'
+  retailer_import:
+    missing_segment: '特定のブランドのセグメントが見つからない：-%{brand_name}と名前：-%{missing_segment}'
+    invalid_currency: 無効な通貨が指定された。
+  user:
+    send_welcome_mail: 選択したユーザーのメールアドレスにウェルカムメールを送信した。
+    already_confirmed: メールアドレスはすでに確認されているため、サインインしてみて。
+    resend_login_details: 選択したユーザーのメールアドレスにログインの詳細を送信した。
+    accept_term_and_conditions: 利用規約に同意して続行する。
+    invalid_username: このユーザーは存在しない。ユーザー名では大文字と小文字が区別されることに注意すること。サポートが必要な場合は、admin@brandscope.com.au
+    not_registered: ユーザー名はすでに登録されている。サインインしてみて。
+    inactive_user: 申し訳ありませんが、このユーザーは非アクティブである。
+    mail_failure: 何かがうまくいかなかった、連絡してくださいBrandscope上のカスタマーサービスadmin@brandscope.com.au。
+    locale:
+      update:
+        success: 言語が正常に変更された。
+        failure: 言語を変更できなかった。
+    retailer_users:
+      failure: ブランドまたはディーラーを選択
+  address:
+    invalid_country: リストに含まれていない
+  report_criteria:
+    exported: エクスポート要求が正常に追加された。
+    saved: レポート条件が正常に保存された。
+    destroy: レポート形式が正常に破棄された。
+    atleast_one: 少なくとも1つを選択する必要がある
+  clear_ats:
+    request_submitted: "%{brand_name} ATSのクリア要求が正常に送信された。"
+    mail_subject: "%{brand_name}のATSをクリア"
+    mail_message: "%{brand_name}のATSクリア要求が正常に完了した。"
+  recalculate_product_status:
+    request_submitted: "%{brand_name}の製品ステータスの再計算要求が正常に送信された。"
+    mail_subject: %｛BRAND_NAME｝の製品ステータスを再計算
+    mail_message: "%{brand_name}の製品ステータスの再計算要求が正常に完了した。"
+  reports:
+    order_detail_report:
+      csv_send_message: メールを確認すると、注文の詳細CSVが送信される。
+    brand_retailers_export:
+      more_retailers_for_delay: 選択されたブランドに関連する小売業者はより多くあるので、私たちは短い間にあなたの電子メールに小売業者の輸出を送っている。
+    brand_users_export:
+      more_users_for_delay: 選択したブランドに関連付けられているユーザーが多いので、私たちはユーザーを送信している短い間にあなたの電子メールにエクスポート。
+    top_products_by_release: 上の製品のレポートはあなたの電子メールにまもなく送られる。
+    sales_by_season: シーズンレポートによる販売はすぐにあなたの電子メールに送られる。
+    monthly_order: 毎月の注文レポートはあなたの電子メールにまもなく送られる。
+    seasonal_comparison: 季節比較レポートはすぐにあなたの電子メールに送られる。
+    order_detail: '%{type}ご注文の詳細レポートはまもなく電子メールに送信される。'
+  DLS:
+    missing_headers: ヘッダーが見つからない
+    category: 有効なカテゴリリストにない
+    invalid_months: "%｛months｝が特定のリリースの配信月に存在しない"
+    invalid_month_format: "%{months}が無効（JAN16またはJanuaryなどの有効な形式）"
+    invalid_name: 無効な名前が含まれている
+    product_field: このSKU/カラーの値はすべて同じである必要がある
+    attribute_sequence: 無効
+    product:
+      cancelled: キャンセルされた製品をアップロードできない
+      not_found: キャリーオーバー-この製品はキャリーオーバーとしてフラグが付けられているが、特定のSKU/カラーの組み合わせでは製品が見つからない
+      exists: キャリーオーバー-この製品にはキャリーオーバーとしてのフラグは付いていないが、SKU/カラーの組み合わせを持つ製品がすでに存在する
+    size_break:
+      can_not_update_attribute_size: "既存のサイズ%{size}とintegration_id%{integration_id}のattribute_valueは変更できない"
+      size_exists: サイズ-この製品はすでにサイズを持っている、サイズはできません空白この製品。
+      duplicate_size: Size -同じSKU/ProductColorCode/Sizeを持つ重複した行がすでに存在する
+      blank_size_exists: サイズ-この製品は空のサイズのシステムにすでに存在しているため、サイズを追加できない。
+      not_found: この製品には持ち越しのフラグが付いているが、特定のSKU/カラーの組み合わせで製品が見つからない
+      exists: この製品には持ち越しのフラグは付いていないが、SKU/カラーの組み合わせを持つ製品がすでに存在する
+      size_min: 整数でなければならない
+    size:
+      size_exists: この製品にはすでにサイズがあり、サイズは空白にできないこの製品。
+      duplicate_size: SKU/ProductColorCode/Sizeが同じ行がすでに存在する
+      blank_size_exists: この製品は空のサイズのシステムにすでに存在しているため、これ以上サイズを追加できない。
+    product_release:
+      month_min: 整数でなければならない
+      different_month_min: '製品%{PRODUCT_SKU}には、すでに月の最小値が割り当てられている。製品の最小月値は1つだけである。'
+  ProductDlsFormat:
+    saved: 製品データシート形式が正常に追加された。
+    updated: 製品データシート形式が正常に更新された。
+    deleted: 製品データシートフォーマットが正常に削除された。
+    copied: 製品データシート形式が正常にコピーされた。
+    invalid_file: 無効なファイル形式、有効なファイルタイプ（CSV）
+    brand_missing: ブランドが見つからない
+  showroom:
+    login_as_label: としてログイン
+    summary: 概要
+    consignment: 委託
+    my_brands: マイブランド
+    consignment_request: 委託要求
+  companies:
+    export_all_retailers: すべての正規ディーラーをエクスポート
+    retailers_brands: ディーラーのブランド
+    suppliers_brands: サプライヤーのブランド
+    agents_brands: エージェントズ・ブランド
+    company_profile: 会社概要
+    add_user: ユーザーを追加
+    company_details: 会社の詳細
+    default_release_settings: "デフォルトのリリース設定"
+    address: 住所
+    retailer: 小売業者
+    images: 画像
+    export_users: ユーザーをエクスポートする
+    store_detail: ストアの詳細
+    business_detail: ビジネスの詳細
+    select_image: 画像を選択
+    retailer_bulk_upload: ディーラーの一括インポート
+    retailer_upload: ディーラーセットアップGUI/Import
+    retailer_user_upload: 正規ディーラーユーザーインポート
+    assign_releases_to_retailer: リリースの割り当てインポート
+    assign_territories_to_retailer: ブランド/ディーラー設定のインポート
+    assign_bulk_stripe_rules: 正規ディーラー支払いルールのインポート
+    assign_segments_to_retailer: セグメントのインポートを割り当て
+    payment_account_code: ブルーチェーン支払者ID
+    select_headquarter: 本社を選択
+    address_change_note: ここで行った変更は、ブランドのERPシステムに反映されない。対応する住所の変更については、サプライヤに連絡すること。
+    confirmation_email_settings_error: 「確認メールを受信しない」が有効になっているとオンにならない。
+    activate_company: 会社アカウントを有効にする
+    removing_retailers: '正規ディーラーの削除中...'
+    company_deleted: 会社が削除された。
+    company_activated: 会社がアクティブ化された！
+    company_deactivated: 会社が無効化された！
+    file_too_large: ファイルサイズが大きすぎる(最大1MB)。
+    no_file_chosen: ファイルが選択されていない
+    import_complete: インポート完了。状況を確認する。
+    addresses:
+      head_office_address: 本社の住所
+      billing_address: 請求先住所
+      shipping_address: 配送先住所
+      default: デフォルト
+      alternate_1: 代替-1
+      alternate_2: 代替-2
+      alternate_3: 代替-3
+      alternate_4: 代替-4
+    default_superfill_mapping: "デフォルトのスーパーフィルマッピング"
+  shipping_codes:
+    bulk_shipping_code_upload: 一括出荷コードのアップロード
+    invalid_csv: 無効なヘッダー名！
+    success_import: 正常にインポートされた
+    invalid_data: 正規ディーラーまたはブランド名が無効なため、部分的にアップロード！
+    assign_shipping_codes_retailer: 配送コードをディーラーに割り当てる
+  order_form_import:
+    brand: "ブランド"
+    release: "公開"
+    buyplan: "バイプラン"
+    retailer: "小売業者"
+  users:
+    retailer: 小売業者
+    supplier: サプライヤー
+    agent: エージェント
+    edit_email: Eメールを編集
+    resend_login_details: ログインの詳細を再送信
+    send_welcome_mail: ウェルカムメールを送信
+    details: 詳細
+    password: パスワード
+    settings: 設定
+    profile_image: プロファイル画像
+    my_profile: 自分のプロフィール
+    edit_user_profile: ユーザープロファイルを編集
+    new_user_profile: 新しいユーザープロファイル
+    login_as_user: このユーザーとしてログイン
+    brandscope_password_expired: "Brandscopeのパスワードの有効期限が切れている。パスワードのリセットリンクがメールアドレス%{email}に送信された。パスワードのリセットリンクを使用して、新しいパスワードを設定し、Brandscopeにログインする。ユーザー名のメールアドレスにアクセスできなくなった場合は、カスタマーサービスチーム(+61 7 5508 2000 )にお問い合わせください。"
+    activated: ユーザーがアクティブ化された
+    deactivated: ユーザーが無効化された
+    current_password_incorrect: 入力した現在のパスワードが間違っている。再試行してください。
+    new_password_must_be_different: 新しいパスワードは古いパスワードと異なるものにする必要がある。もう一度試してみて。
+    password_changed_successfully: パスワードが正常に変更された。
+    password_and_confirmation_not_same: パスワードと確認パスワードが同じではない。
+  datapel_api:
+    order_response: "順序応答\n%{response_body}を挿入 \n"
+    order_request: "注文要求\n%{request_body}を挿入 \n"
+    success_msg: 正常に挿入された順序!
+    log_msg: 正常に挿入された順序!
+    error_msg: 失敗。詳細についてはログファイルを確認
+    product_not_found: 一部の製品がアップロードされなかった。詳細についてはログファイルを確認
+  denstock_api:
+    order_response: "順序応答\n%{response_body}を挿入 \n"
+    order_request: "注文要求\n%{request_body}を挿入 \n"
+    success_msg: 正常に挿入された順序!
+    error_msg: 失敗。詳細についてはログファイルを確認
+  nixon_api:
+    order_response: "\n注文応答\n%{response}を挿入 \n"
+    success_msg:    '正常に挿入された順序!'
+    log_msg:        '正常に挿入された順序!'
+  ftp_brand:
+    invalid_dir_name: FTPディレクトリ名がすでに使用されている。
+    unable_to_create_dir: "%{dir_path}を作成できない"
+    directory_not_found: ディレクトリが見つからない。
+    update:
+      success: 'FTPブランドが正常に更新された'
+      failure: 'FTPブランドを更新できなかった'
+
+  warehouse:
+    add_warehouse: 倉庫を追加
+    warehouses: 倉庫
+    new_warehouse: ニュー・ウェアハウス
+    edit_warehouse: ウェアハウスの編集
+    warehouse_details: 倉庫の詳細
+    export_ats: "エクスポートは%{user_email}に電子メールで送信される"
+
+  callout:
+    callouts: コールアウト
+    add_callout: コールアウトを追加
+    new_callout: 新しいコールアウト
+    edit_callout: コールアウトを編集
+    delete: 矢視指示線が削除された
+    created: 矢視指示線が正常に作成された
+    updated: コールアウトが正常に更新された
+    icon:
+      deleted: アイコンが正常に削除された
+      cannot_create: アイコンで矢視指示線を作成できない
+
+
+  releases:
+    add_release: リリースを追加
+    release: 公開
+    delivery_months: 納入月数
+    propagate: プロパゲート
+    add: 追加
+    extend: 拡張
+    remove: 削除
+    confirm_remove_delivery_month: 'このリリースから%{month}を削除してもよろしいか？今月の製品には%{buyplan_count}bpsが含まれている。これらの製品はすべて削除される。'
+    warn_last_delivery_month_removal: リリースには、少なくとも1つの納入月が利用可能であること。注文の送信を一時的に利用できないようにするには、リリースのステータスをInSeason-Idleに設定してください
+    confirm_add_delivery_month: '納入月に%{month}を追加してもよろしいか？この操作により、リリースのみに%{month}が追加される。'
+    confirm_propagate_delivery_month: 'この範囲のすべての製品リリースに%{month}を伝播してもよろしいか？'
+    confirm_extend_delivery_month: '%{month}を追加して配信月と関連製品リリースをリリースしてもよろしいか？'
+    assign_retailers: ディーラーを割り当てる
+    product_dls: 製品DLSをエクスポート
+    product_dls_import: 製品DLSインポート
+    product_prices: 輸出製品価格DLS
+    product_resource_dls: 製品リソースDLSをエクスポート
+    pdf_catalogue: PDFカタログをエクスポート
+    release_product_list: リリースの製品
+    test_order_file: テストオーダーファイルを生成
+    order_details: BP/BPT/注文の詳細をエクスポート
+    sizewise_order_details: BP/BPT/オーダー詳細のエクスポート（サイズ別）
+    new: 新規
+    edit: 編集
+    release_details: リリースの詳細
+    integration: 統合
+    media: メディア
+    other_fields: その他のフィールド-エクストラ
+    dates: 日程
+    categories: カテゴリー
+    integrated_to: に統合されている
+    release_codes: リリースコード
+    access_settings: アクセス設定
+    email_settings: 電子メール設定
+    release_images: 画像をリリースする
+    price_bulk_upload: 一括アップロードの価格設定
+    original_price_update_hint: 元の価格は、将来の割引の計算に使用できる。標準価格の更新を行う場合は、このオプションを選択しない
+    test_order: テスト順序
+    assigned_retailers: 正規ディーラーが正常に割り当てられた。
+    unassigned_retailers: 正規ディーラーが正常に割り当て解除された。
+    bulk_price_update: 元の価格は、将来の割引の計算に使用できる。標準価格の更新を行う場合は、このオプションを選択しない
+    bulk_price_import_success: ファイルをインポート中
+    bulk_price_import_failed: 無効なファイル
+    sentry_bulk_price_import_failed: "一括価格アップロード-無効なファイル-%{error}"
+    bulk_price_uploaded: 価格はインポート中。完了したらログを更新する。
+    incomplete_setup: リリースは現在利用できない。代理店またはブランドに連絡すること。
+    export_catalogue: 電子メールを確認すると、カタログが送信される。
+    export_ats: リリースATSをエクスポート
+    orders_present_for_draft: このリリースにはオーダーが関連付けられているため、削除できない。
+    create_success: リリースが作成されている。
+    create_fail: リリースが作成されていない。
+    delete_release: リリースおよび関連する購入プラン、クイックフィル、カウント&フィル、およびコンサイメントが削除される
+    status_change_error: リリースステータスをドラフトモードに変更できない。Brandscopeカスタマーサポートに連絡すること。
+    update_success: リリースが更新された。
+    update_fail: リリースは更新されていない。
+    netsuite_details: Netsuiteの詳細(変更しない)
+    tradegecko_details: TradeGeckoの詳細
+    cin7rest_details: Cin7Restの詳細
+    cin7rest_custom_fields: Cin7Restカスタムフィールド
+    unleashed_details: 解き放たれた詳細
+    apparelmagic_details: Apparelmagicの詳細
+    home_page_template: ホームページテンプレート
+    priority: 優先度
+    release_not_available: '%{release}は現在利用できない。'
+    auto_extend: "自動延長"
+    no_auto_extend_email: "自動拡張メール受信確認が存在しない。"
+    update:
+      invalid_release_error: '無効なリリースを更新できない'
+      invalid_update_cond: '納入月を削除できない'
+    export_product_catalogue:
+      header: PDF製品カタログをエクスポートする
+      exporting: エクスポート中...
+      required: このフィールドは必須
+      note: '注：[グループ化]が選択されていない場合は、カタログ順に%{release_name}リリースのすべての製品がエクスポートされる。'
+    tradegecko:
+      oe_status: ステータス
+      oe_packed_status: パックされたステータス
+      oe_warehouse: オーダーウェアハウス
+      oe_tags: タグ
+    cin7rest:
+      oe_status: 在庫管理
+      oe_warehouse: 支店ID
+      oe_field_1: プロジェクト名
+    unleashed:
+      oe_warehouse: 倉庫コード
+    apparelmagic:
+      oe_status: 通貨ID
+      oe_warehouse: オーダーウェアハウス
+      oe_field_1: 部門番号
+    request_deletion: 送信されたリリースリクエストの削除。これには時間がかかることがあるため、このプロセスはバックグラウンドで実行される。
+    division_remove_error: 製品によって使用されているため、Divisionを削除できなかった。
+    collection_remove_error: 製品によって使用されているため、コレクションを削除できなかった。
+    not_visible_to_retailers: このリリースへのアクセスは現在無効になっている
+    reorder:
+      success: "製品が正常に再注文された"
+    remove_unavailable: 削除機能は現在使用できない。
+    export_products_header: 非アクティブな製品をDLSに含めるか
+
+  brand_templates:
+    preview: プレビュー
+    duplicate: テンプレートをコピー
+    publish: 公開
+    unpublish: 非公開
+    delete: 削除
+    home_page_template:
+      created: ホームページテンプレートが正常に作成された。
+      not_created: ホームページテンプレートが作成されていない。
+      deleted: ホームページテンプレートが削除された。
+      published: ホームページが正常に公開された。
+      not_published: ホームページが公開されていない。
+      requested_copy: 要求されたテンプレートコピーが生成されている。電子メールで更新を確認してください。
+  resource_upload:
+    resource_upload: リソースのアップロード
+    imported: リソースが正常にインポートされた。
+  territories:
+    add_territory: テリトリーを追加
+    retailer_to_territory: 正規ディーラーをテリトリーに割り当てる
+    new_territory: ニューテリトリー"
+    edit_territory: テリトリーを編集
+    change_active_flag_hint: テリトリーを非アクティブに設定すると、ブランドのリリースへの正規ディーラーアクセスが削除される。これにより、このテリトリーの小売業者のすべてのBP、BPT、QuickFill、C&Fテンプレート、SMTBP、および荷送品も削除される。
+    retailer_territory_updated: 正規ディーラーのテリトリーが更新された
+    created: テリトリーが作られた。
+    updated: テリトリーが更新された。
+    deleted: 領域が削除された。
+    cannot_update_territory: テリトリーを空白に設定することはできない。まず既存の購入プランを削除する
+  products:
+    product_key_update: プロダクトキーの更新
+    product_releases: 製品のリリース
+    product_search: 製品検索
+    view_ats: ATSを表示
+    product_details: 製品の詳細
+    product_release_details: 製品リリースの詳細
+    additional_info: 追加情報
+    display_colour_hint: この色は表示専用
+    generic_colour_hint: この汎用色は、検索およびフィルタ機能の範囲ページで使用される
+    categories: カテゴリー
+    product_specifications_hint: '新しいラインで仕様を分離'
+    product_upload: 製品のアップロード
+    update_product_key_data: プロダクトキーデータを更新する
+    products_releases: 製品のリリース
+    product_release_edit: 製品リリース編集
+    product: 製品
+    release: 公開
+    product_release_details: 製品リリースの詳細
+    integration: 統合
+    pricing: 価格設定と注文の最小値
+    catalog_order_hint: 数値の値のみ、小数なし
+    display_pricing: 価格を表示
+    wholesale_price_hint: "この価格は価格を表示するために使用される（[サイズと価格]タブのW/S価格と一致する必要がある）"
+    wholesale_range_hint: この範囲は、指定されていない場合に範囲を表示するために使用される卸売価格の表示
+    retail_price_hint: "この価格は価格を表示するために使用される（[サイズと価格]タブのRRP価格と一致する必要がある）"
+    product_upload_error_message: 製品データのアップロードが進行中。しばらくしてから送信する
+    failed_destroy: 申し訳ありません。製品は削除されていない。しばらくしてから再試行してください  
+    product_is_in_use: 申し訳ありませんが、この製品は注文によって使用されている
+    deleted_product: 製品が削除された
+    orb360_tag_value: このORB360タグは、360度画像を表示するために範囲ページで使用される
+    description: 製品仕様情報。新しいラインで仕様を分離
+    updated: 製品が正常に更新された
+    image_cannot_be_blank: 画像を空白にできない
+    correct_the_value: 値を修正する。
+    enter_correct_value: 正しい値を入力
+    successfully_saved: 正常に保存された。
+    product_key:
+      product_exists_for_sku_colour_code: SKUとCOLOR_CODEが同じ製品が存在する
+      updated: 新しいプロダクトキーが正常に更新された。
+      error1: "新しいSKU /新しいカラーコード%{errors}"
+      error2: '、プロダクトキーデータの更新中。ページを更新するか、すぐに確認して。'
+    status_upload:
+      file_is_valid: ファイルが有効で、アップロードの準備ができている
+      import_in_progress: インポート中。しばらくしてから再試行
+      product_status_importing: 製品のステータスがインポート中で、インポートが完了すると電子メールが送信される。
+      file_has_errors_upload: アップロードしようとしているファイルにエラーが含まれている。送信する前にファイルを検証する。
+      file_has_errors_validate: アップロードしようとしているファイルにエラーが含まれている
+    change_status:
+      updating: ステータスを更新中。
+      import_in_progress: インポート中。しばらくしてから再試行
+    pvh_ftp_details: PVH FTPの詳細
+    pre_order:
+      details_section: 予約注文の詳細
+      default_message: "この製品はリードタイム%{lead_time}日で注文できる。"
+      errors:
+        pre_order_lead_time_days: 30日以上365日未満であること
+        pre_order_message: リードタイム日数が0（ゼロ）より大きい場合は必須
+        must_be_integer: 整数でなければならない
+  product_release:
+    updated: 製品リリースが正常に更新された
+    update_failed: 製品リリースが更新されていない
+  home_page_template:
+    add_home_page_template: ホームページテンプレートを追加
+    new_home_page_template: 新しいホームページテンプレート
+    previous_release: 以前のリリース
+    brand_homepage: ブランドホームページ
+    next_release: 次のリリース
+  account_and_shipping_code:
+    account_codes: アカウントコードと配送コード
+    shipping_codes: ブランド/ディーラー設定
+    payment_settings: 正規ディーラーの支払い設定
+    account_code_updated: アカウントコードが正常に更新された
+    shipping_code_updated: 配送コードが正常に更新された！
+    save_error: "値を修正する"
+  order_minimums:
+    order_minimum_updated: 注文の最小値が正常に更新された
+  events:
+    upload_ats: ATSをアップロード
+    upload_prices: アップロード価格
+    consignment_events: 委託イベント
+    product_price_upload_events: 製品価格アップロードイベント
+    ats_upload: ATSアップロード
+    comment_update:
+      success: 管理コメントが正常に保存された。
+      error: 値を修正する。
+    ats:
+      importing: ATSをインポート中。インポートが完了するとメールが送信される。
+  admin_products:
+    product_imports: 製品のインポート
+    upload_products: 製品をアップロードする
+    product_status_uploads: 製品ステータスのアップロード
+    upload_products_status: 製品のステータスをアップロード
+    status_upload: ステータスのアップロード
+    resource_uploads: リソースのアップロード
+    upload_resources: リソースをアップロードする
+    product_key_data: プロダクトキーデータの更新
+    upload_updates: アップデートをアップロード
+  product_keys_update:
+    product_key_update_rules: プロダクトキー更新ルール
+    product_attributes_update: 製品属性を更新
+    product_sizes_attributes: 製品サイズ属性を更新
+    rules:
+      sku_colourcode_rule: SKUとColorCodeは同時に更新可能。
+      integration_id_rule: Integration_IDは単独で更新する必要がある。
+      size_attribute_rule: SizeとAttribute Sizeは同時に更新できる。
+      adding_new_attribute_rule: 属性サイズは更新のみ可能。新しい属性サイズの追加は、DLSを介して完了する必要がある。
+      bulk_update_key_rule: 複数のプロダクトキーを一括更新する場合は、
+      product_key_dls_template: プロダクトキーDLSテンプレート
+  price_book:
+    add_new_price_book: 新しい価格表を追加
+    import_items: アイテムをインポートする
+    import_items_by_discount_category: ディスカウントカテゴリ別に品目をインポート
+    delete_price_book: 価格表を削除
+    delete_item: 項目を削除
+    delete_selected_items: 選択した項目を削除
+    template_exports: テンプレートのエクスポート
+    template_option: ここで選択できるのは
+    exporting_template_from_existing_price_book: 既存のPrice Bookから商品が入力されたテンプレートをエクスポートする
+    exporting_chosen_template: 選択したリリースの製品でいっぱいになったテンプレートをエクスポートする。
+    exporting_blank_template: 手動で入力できる空白のテンプレートをエクスポートする。
+    export: エクスポート
+    blank_template: 空白のテンプレートをエクスポート
+    create_price_book: 価格表を作成する
+    submit_price_book: 価格表を送信
+    please_wait: お待ちください...
+    import_tooltip: 既存の項目を更新して新しい項目をインポートしない
+    update_or_import_tooltip: 既存の項目を更新して新しい項目をインポートする
+    discount_category_form:
+      discount_category: 割引カテゴリ
+      wholesale_price: 卸売価格
+      display_wholesale_price: 卸売価格を表示
+      release_status: リリースステータス
+      release_select_default: すべてのリリース
+  price_book_assignment:
+    upload_file: ファイルをアップロード
+    upload_file_hint: 価格表を割り当てるためのデータ・ロード・シート・ファイル
+    bulk_assign: 一括割り当て
+  discount_scheme:
+    new_discount_scheme: "新しい割引スキームを追加"
+    import_rules: "ディスカウントスキームルールをインポート"
+    new_discount_rule: "新しい割引ルールを追加"
+    delete_discount_scheme: "ディスカウントスキームを削除"
+    delete_discount_rule: "ディスカウントルールを削除"
+    create_discount_scheme: "割引スキームを作成する"
+    create_discount_scheme_rule: "割引スキームルールを作成"
+    template_exports: テンプレートのエクスポート
+    template_option: ここで選択できるのは
+    exporting_template_from_existing_discount_scheme: "既存のディスカウントスキームからの製品が入力されたテンプレートのエクスポート"
+    exporting_blank_template: "手動で入力できる空白のテンプレートをエクスポートする。"
+    export: "エクスポート"
+    blank_template: "空白のテンプレートをエクスポート"
+    submit_discount_scheme: 割引スキームを保存
+    please_wait: お待ちください...
+  postage_scheme:
+    new_postage_scheme: "新しい送料体系を追加"
+    new_postage_rule: "新しい郵便料金ルールを追加"
+    delete_postage_scheme: "送料スキームを削除"
+    delete_postage_rule: "郵便料金ルールを削除"
+    create_postage_scheme: "送料スキームを作成する"
+    save_postage_scheme: 郵便料金の設定を保存
+    create_postage_scheme_rule: "送料スキームルールを作成"
+    exporting_template_from_existing_discount_scheme: "既存のディスカウントスキームからの製品が入力されたテンプレートのエクスポート"
+    exporting_blank_template: "手動で入力できる空白のテンプレートをエクスポートする。"
+    export: "エクスポート"
+    blank_template: "空白のテンプレートをエクスポート"
+    created: 送料スキームが正常に作成された。
+    updated: 郵便料金スキームは正常に更新された。
+    deleted: 送料スキームは正常に削除された。
+    assigned: 郵便料金スキームは正常に割り当てられた。
+    unassigned: 郵便料金スキームが正常に割り当て解除された。
+  postage_scheme_rule:
+    created: "送料スキームルールが正常に作成された。"
+    updated: "郵便料金スキームルールが正常に更新された。"
+    deleted: "送料スキームルールが正常に削除された。"
+  postage_scheme_assignment:
+    upload_file: "ファイルをアップロード"
+    upload_file_hint: "郵便料金スキームを割り当てるためのデータロードシートファイル"
+    bulk_assign: "一括割り当て"
+    bulk_assigned: "%｛count｝個の小売業者にディスカウントスキームを正常に割り当てた"
+  discount_scheme_rule:
+    export_template_from_existing_discount_scheme_rules: 既存のディスカウントスキームからルールが設定されたテンプレートをエクスポートする。
+    rule_already_exists: 割引スキームルールは、この割引カテゴリおよびリリースタイプにすでに存在する
+  discount_scheme_assignment:
+    upload_file: ファイルをアップロード
+    upload_file_hint: ディスカウントスキームを割り当てるためのデータロードシートファイル
+    bulk_assign: 一括割り当て
+  bulk_assign_errors:
+    file_error: "ファイルが見つからないか、開かなかった。"
+    invalid_file: "ファイルが有効なCSVではない。"
+    invalid_headers: "ファイルに無効なヘッダがある-%{headers}"
+    missing_headers: "ファイルに欠落したヘッダがある-%{headers}"
+    validation_errors:
+      blank_brand: ブランドが必要
+      brand_not_found: ブランドが存在しない
+      user_cannot_access_brand: ユーザーにはこのブランドへのアクセス権がない
+      blank_resource: '%｛resource｝が存在する必要がある'
+      resource_not_found: '%｛resource｝はブランドに存在しない'
+      blank_company_code_or_account_code: CompanyCodeまたはAccountCodeが存在すること
+      account_code_not_found: 指定されたブランドのアカウントコードが存在しない
+      retailer_not_found_using: 指定された%｛code｝を使用してディーラーが見つからない
+      retailer_cannot_access_brand: ディーラーはブランドにアクセスできない
+
+  update_categories:
+    brandscope_hierarchy_categories: ブランドスコープの階層カテゴリ
+    hierarchy_category: 階層カテゴリ
+    new_category: 新しいカテゴリ
+    edit_category: カテゴリを編集
+    transfer_products: 製品の転送
+    move_products_under: プロダクトを下に移動
+    level: レベル
+    level_3: レベル3
+    created: カテゴリが正常に作成された
+    updated: カテゴリが更新された。
+    deleted: カテゴリが削除された
+    already_exists: '%{categories}カテゴリはすでに存在する'
+    no_products_under_category: このカテゴリに該当する製品はない
+    category_contains_products: このカテゴリには製品が含まれる。親切に削除する前に、これらの製品を別のカテゴリに転送する。
+    transfer_successful: '%｛old_category｝製品が新しいカテゴリ%｛new_category｝で正常に更新された'
+  order_csvs:
+    order_csv_mapping: 注文CSVマッピング
+    add_order_csv_mapping: 注文CSVマッピングを追加
+    order_csv: CSVを注文する
+    copy_order_csv: 注文CSVをコピー
+    order_integration_mapping: 注文ファイルのマッピング
+    csv_file_details: CSVファイルの詳細
+    csv_header_mappings: CSVヘッダーマッピング
+    header: ヘッダー
+    datatype: DataType
+    mappingto: マッピングTo
+    custom_row_data_type: カスタム行データ型
+    custom_row_mapping_to: カスタム行マッピングTo
+    only_first_row: 最初の行のみ
+    length: 長さ
+    right_aligned: 右揃え?
+    csv_mapping_help: 注文CSVマッピングのヘルプ
+    symbols: シンボル
+    methods: 方法
+    constant: 一定
+    constant_value: 空を含む任意の定数値。
+    constant_example: '例：BRANDSCOPE'
+    calculation: 計算
+    math_calculation: 単純な数学的計算。
+    ltr_operations: 操作は優先度ではなく左から右に実行される。
+    calculation_example: '例=>定数：2+定数：4 *定数：5'
+    calculation_result: 結果=> 40 22ではない。
+    calculation_methods: 計算にいくつかの方法を使用することもできる。
+    method_types: その方法は=>項目数量、項目価格、項目合計金額である。
+    combination: コンビネーション
+    combine_multiple_fields: シンボル、メソッド、定数など、複数のフィールドを結合するために使用される。
+    connectors_for_combination: 4つのコネクタを使用してフィールドを結合できる
+    connector_types: コネクタが=>アンダースコア、コンマ、ダッシュ、プラスであること。
+    combination_example: '例=>メソッド：ブランド名_メソッド：注文番号'
+    combination_result: 結果=> Volcom_12345
+    plus_for_combination: コネクタを使用せずに2つのフィールドを接続する場合は、プラス（+）記号を使用する。
+    space_method: 2つのフィールドをスペースで接続したい場合は、spaceメソッドを使用する。
+    space_method_example: '例=>方法：ブランド名+方法：スペース+方法：注文番号'
+    space_method_result: 結果=> Volcom 1234
+    date: 日付
+    date_formats: 注文日、配達日、カスタム配達日、キャンセル日のさまざまな日付形式。
+    date_type_format: TextField値=注文日（フォーマット）または納入日（フォーマット）、カスタム納入日（フォーマット）またはキャンセル日（フォーマット）
+    format_examples: 形式の例。
+    date_format_hint: 例=>注文日= 2016年1月1日とする。
+    date_format_hint_one: dd/mm/yy=> 16年1月1日
+    date_format_hint_two: dd/mm/yyyy=> 2016年1月1日
+    date_format_hint_three: dd mmm yy =>01 Jan 16
+    date_format_hint_four: dd MMM yyyy=>2016年1月1日
+    date_format_hint_five: dd mmmm yy=>01年1月16日
+    date_format_hint_six: DD MMMM yy =>1月16日
+    sequence_format: "dd,mm,yyは任意のシーケンスで使用できる。"
+    sequence_format_example: 例=>
+    sequence_format_hint_one: yy/mm/dd => 01年1月16日
+    sequence_format_hint_two: mm/dd/yy => 2016年1月1日
+    delimeter_format: 日付には任意の区切り文字を使用できる。
+    delimeter_format_example: 例=>
+    delimeter_format_hint_one: mm-dd-yy=>01-01-16
+    delimeter_format_hint_two: mm#dd#yy=>01#01#16
+    delimeter_format_hint_three: mm.dd.yy =>01.01.16
+    dd_mm_yy_format: dd、mm、yyで使用できるのは1つまたは2つだけ
+    dd_mm_yy_format_example: 例=>
+    mm_format_hint_one: MMM => JAN
+    mm_format_hint_two: MMMM => 1月
+    symbol_description: 記号の説明
+    method_description: メソッドの説明
+    split_monthly_without_suffix: サフィックスなしで毎月分割?
+    independent_header_row: 独立したヘッダー行?
+    footer_line_content: フッター線の内容
+    first_line_content: 最初の行の内容
+  product_dls_mapping:
+    add_product_dls_mapping: 製品DLSマッピングを追加
+    product_dls_header_mapping: 製品DLSヘッダーマッピング
+    dls_mapping: 製品DLSマッピング
+    copy_product_dls_format: 製品DLS形式をコピー
+    header: ヘッダー
+    mappingto: マッピング先
+    defaultto: デフォルトで
+    is_active: アクティブか？
+  consignment:
+    add_consignment: 委託を追加
+    consignment_sale: 委託販売
+    show_sold_items: 販売済みアイテムを表示
+    instructions_for_sold_items: '手順：販売済みアイテムを選択し、注文を送信する。'
+    consignment_stocktake: 委託在庫
+    brand: ブランド
+    retailer: 小売業者
+    items_in_stock: '手順：在庫のあるアイテムを選択し、調整する。'
+    stocktake_report: ストックテイクレポート
+    brand_name: ブランド名
+    retailer_name: ディーラー名
+    note: '注：ステータスが「未カウント」の品目は請求される。'
+    item_status: 上記のリストには、ステータスが「古い」または「シリアル一致なし」の項目が含まれている。確認してください。
+    retailer_error_msg: 利用可能なリリースがない
+    not_found: 委託製品が見つからない
+  orders:
+    resend_order: 注文を再送信
+    delivery_months: 納入月数
+    supplier_status_updated: 注文ステータスが正常に更新された
+    temporary_order_number: 一時的な注文番号
+    temporary_order_number_msg: ' （臨時注文番号%｛temporary_order_number｝）'
+    order_status: 注文ステータス
+  ftp_setup:
+    ftp_users: FTPアカウント
+    add_ftp_user: FTPユーザーを追加
+    new_ftp_user: 新しいFTPユーザ
+    edit_ftp_user: FTPユーザを編集
+    for_ftp_user: FTPユーザの場合
+    ftp_brands: ブランド/サプライヤを追加
+    add_brand: ブランドを追加
+    add_supplier: サプライヤを追加
+    new_ftp_brand: 新しいFTPブランド
+    edit_ftp_brand: FTPブランドを編集
+    new_ftp_supplier: 新しいFTPサプライヤ
+    edit_ftp_supplier: FTPサプライヤを編集する
+    bs_ftp_user_host: "%{ftp_type}.brandscope.com"
+    created: FTPユーザが正常に作成された。
+    errors:
+      ftp_user_setup_failed: ftpユーザを作成できない
+      invalid_host: 無効なホスト
+      ftp_login_failed: FTPログインに失敗
+      user_already_exists: "%{user}はすでに存在する"
+      invalid_public_key: 無効な公開キー
+      cannot_delete_user: 'ユーザーを削除できなかった。理由：%｛message｝'
+      password_complexity: '8文字以上であること。少なくとも1つの小文字、大文字、数字、特殊文字を含む必要がある。使用できる特殊文字は/^()_-+=である。, : ;"''~`#@$! % * ? &'
+  report_criterias:
+    export_order_range: エクスポート注文の合計範囲
+    export: エクスポート
+  scheduled_reports:
+    scheduled_reports_list: スケジュールされたレポートのリスト
+    add_new: 新規を追加
+    add_scheduled_reports: スケジュールされたレポートを追加
+    edit_scheduled_reports: スケジュールされたレポートを編集する
+  resources:
+    resources: リソース
+  stock_model:
+    new_template: 新しいテンプレート
+    edit_template: テンプレートを編集
+  consignable_retailers:
+    updates: 委託販売店は正常に更新された。
+  security_challenge:
+    title: アクションを確認する
+    confirmation_hint: "確認して続行するには、以下の入力に(%{security_action})と入力してください。"
+    input_placeholder: セキュリティテキストの上に入力
+    segment_alert: これにより、セグメント（%｛attribute_name｝）から（%｛row_count｝）小売業者の割り当てが解除され、これらのセグメントを持つ製品がすべての購入プランタイプから削除される。続行してもよろしいか？
+    assign_segments_alert: これにより、（%｛retailer_count｝）小売業者がセグメント（%｛segments｝）に割り当てられる。続行してもよろしいか？
+    add_group_users_hint: "この%{group_name}グループには、このリリースのBuyplanにすでに割り当てられている%{group_users}販売店%{assigned}が含まれている。このテンプレートは%{available_group_users}正規ディーラーにのみ割り当てられる。"
+    delete_order_alert: "これにより、選択した注文%{attribute_name}が削除される。削除してもよろしいか？"
+    delete_product_alert: これにより（%｛attribute_name｝）が削除され、すべての購入プランタイプ、割引スキーム、および価格表からこの製品が削除される。削除してもよろしいか？
+    delete_buyplan_alert: "この操作は(%{attribute_name}) BuyPlanを削除する。この操作を続行してもよろしいか？"
+    delete_all_products_alert: "この操作により%{attribute_name}製品がリリースから削除されるこの操作を続行してもよろしいか？確認して続行するには、下の入力欄に製品数%｛attribute_name｝を入力してください。"  
+    beta_feature_alert: これにより、この機能がすべてのユーザーに開かれる。
+    deactivate_brand_alert: ブランドを無効にすると、統合設定、小売店、アクティブな購入プラン、アカウントコード、およびその他の関連する構成がすべて削除される。本当に？
+    deactivate_user_alert: このユーザーを無効にしてもよろしいか？
+    deactivate_supplier_alert: このサプライヤを無効にしてもよろしいか？
+    delete_buyplans_alert: "この操作により%{row_count}購入プランが削除される。この操作を続行してもよろしいか？"
+    delete_buyplans_hint: "確認して続行するには、以下の入力欄に購入プラン数%{row_count}を入力してください。"
+    bulk_delete_images_alert: この操作により複数の画像が削除される。この操作を続行してもよろしいか？
+    delete_callout_alert: これにより、プロダクトから（%｛attribute_name｝）コールアウトの割り当てが解除され、コールアウトが削除される。続行してもよろしいか？
+  order_validation:
+    parsing_error: 応答の解析中のエラー
+    brightpearl_api_limit_reach: BrightPearl Responseの制限に達した。数分後にもう一度試す。
+    quantity: この注文を送信するには少なくとも1つの数量を入力
+    month: この注文を送信するには、現在または将来の納入月にQtysを入力する必要がある
+    order_minimums: 最小注文金額基準を満たしていないため、この注文を送信できない
+    order_minimums_by_month: 月単位の最低注文金額の基準を満たしていないため、この注文を送信できない
+    buyplan_is_order: 購入計画は注文状態であってはならない
+    release_inseason_idle: リリースはシーズン中のアイドル状態であってはならない
+    release_offline: リリースはオフライン状態であってはならない
+    no_retailer_address: ディーラーは住所を持っている必要がある
+    no_retailer_account_code: 正規ディーラーはアカウントコードを持っている必要がある
+    product_not_selected: 少なくとも1つのプロダクトを選択する必要がある
+    warn_past_month_qty: 過去の月の数量はゼロに設定される
+    brightpearl:
+      limit_reached: BrightPearl Responseの制限に達した。数分後にもう一度試す。
+      no_price_list: "BrightPearlで%{acc_code}の価格表を設定する必要がある。"
+    sales_person_not_assigned: 販売員を割り当てる必要がある
+    missing_details: "%{brand_name}%は財務の詳細を提供できない。APIエラー。"
+    brightpearl_shipping_address: "配送先住所が存在する必要がある。"
+    deposit_amount: "預金額は%{min}から%{max}の間にする必要がある"
+    alread_processed_order: "すでに注文として送信されている場合は、すぐに注文の詳細を受け取る。"
+    ats_quantity_validation_failed: "入力された数量が利用可能な数量を超えている"
+    select_shipping_address: 配送先住所を選択
+    incomplete_custom_shipping_address: カスタムの配送先住所が不完全であることは許可されていない
+    special_characters_not_allowed: アドレス行1およびアドレス行2に特殊文字（!、|、カンマ）を使用できない
+    order_qty_block: "数量は%{order_qty_block}の倍数でなければならない"
+    size_min_qty: "%{size_min_qty}の最小注文数量"
+    min_order_qty_for_month: "その月の%{min_order_qty_for_month}の最小注文数量"
+
+  load_buyplan:
+    territory_or_warehouse_updation_failed: "購入プランのテリトリーまたはウェアハウスの更新中にエラーが発生"
+    retailer_not_in_terry: ディーラーはブランドのテリトリーに属していない
+    creation_failed: 購入プランの作成中に不明なエラーが発生した。
+    import_in_progress: BuyPlanのインポートが進行中である。しばらくしてからもう一度お試しください。
+
+  registration:
+    success: ありがとう！アカウントの詳細を確認し、登録を完了するためにすぐに連絡する。どうぞお気軽にお問い合わせご不明な点がある場合。
+  select_deselect_products:
+    max_selectable_products: 購入プランに150以上の商品を追加することはできない。複数の製品を追加するには、フィルタを絞り込む。
+    max_removable_products: 購入プランから150以上の製品を削除できない。複数の製品を削除するには、フィルタを絞り込む。
+    no_products_found: フィルタリングされた製品はすべて売り切れであるため、購入プランに製品が追加されなかった。
+    buyplan_items_already_exists: 品目は購入プランに既に存在する
+    import_failed: 購入プランに製品を追加する際に問題が発生した。我々はこの問題を認識しており、すぐにそれを調べる。
+    import_success: "%｛product_count｝個の製品が購入プランに正常に追加された"
+    buyplan_items_deleted: "%｛product_count｝個の製品が購入プランから正常に削除された"
+    buyplan_items_not_selected: 削除対象の購入プラン項目が見つからない
+    deletion_failed: 購入プランから製品を選択解除する際に問題が発生した。我々はこの問題を認識しており、すぐにそれを調べる。
+  beta_features:
+    update:
+      notice: レコードは正常に更新された。
+  update_sales_person:
+    success: 営業担当者は正常に更新された。
+    cannot_assign_user_as_sales_person: "ID %{user_id}のユーザを営業担当者として割り当てることはできない。"
+  companies_territories:
+    order_approval_rule_updated: 注文承認ルールが正常に更新された。
+    qf_order_approval_rule_updated: QF注文承認ルールが正常に更新された。
+    price_rule_message: "%{brand}の要求に応じて。合計が%{amount}未満のすべての注文は、エージェント/セールス担当者の承認を受ける必要がある。承認されるまで変更を加えることができる。"
+    always_rule_message: "%{brand}のリクエストに応じて、この注文は送信後に営業担当者の承認を得る必要がある。承認されるまで変更を加えることができる。"
+    never_rule_message: オーダーはエージェント/SalesRepからの承認を必要としない
+    bulk_import_success: 一括インポートの完了。状況を確認する。
+    errors:
+      order_approval_rule: 無効な注文承認ルール値。「常に」、「しない」、または整数でなければならない
+  approve_decline_order:
+    messages:
+      submitted_for_approval: 注文が承認のために送信された。
+      order_declined: 注文が拒否された。
+    errors:
+      not_authorized_to_approve: この注文を承認する権限がない。
+      not_authorized_to_decline: この注文を拒否する権限がない。
+      cannot_decline: 承認待ちではないため、注文を拒否できない。
+      message_not_provided: ディーラーへのメッセージを提供すること。
+  cin7_brand:
+    errors:
+      invalid_character_or_length: '無効な文字または属性区切り文字の長さ。使用できる文字は/\: - |'
+  product_ats:
+    invalid_quantity: 数量は0より大きくなければならない
+    last_updated_at: 最終更新日
+    last_imported_at: 最後にインポートした日時
+    load_all_ats: すべてのATSをロード
+    load_atonce_only: AtOnce ATSのみをロード
+    load_future_only: 将来のATSのみをロード
+
+  submit_order:
+    buyplan_processing_failed: 購入プランを処理できなかった。Brandscope管理者に連絡すること。
+    brand_access_denied: 申し訳ありませんが、購入プランを送信できなかった。ブランドへのアクセス権がなくなった。
+    order_details_not_saved: 注文の詳細を保存できなかった。Brandscope管理者に連絡すること。
+    order_address_not_saved: 注文先住所を保存できなかった。Brandscope管理者に連絡すること。
+    convert_to_buyplan_failed: カウント&フィルの処理中に不明なエラーが発生した。
+    cnf_sentry_message: 'StockModel注文の後処理に失敗した- stock_model_id：%｛stock_model_id｝、buyplan_id：%｛buyplan_id｝'
+  media_pack_assets:
+    assign_links:
+      placeholders:
+        description: 'たとえば、YouTube Link'
+        value: 'たとえば、https://www.youtube.com/'
+      labels:
+        add_new_link: 新しいリンクを追加
+    create:
+      links: 1つ以上のリンクを指定する。リンクを空白にすることはできない
+    supplier_not_found: サプライヤが見つからない。
+  product_asset_import:
+    model_mapping_failure: インポートするレコードが無効！！
+    temporary_table_import_failure: インポート中の無効な属性！！
+    brand_not_found: インポート中にブランドが存在しない！！
+    url_or_filename_mapping: URLおよび/またはファイル名が存在すること。
+    success: 製品画像をインポート中。インポートが完了すると、ステータスが記載された電子メールが送信される
+    bulk_delete_request_submitted: 製品画像の一括削除要求が送信される。リクエストが処理されると、ステータスが記載された電子メールが送信される。
+  limit_search_criteria: 1000件以上のレコードが見つかった場合は、検索条件を最適化する。
+  brands_menu:
+    homepage: ホームページ
+    quick_fill: クイックフィル
+    indent_releases: プレブックを購入する
+    inseason_releases: インシーズンを購入する
+    count_n_fills: ショップカウント&フィル
+    consignments: 委託
+
+  order_status_csv:
+    heading: 注文ステータスファイルのマッピング
+    heading_with_name: "オーダーステータスファイルのマッピング-%{name}"
+    copy: "注文ステータスのコピーCSV-%{type}-%{name}"
+    title: 注文ステータスCSV
+    new: 新しい注文ステータスCSVを追加
+    file_hint: CSVのみ許可
+    wrong_datatype: "%{header}のデータ型が正しくない"
+    missing_headers: "ヘッダー%{headers}が見つからない"
+    missing_mappings: "%{headers}のマッピングが見つからない"
+    invalid_mappings: "無効なマッピング%{mappings}"
+    invalid_file: ファイルが無効または破損している。有効なファイルタイプ（CSV）
+    empty_file: ファイルが無効。ヘッダはない。
+    record_already_exist: オーダーステータスCSVが既に存在する。
+    select_record: 最初にブランド/サプライヤを選択する。
+    created: 注文ステータスCSVが正常に作成された。
+    updated: 注文ステータスCSVが正常に更新された。
+    copied: 注文ステータスCSVが正常にコピーされた。
+    mapping_not_found: "IDが`%{mapping_id}`のオーダーステータスCSVが見つからない"
+    mappings:
+      header: ヘッダー
+      mapping_to: マッピングTo
+      data_type: DataType
+
+  order_status:
+    file_not_found: CSVファイルが見つからない
+    invalid_file: ファイルが無効または破損している。
+    invalid_params: "%{params}はparamsハッシュに存在する必要がある"
+    event_log_not_found: "ID `%{event_log_id}`のイベントログが見つからなかった"
+    mapping_not_found: オーダーステータスCSVマッピングが見つからない
+    generate_mapping_hash_failed: マッピングハッシュを生成できなかった
+    missing_headers: "ヘッダー%{headers}が見つからない"
+    conversion_failed: CSVからJSONへの変換に失敗
+    success_log_message: 'LoadTime（ロード時間）：%{load_time}、インポート済み：%{success_count}、失敗：%{failed_count}'
+    failed_log_message: オーダーステータスの更新に失敗
+    updated: 更新された
+    order_not_found: Brandscopeの注文が見つからない
+    no_status_data: 表示するものがない:(
+    brand_not_integrated_to_ftp: 注文ステータスの更新がFTPに統合されていない
+
+  order_response_csv:
+    heading: 注文応答ファイルのマッピング
+    heading_with_name: "オーダー応答ファイルマッピング-%{name}"
+    copy: "注文応答のコピーCSV-%{type}-%{name}"
+    title: 注文応答CSV
+    new: 新規注文応答CSVを追加
+    file_hint: CSVのみ許可
+    wrong_datatype: "%{header}のデータ型が正しくない"
+    missing_headers: "ヘッダー%{headers}が見つからない"
+    missing_mappings: "%{headers}のマッピングが見つからない"
+    invalid_mappings: "無効なマッピング%{mappings}"
+    invalid_file: ファイルが無効または破損している。有効なファイルタイプ（CSV）
+    empty_file: ファイルが無効。ヘッダはない。
+    record_already_exist: オーダ応答CSVが既に存在する。
+    select_record: 最初にブランド/サプライヤを選択する。
+    created: 注文応答CSVが正常に作成された。
+    updated: 注文応答CSVが正常に更新された。
+    copied: 注文応答CSVが正常にコピーされた。
+    mapping_not_found: "IDが`%{mapping_id}`のオーダー応答CSVが見つからない"
+    invalid_config: 無効なマッピング設定。オーダー応答ファイルのマッピングを確認する。
+    enable_update_order_status: "毎月の回答が有効な場合は、「注文ステータスの更新」を有効にする必要がある。"
+    cannot_be_disabled: 「オーダステータスの更新」または「仕入先参照の更新」が有効になっていること。
+    mappings:
+      header: ヘッダー
+      mapping_to: マッピングTo
+      data_type: DataType
+
+  price_update:
+    file_not_found: CSVファイルが見つからない
+    invalid_file: ファイルが無効または破損している。
+    invalid_params: "%{params}はparamsハッシュに存在する必要がある"
+    event_log_not_found: "ID `%{event_log_id}`のイベントログが見つからなかった"
+    mapping_not_found: 価格更新CSVマッピングが見つからない
+    generate_mapping_hash_failed: マッピングハッシュを生成できなかった
+    missing_headers: "ヘッダー%{headers}が見つからない"
+    conversion_failed: CSVからJSONへの変換に失敗
+    success_log_message: "LoadTime（ロード時間）：%{load_time}、インポート済み：%{success_count}、失敗：%{failed_count}"
+    failed_log_message: 価格の更新に失敗
+    updated: 更新された
+    no_status_data: 表示するものがない:(
+    invalid_currency: 指定された通貨が、指定されたインテグレーションIDに関連付けられているリリースのいずれにも存在しない
+    invalid_integration_id: 無効なIntegrationID
+    failed_update: "%{release_name}リリース%{error_msg}の失敗|"
+
+  sftpgo:
+    errors:
+      invalid_config: '無効な設定：%｛message｝'
+      missing_params: base_url、admin_username、admin_passwordが見つからない
+      undesired_response: '操作からの望ましくない応答：%｛message｝'
+
+  stripe:
+    label:
+      account: "アカウントダッシュボード"
+      connect: "Stripeに接続"
+      onboard: "オンボーディングプロセス"
+      payments: "支払い"
+    button:
+      connect: "Stripeに接続"
+      login: "Stripe Dashboardにログインする"
+    invalid_connected_account: "仕入先は、ストライプ支払いを受け入れるために、接続されたStripeアカウントを持っている必要がある。"
+    invalid_pay_now: "ストライプペイメントを有効にしないと、今すぐ支払いを有効にできない。"
+    invalid_discount: "今すぐ支払う割引率を入力し、割引値は0から%｛value｝の間でなければならない"
+    invalid_discount_value: "割引率の値は0から%{value}の間でなければならない"
+    missing_tax_rate: "税率を追加"
+    account_details: "Stripeアカウント"
+    payment_processed: "支払い要求が正常に送信された。"
+    payment_failed: "エラーが発生しました支払いを行うためにストライプ、しばらくしてからもう一度お試しください。"
+    valid_tax_countries: "許可されるストライプ税の国は%｛value｝"
+    valid_tax_types: "許可されるストライプ税タイプは%｛value｝"
+    invalid_tax_rate_id: "ストライプ税地域とストライプ税タイプの組み合わせを修正してください"
+    accept_payment:
+      disabled: "ブランドは支払いを受け付けることができない"
+    in_progress:
+      buyplan:
+        edit: "支払いが進行中のため、この購入プランは編集できない"
+        view: "支払いが進行中のため、この購入プランを表示できない"
+      cnf:
+        edit: 支払いが進行中のため、このC&Fは編集できない
+        view: 支払いが進行中のため、このC&Fを表示できない
+    order_failed:
+      buyplan:
+        edit: 支払いが成功し、注文が失敗したため、これを編集できない。管理者に連絡する。
+        view: 支払いが成功し、注文が失敗したため、これを表示できない。管理者に連絡する。
+    failure_reason: 支払い失敗の理由
+    retry_payment: 支払いを再試行
+    webhook:
+      invalid_request_body: '基本要求の解析中にWebhookエラーが発生した-%{message}'
+      invalid_signature: 'Webhook署名の検証に失敗した-%{message}'
+      event_processing_failed: 'Webookの処理に失敗: %｛id｝'
+      invalid_event: '未処理のイベントタイプ：%｛type｝'
+      success: 'Webhookイベントが正常に処理された'
+      payment_not_found: "指定されたIDの支払いが見つからなかった：%｛id｝"
+      payment_failed: "支払いが成功しなかった"
+    payment_in_progress: "支払いが進行中のため、この%{type}は編集できない。"
+    account:
+      created: Stripe Connected Account Created Successfully
+      failed: Stripe Connected Accountオンボーディングプロセスが完了していない。もう一度試してみて。
+  integration_service:
+    errors:
+      invalid_sale_data_object: 無効なsale_dataオブジェクト
+      invalid_api_response: "無効なAPI応答=>%{error}"
+      missing_body: API応答に本文がない
+  order_form:
+    import:
+      invalid_extension_error: .xlsxファイルのみが許可される
+      invalid_format: XLSXファイルのフォーマットに問題がある。XLSXファイル/フォーマットを確認して修正する。
+      malformed_error: Buyplanが存在しないか、XLSXファイルのフォーマットに問題がある。新しい注文フォームをエクスポートし、数量以外のファイルは変更しない。
+      extinct_buyplan: バイプランは既に存在しない。
+      file_unchanged_error: ファイルが変更されていない。数量を更新して、再度インポートする。
+      invalid_missing_headers: "ファイルに無効/欠落しているヘッダがある-%{headers}"
+      success: 注文フォームが正常にアップロードされ、電子メールで通知される
+      invalid_integration_id: 統合タイプはバーコード/SKUとカラーコードの組み合わせであること。
+      invalid_quantity: 数量は空白/マイナス/ゼロにできない
+      row_count_error: 行数は0より大きくなければならない
+      publisher_presence: パブリッシャが存在する必要がある
+    export:
+      ready_to_upload: ファイルが有効で、アップロードの準備ができている
+      export_order_form: 注文フォームがエクスポートされている。すぐに注文フォームが記載されたメールが届く。
+      generate: 注文フォームを電子メールで送信
+      import: 注文フォームをインポートする
+      download_order_form: 注文フォームのエクスポート
+      invalid_quantity: 数量は0以上の数値でなければならない
+      custom_note_hint: ユーザーに送信された電子メールに含めるテキストをここに入力
+  barcode_scanning:
+    params_missing: 必須パラメータ"barcode"または"release_id"がない
+    size_break:
+      not_found: 指定されたバーコードに一致するサイズブレークが見つかりませんでした-バーコードを確認してから再試行してください
+    import:
+      row_count_error: 行数は0より大きくなければならない
+      success: インポートが進行中で、メールで通知される
+  retailer_ats_upload:
+    superfill: Superfill
+    select_retailer: ディーラーを選択
+    select_user: ユーザーを選択
+    select_brands: ブランドを選択
+    success: Superfillは正常にアップロードされ、電子メールで通知される
+    row_count: 行は複数でなければならない。
+    invalid_header_mapping: 無効なヘッダーマッピングが指定されている
+    publisher_presence: パブリッシャが存在する必要がある
+    mandatory_headers: 統合フィールドの数量とマッピングが存在する必要がある
+    invalid_integration_id: 統合タイプはバーコード/SKUとカラーコードの組み合わせであること。
+    invalid_quantity: 数量は空白/マイナスにできない
+    invalid_count_quantity: 入力された数量は在庫数量以下でなければならない
+    product_not_found: 指定された組み合わせで製品が見つからない。
+    map_fields: ATSフィールドを選択してマップする
+    sku_header: SKU、色、サイズ
+    title: "%｛name｝のディーラーATSアップロード"
+    barcode: バーコード

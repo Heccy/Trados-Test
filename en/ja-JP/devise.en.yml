@@ -1,0 +1,61 @@
+---
+en:
+  devise:
+    confirmations:
+      confirmed: アカウントが正常に確認された。
+      send_instructions: 数分後にアカウントの確認方法を記載したメールが届く。
+      send_paranoid_instructions: あなたの電子メールアドレスが私たちのデータベースに存在する場合、あなたは数分であなたのアカウントを確認する方法についての指示が記載された電子メールを受け取る。
+    failure:
+      already_authenticated: ''
+      inactive: 申し訳ありませんが、ユーザーのアカウントは無効である。Brandscopeカスタマーサポートに連絡すること。
+      invalid: 無効なユーザー名またはパスワード。
+      invalid_token: 無効な認証トークン。
+      locked: アカウントがロックされている。
+      not_found_in_database: 無効なユーザー名またはパスワード。
+      timeout: セッションの期限が切れた。続行するにはもう一度サインインしてください。
+      unauthenticated: 続行する前にサインインまたはサインアップする必要がある。
+      unconfirmed: 続行する前にアカウントを確認する必要がある。セットアッププロセスを開始するには、ようこそ画面でユーザー名を入力してください。<br> <a href='/users/welcome/new'>訪問のウェルカム画面</a>
+      company_is_not_active: 会社がアクティブではない。
+      password_complexity: '複雑性要件が満たされていない。以下を使用：大文字1個、小文字1個、数字1個、特殊文字1個。'
+    mailer:
+      confirmation_instructions:
+        subject: 確認手順
+      reset_password_instructions:
+        subject: パスワードのリセット手順
+      unlock_instructions:
+        subject: ロック解除手順
+    omniauth_callbacks:
+      failure: "\"%{reason}\"のため、%{kind}から認証できなかった。"
+      success: "%{kind}アカウントからの認証に成功。"
+    passwords:
+      no_token: パスワードリセットメールからの連絡がないと、このページにアクセスできない。パスワードリセットメールから来た場合は、提供された完全なURLを使用していることを確認して。
+      send_instructions: パスワードのリセット手順をあなたのメールアドレスに送信した。数分以内に指示を受け取らなければ、あなたの電子メールのスパムおよびジャンクフィルターを点検しなさい。
+      send_paranoid_instructions: あなたの電子メールアドレスが当社のデータベースに存在する場合は、数分であなたの電子メールアドレスでパスワード回復リンクを受け取る。
+      updated: パスワードが正常に変更された。これでサインインした。
+      updated_not_active: パスワードが正常に変更された。
+      previously_used: このパスワードは以前に使用されていた。固有のパスワードを入力する。
+    registrations:
+      destroyed: さようなら！アカウントは正常にキャンセルされた。また近いうちにお会いできることを願っている。
+      signed_up: ようこそ！サインアップに成功した。
+      signed_up_but_inactive: サインアップに成功した。ただし、アカウントがまだ有効になっていないため、サインインできなかった。
+      signed_up_but_locked: サインアップに成功した。ただし、アカウントがロックされているためサインインできなかった。
+      signed_up_but_unconfirmed: 確認リンクを含むメッセージが電子メールアドレスに送信された。リンクを開いてアカウントを有効にする。
+      update_needs_confirmation: アカウントは正常に更新されたが、新しいメールアドレスを確認する必要がある。メールアドレスを確認し、確認リンクをクリックして、新しいメールアドレスを確認する。
+      updated: アカウントが正常に更新された。
+    sessions:
+      signed_in: ''
+      signed_out: ''
+    unlocks:
+      send_instructions: 数分後にアカウントのロックを解除する方法を記載したメールが届く。
+      send_paranoid_instructions: アカウントが存在する場合は、数分以内にロックを解除する方法に関する指示が記載された電子メールを受け取る。
+      unlocked: アカウントのロックが正常に解除された。サインインして続行する。
+  errors:
+    messages:
+      already_confirmed: 確認済み。サインインしてみて
+      confirmation_period_expired: "%{period}以内に確認する必要がある。新しい確認を要求する"
+      expired: 有効期限が切れている。新しいものをリクエストしてください
+      not_found: 見つからない
+      not_locked: ロックされていない
+      not_saved:
+        one: '1つのエラーにより、この%{resource}の保存が禁止された：'
+        other: "%{count}エラーにより、この%{resource}の保存が禁止された："
