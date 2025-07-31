@@ -3,7 +3,7 @@ en:
   activerecord:
     errors:
       messages:
-        confirmation: Passwords MUST match exactly. Test.
+        confirmation: Passwords MUST match exactly.
     attributes:
       release_size_break:
         size_min: Size Minimum
